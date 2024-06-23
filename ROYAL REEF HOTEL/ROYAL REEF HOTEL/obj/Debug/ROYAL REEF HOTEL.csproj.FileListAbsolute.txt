@@ -1,0 +1,13 @@
+C:\Users\gwyna\source\repos\ROYAL REEF HOTEL\ROYAL REEF HOTEL\bin\Debug\ROYAL REEF HOTEL.exe.config
+C:\Users\gwyna\source\repos\ROYAL REEF HOTEL\ROYAL REEF HOTEL\bin\Debug\ROYAL REEF HOTEL.exe
+C:\Users\gwyna\source\repos\ROYAL REEF HOTEL\ROYAL REEF HOTEL\bin\Debug\ROYAL REEF HOTEL.pdb
+C:\Users\gwyna\source\repos\ROYAL REEF HOTEL\ROYAL REEF HOTEL\obj\Debug\ROYAL REEF HOTEL.csproj.AssemblyReference.cache
+C:\Users\gwyna\source\repos\ROYAL REEF HOTEL\ROYAL REEF HOTEL\obj\Debug\ROYAL_REEF_HOTEL.RoyalReefHotel.resources
+C:\Users\gwyna\source\repos\ROYAL REEF HOTEL\ROYAL REEF HOTEL\obj\Debug\ROYAL_REEF_HOTEL.Properties.Resources.resources
+C:\Users\gwyna\source\repos\ROYAL REEF HOTEL\ROYAL REEF HOTEL\obj\Debug\ROYAL REEF HOTEL.csproj.GenerateResource.cache
+C:\Users\gwyna\source\repos\ROYAL REEF HOTEL\ROYAL REEF HOTEL\obj\Debug\ROYAL REEF HOTEL.csproj.CoreCompileInputs.cache
+C:\Users\gwyna\source\repos\ROYAL REEF HOTEL\ROYAL REEF HOTEL\obj\Debug\ROYAL REEF HOTEL.exe
+C:\Users\gwyna\source\repos\ROYAL REEF HOTEL\ROYAL REEF HOTEL\obj\Debug\ROYAL REEF HOTEL.pdb
+C:\Users\gwyna\source\repos\ROYAL REEF HOTEL\ROYAL REEF HOTEL\obj\Debug\ROYAL_REEF_HOTEL.Form2.resources
+C:\Users\gwyna\source\repos\ROYAL REEF HOTEL\ROYAL REEF HOTEL\obj\Debug\ROYAL_REEF_HOTEL.GuestPagePanel.resources
+C:\Users\gwyna\source\repos\ROYAL REEF HOTEL\ROYAL REEF HOTEL\obj\Debug\ROYAL_REEF_HOTEL.MainPagePanel.resources
