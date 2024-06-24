@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2029631A-1DA6-4D28-A34D-532FA02795FD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HOTEL</RootNamespace>
+    <AssemblyName>HOTEL</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EmployeeAgent%28VIEW_SIDEPAGE%29.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmployeeAgent%28VIEW_SIDEPAGE%29.Designer.cs">
+      <DependentUpon>EmployeeAgent%28VIEW_SIDEPAGE%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeePage%28EMPLOYEE_AGENTS%29.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmployeePage%28EMPLOYEE_AGENTS%29.Designer.cs">
+      <DependentUpon>EmployeePage%28EMPLOYEE_AGENTS%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EmployeePanel.Designer.cs">
+      <DependentUpon>EmployeePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuestPage%28Panel%29.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GuestPage%28Panel%29.Designer.cs">
+      <DependentUpon>GuestPage%28Panel%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuestPanel%28VIEW%29.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GuestPanel%28VIEW%29.Designer.cs">
+      <DependentUpon>GuestPanel%28VIEW%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuestPanel%28VIEW_SIDEPAGE%29.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GuestPanel%28VIEW_SIDEPAGE%29.Designer.cs">
+      <DependentUpon>GuestPanel%28VIEW_SIDEPAGE%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Guest_FeedbackPanel%28VIEW%29.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Guest_FeedbackPanel%28VIEW%29.Designer.cs">
+      <DependentUpon>Guest_FeedbackPanel%28VIEW%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogInPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogInPage.Designer.cs">
+      <DependentUpon>LogInPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage%28Panel%29.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainPage%28Panel%29.Designer.cs">
+      <DependentUpon>MainPage%28Panel%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MyProfile.Designer.cs">
+      <DependentUpon>MyProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="panel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reservations%28VIEWSIDEPAGE%29.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Reservations%28VIEWSIDEPAGE%29.Designer.cs">
+      <DependentUpon>Reservations%28VIEWSIDEPAGE%29.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="EmployeeAgent%28VIEW_SIDEPAGE%29.resx">
+      <DependentUpon>EmployeeAgent%28VIEW_SIDEPAGE%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeePage%28EMPLOYEE_AGENTS%29.resx">
+      <DependentUpon>EmployeePage%28EMPLOYEE_AGENTS%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeePanel.resx">
+      <DependentUpon>EmployeePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuestPage%28Panel%29.resx">
+      <DependentUpon>GuestPage%28Panel%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuestPanel%28VIEW%29.resx">
+      <DependentUpon>GuestPanel%28VIEW%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuestPanel%28VIEW_SIDEPAGE%29.resx">
+      <DependentUpon>GuestPanel%28VIEW_SIDEPAGE%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guest_FeedbackPanel%28VIEW%29.resx">
+      <DependentUpon>Guest_FeedbackPanel%28VIEW%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogInPage.resx">
+      <DependentUpon>LogInPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage%28Panel%29.resx">
+      <DependentUpon>MainPage%28Panel%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyProfile.resx">
+      <DependentUpon>MyProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reservations%28VIEWSIDEPAGE%29.resx">
+      <DependentUpon>Reservations%28VIEWSIDEPAGE%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HOTEL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.256x256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HOTEL %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x-square-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
