@@ -33,7 +33,10 @@
             this.Profile_button = new System.Windows.Forms.Button();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.myProfile1 = new HOTEL.MyProfile();
+            this.employeePage_EMPLOYEE_AGENTS_1 = new HOTEL.EmployeePage_EMPLOYEE_AGENTS_();
             this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -56,6 +59,7 @@
             this.EmployeeAgents_Button.TabIndex = 1;
             this.EmployeeAgents_Button.Text = "Employee Agents";
             this.EmployeeAgents_Button.UseVisualStyleBackColor = true;
+            this.EmployeeAgents_Button.Click += new System.EventHandler(this.EmployeeAgents_Button_Click);
             // 
             // Profile_button
             // 
@@ -68,6 +72,7 @@
             this.Profile_button.TabIndex = 0;
             this.Profile_button.Text = "My Profile";
             this.Profile_button.UseVisualStyleBackColor = true;
+            this.Profile_button.Click += new System.EventHandler(this.Profile_button_Click);
             // 
             // vScrollBar1
             // 
@@ -78,10 +83,28 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.myProfile1);
+            this.panel1.Controls.Add(this.employeePage_EMPLOYEE_AGENTS_1);
             this.panel1.Location = new System.Drawing.Point(164, 3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(634, 388);
             this.panel1.TabIndex = 4;
+            // 
+            // myProfile1
+            // 
+            this.myProfile1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.myProfile1.Location = new System.Drawing.Point(0, 1);
+            this.myProfile1.Name = "myProfile1";
+            this.myProfile1.Size = new System.Drawing.Size(637, 388);
+            this.myProfile1.TabIndex = 0;
+            // 
+            // employeePage_EMPLOYEE_AGENTS_1
+            // 
+            this.employeePage_EMPLOYEE_AGENTS_1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.employeePage_EMPLOYEE_AGENTS_1.Location = new System.Drawing.Point(0, 0);
+            this.employeePage_EMPLOYEE_AGENTS_1.Name = "employeePage_EMPLOYEE_AGENTS_1";
+            this.employeePage_EMPLOYEE_AGENTS_1.Size = new System.Drawing.Size(637, 388);
+            this.employeePage_EMPLOYEE_AGENTS_1.TabIndex = 1;
             // 
             // EmployeePanel
             // 
@@ -94,6 +117,7 @@
             this.Name = "EmployeePanel";
             this.Size = new System.Drawing.Size(801, 395);
             this.panel2.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -105,5 +129,7 @@
         private System.Windows.Forms.Button Profile_button;
         private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.Panel panel1;
+        private MyProfile myProfile1;
+        private EmployeePage_EMPLOYEE_AGENTS_ employeePage_EMPLOYEE_AGENTS_1;
     }
 }

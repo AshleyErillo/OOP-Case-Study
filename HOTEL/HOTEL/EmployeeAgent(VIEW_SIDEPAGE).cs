@@ -10,12 +10,16 @@ using System.Windows.Forms;
 
 namespace HOTEL
 {
-    public partial class EmployeeAgent_VIEW_ : UserControl
+    public partial class EMPAGE_VIEWSIDE : UserControl
     {
-        public EmployeeAgent_VIEW_()
+        public EMPAGE_VIEWSIDE()
         {
             InitializeComponent();
         }
 
+        private void Close_Icon_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

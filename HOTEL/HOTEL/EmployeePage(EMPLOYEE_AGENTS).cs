@@ -17,5 +17,15 @@ namespace HOTEL
             InitializeComponent();
         }
 
+        private void View_Icon_Click(object sender, EventArgs e)
+        {
+            empagE_VIEWSIDE1.Show();
+        }
+
+        private void EmployeePage_EMPLOYEE_AGENTS__Load(object sender, EventArgs e)
+        {
+            empagE_VIEWSIDE1.Hide();
+        }
+
     }
 }

@@ -2,10 +2,8 @@ C:\Users\gwyna\source\repos\HOTEL\HOTEL\bin\Debug\HOTEL.exe.config
 C:\Users\gwyna\source\repos\HOTEL\HOTEL\bin\Debug\HOTEL.exe
 C:\Users\gwyna\source\repos\HOTEL\HOTEL\bin\Debug\HOTEL.pdb
 C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.csproj.AssemblyReference.cache
-C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.EmployeeAgent_VIEW_.resources
 C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.EmployeePage_EMPLOYEE_AGENTS_.resources
 C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.EmployeePanel.resources
-C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.GuestPage_Panel_.resources
 C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.GuestPanel_VIEW_.resources
 C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.GuestPanel_VIEW_SIDEPAGE_.resources
 C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.Guest_FeedbackPanel_VIEW_.resources
@@ -19,3 +17,5 @@ C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.csproj.GenerateResource.
 C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.csproj.CoreCompileInputs.cache
 C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.exe
 C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.pdb
+C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.GuestPagePanel.resources
+C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.EMPAGE_VIEWSIDE.resources

@@ -1,6 +1,6 @@
 ﻿namespace HOTEL
 {
-    partial class GuestPage_Panel_
+    partial class GuestPagePanel
     {
         /// <summary> 
         /// Required designer variable.
@@ -35,13 +35,18 @@
             this.QRCode_Feedback = new System.Windows.Forms.PictureBox();
             this.Feedback_Button = new System.Windows.Forms.Button();
             this.Guest_button = new System.Windows.Forms.Button();
+            this.GuestPanel = new HOTEL.GuestPanel_VIEW_();
+            this.guest_FeedbackPanel_VIEW_1 = new HOTEL.Guest_FeedbackPanel_VIEW_();
+            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.QRCode_Feedback)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Location = new System.Drawing.Point(160, 3);
+            this.panel1.Controls.Add(this.GuestPanel);
+            this.panel1.Controls.Add(this.guest_FeedbackPanel_VIEW_1);
+            this.panel1.Location = new System.Drawing.Point(161, 3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(637, 388);
             this.panel1.TabIndex = 0;
@@ -95,6 +100,7 @@
             this.Feedback_Button.TabIndex = 1;
             this.Feedback_Button.Text = "Feedback";
             this.Feedback_Button.UseVisualStyleBackColor = true;
+            this.Feedback_Button.Click += new System.EventHandler(this.Feedback_Button_Click);
             // 
             // Guest_button
             // 
@@ -107,8 +113,26 @@
             this.Guest_button.TabIndex = 0;
             this.Guest_button.Text = "Guest";
             this.Guest_button.UseVisualStyleBackColor = true;
+            this.Guest_button.Click += new System.EventHandler(this.Guest_button_Click);
             // 
-            // GuestPage_Panel_
+            // GuestPanel
+            // 
+            this.GuestPanel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.GuestPanel.Location = new System.Drawing.Point(0, 0);
+            this.GuestPanel.Name = "GuestPanel";
+            this.GuestPanel.Size = new System.Drawing.Size(637, 388);
+            this.GuestPanel.TabIndex = 1;
+            this.GuestPanel.Load += new System.EventHandler(this.guestPanel_VIEW_1_Load);
+            // 
+            // guest_FeedbackPanel_VIEW_1
+            // 
+            this.guest_FeedbackPanel_VIEW_1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.guest_FeedbackPanel_VIEW_1.Location = new System.Drawing.Point(0, 0);
+            this.guest_FeedbackPanel_VIEW_1.Name = "guest_FeedbackPanel_VIEW_1";
+            this.guest_FeedbackPanel_VIEW_1.Size = new System.Drawing.Size(637, 388);
+            this.guest_FeedbackPanel_VIEW_1.TabIndex = 0;
+            // 
+            // GuestPagePanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -116,8 +140,9 @@
             this.Controls.Add(this.vScrollBar1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "GuestPage_Panel_";
+            this.Name = "GuestPagePanel";
             this.Size = new System.Drawing.Size(801, 395);
+            this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.QRCode_Feedback)).EndInit();
@@ -134,5 +159,7 @@
         private System.Windows.Forms.Button Feedback_Button;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.VScrollBar vScrollBar1;
+        private GuestPanel_VIEW_ GuestPanel;
+        private Guest_FeedbackPanel_VIEW_ guest_FeedbackPanel_VIEW_1;
     }
 }

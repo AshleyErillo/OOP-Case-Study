@@ -20,21 +20,69 @@ namespace HOTEL
 
         public object PanelContainer { get; private set; }
 
-        public void MainPage_Load(object Form)
+        public void MainPage_Load(object sender, EventArgs e)
         {
-            if (this.Mainpanel.Controls.Count > 0) 
-                this.Mainpanel.Controls.RemoveAt(0);
-            Form f = Form as Form;
-            f.TopLevel = false;
-            f.Dock = DockStyle.Fill;
-            this.Mainpanel.Controls.Add(f);
-            this.Mainpanel.Tag = f;
-            f.Show();
+            mainPage_Panel1.Show();
+            guestPagePanel1.Hide();
+            employeePanel1.Hide();
+            Dashboard_Panel.Hide();
         }
 
         private void Main_Button_Click(object sender, EventArgs e)
         {
-            MainPage_Load(new MainPage_Panel());
+            mainPage_Panel1.Show();
+            guestPagePanel1.Hide();
+            employeePanel1.Hide();
+            Dashboard_Panel.Hide();
+
+            Main_Button.ForeColor = Color.RoyalBlue;
+            Main_Button.Font = new Font("Calibri", 9, FontStyle.Bold);
+            Guest_Button.ForeColor = Color.Black;
+            Employee_Button.ForeColor = Color.Black;
+            Dashboard_Button.ForeColor = Color.Black;
+        }
+
+        private void Guest_Button_Click(object sender, EventArgs e)
+        {
+            mainPage_Panel1.Hide();
+            guestPagePanel1.Show();
+            employeePanel1.Hide();
+            Dashboard_Panel.Hide();
+
+            Main_Button.ForeColor = Color.Black;
+            Guest_Button.ForeColor = Color.RoyalBlue;
+            Guest_Button.Font = new Font("Calibri", 9, FontStyle.Bold);
+            Employee_Button.ForeColor = Color.Black;
+            Dashboard_Button.ForeColor = Color.Black;
+        }
+
+        private void Employee_Button_Click(object sender, EventArgs e)
+        {
+            mainPage_Panel1.Hide();
+            guestPagePanel1.Hide();
+            employeePanel1.Show();
+            Dashboard_Panel.Hide();
+
+            Main_Button.ForeColor = Color.Black;
+            Guest_Button.ForeColor = Color.Black;
+            Dashboard_Button.ForeColor = Color.Black;
+            Employee_Button.ForeColor = Color.RoyalBlue;
+            Employee_Button.Font = new Font("Calibri", 9, FontStyle.Bold);
+
+        }
+
+        private void Dashboard_Button_Click(object sender, EventArgs e)
+        {
+            Dashboard_Panel.Show();
+            mainPage_Panel1.Hide();
+            guestPagePanel1.Hide();
+            employeePanel1.Hide();
+
+            Main_Button.ForeColor = Color.Black;
+            Guest_Button.ForeColor = Color.Black;
+            Employee_Button.ForeColor = Color.Black;
+            Dashboard_Button.ForeColor = Color.RoyalBlue;
+            Dashboard_Button.Font = new Font("Calibri", 9, FontStyle.Bold);
 
         }
     }

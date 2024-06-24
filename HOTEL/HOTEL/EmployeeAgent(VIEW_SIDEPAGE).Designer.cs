@@ -1,6 +1,6 @@
 ﻿namespace HOTEL
 {
-    partial class EmployeeAgent_VIEW_
+    partial class EMPAGE_VIEWSIDE
     {
         /// <summary> 
         /// Required designer variable.
@@ -57,6 +57,7 @@
             this.Close_Icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Close_Icon.TabIndex = 1;
             this.Close_Icon.TabStop = false;
+            this.Close_Icon.Click += new System.EventHandler(this.Close_Icon_Click);
             // 
             // label1
             // 
@@ -212,7 +213,7 @@
             this.Achievements_label.TabIndex = 22;
             this.Achievements_label.Text = "Achievements";
             // 
-            // EmployeeAgent_VIEW_
+            // EMPAGE_VIEWSIDE
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -233,7 +234,7 @@
             this.Controls.Add(this.EmployeeName);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.Close_Icon);
-            this.Name = "EmployeeAgent_VIEW_";
+            this.Name = "EMPAGE_VIEWSIDE";
             this.Size = new System.Drawing.Size(372, 386);
             ((System.ComponentModel.ISupportInitialize)(this.Close_Icon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

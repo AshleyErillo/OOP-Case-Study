@@ -41,6 +41,7 @@
             this.View_Icon = new System.Windows.Forms.PictureBox();
             this.FilterSearch_Textbox = new System.Windows.Forms.TextBox();
             this.FilterSearch_Label = new System.Windows.Forms.Label();
+            this.empagE_VIEWSIDE1 = new HOTEL.EMPAGE_VIEWSIDE();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Edit_Icon)).BeginInit();
@@ -163,7 +164,7 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 34F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(611, 27);
             this.tableLayoutPanel2.TabIndex = 67;
             // 
@@ -188,6 +189,7 @@
             this.View_Icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.View_Icon.TabIndex = 1;
             this.View_Icon.TabStop = false;
+            this.View_Icon.Click += new System.EventHandler(this.View_Icon_Click);
             // 
             // FilterSearch_Textbox
             // 
@@ -207,11 +209,20 @@
             this.FilterSearch_Label.TabIndex = 5;
             this.FilterSearch_Label.Text = "Search:";
             // 
+            // empagE_VIEWSIDE1
+            // 
+            this.empagE_VIEWSIDE1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.empagE_VIEWSIDE1.Location = new System.Drawing.Point(265, -1);
+            this.empagE_VIEWSIDE1.Name = "empagE_VIEWSIDE1";
+            this.empagE_VIEWSIDE1.Size = new System.Drawing.Size(372, 386);
+            this.empagE_VIEWSIDE1.TabIndex = 69;
+            // 
             // EmployeePage_EMPLOYEE_AGENTS_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Controls.Add(this.empagE_VIEWSIDE1);
             this.Controls.Add(this.FilterSearch_Label);
             this.Controls.Add(this.FilterSearch_Textbox);
             this.Controls.Add(this.tableLayoutPanel2);
@@ -220,6 +231,7 @@
             this.Controls.Add(this.EmpAgeHeader);
             this.Name = "EmployeePage_EMPLOYEE_AGENTS_";
             this.Size = new System.Drawing.Size(637, 388);
+            this.Load += new System.EventHandler(this.EmployeePage_EMPLOYEE_AGENTS__Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
@@ -245,5 +257,6 @@
         private System.Windows.Forms.PictureBox Edit_Icon;
         private System.Windows.Forms.TextBox FilterSearch_Textbox;
         private System.Windows.Forms.Label FilterSearch_Label;
+        private EMPAGE_VIEWSIDE empagE_VIEWSIDE1;
     }
 }
