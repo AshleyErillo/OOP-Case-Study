@@ -82,6 +82,12 @@
     <Compile Include="EditConfirmation.Designer.cs">
       <DependentUpon>EditConfirmation.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditEmployeeProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditEmployeeProfile.Designer.cs">
+      <DependentUpon>EditEmployeeProfile.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditReservationForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -192,6 +198,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EditConfirmation.resx">
       <DependentUpon>EditConfirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditEmployeeProfile.resx">
+      <DependentUpon>EditEmployeeProfile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditReservationForm.resx">
       <DependentUpon>EditReservationForm.cs</DependentUpon>
