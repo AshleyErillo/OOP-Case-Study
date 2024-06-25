@@ -58,6 +58,12 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="DialogBoxDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogBoxDelete.Designer.cs">
+      <DependentUpon>DialogBoxDelete.cs</DependentUpon>
+    </Compile>
     <Compile Include="DialogConfirmation1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogBoxDelete.resx">
+      <DependentUpon>DialogBoxDelete.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DialogConfirmation1.resx">
       <DependentUpon>DialogConfirmation1.cs</DependentUpon>
