@@ -37,11 +37,11 @@
             this.Availability_label = new System.Windows.Forms.Label();
             this.EmployeeID_label = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.Edit_Icon = new System.Windows.Forms.PictureBox();
-            this.View_Icon = new System.Windows.Forms.PictureBox();
             this.FilterSearch_Textbox = new System.Windows.Forms.TextBox();
             this.FilterSearch_Label = new System.Windows.Forms.Label();
             this.empagE_VIEWSIDE1 = new HOTEL.EMPAGE_VIEWSIDE();
+            this.Edit_Icon = new System.Windows.Forms.PictureBox();
+            this.View_Icon = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Edit_Icon)).BeginInit();
@@ -168,6 +168,32 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(611, 27);
             this.tableLayoutPanel2.TabIndex = 67;
             // 
+            // FilterSearch_Textbox
+            // 
+            this.FilterSearch_Textbox.Location = new System.Drawing.Point(63, 51);
+            this.FilterSearch_Textbox.Name = "FilterSearch_Textbox";
+            this.FilterSearch_Textbox.Size = new System.Drawing.Size(100, 20);
+            this.FilterSearch_Textbox.TabIndex = 68;
+            // 
+            // FilterSearch_Label
+            // 
+            this.FilterSearch_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.FilterSearch_Label.AutoSize = true;
+            this.FilterSearch_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.FilterSearch_Label.Location = new System.Drawing.Point(13, 55);
+            this.FilterSearch_Label.Name = "FilterSearch_Label";
+            this.FilterSearch_Label.Size = new System.Drawing.Size(44, 13);
+            this.FilterSearch_Label.TabIndex = 5;
+            this.FilterSearch_Label.Text = "Search:";
+            // 
+            // empagE_VIEWSIDE1
+            // 
+            this.empagE_VIEWSIDE1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.empagE_VIEWSIDE1.Location = new System.Drawing.Point(252, -1);
+            this.empagE_VIEWSIDE1.Name = "empagE_VIEWSIDE1";
+            this.empagE_VIEWSIDE1.Size = new System.Drawing.Size(385, 386);
+            this.empagE_VIEWSIDE1.TabIndex = 69;
+            // 
             // Edit_Icon
             // 
             this.Edit_Icon.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -190,32 +216,6 @@
             this.View_Icon.TabIndex = 1;
             this.View_Icon.TabStop = false;
             this.View_Icon.Click += new System.EventHandler(this.View_Icon_Click);
-            // 
-            // FilterSearch_Textbox
-            // 
-            this.FilterSearch_Textbox.Location = new System.Drawing.Point(63, 51);
-            this.FilterSearch_Textbox.Name = "FilterSearch_Textbox";
-            this.FilterSearch_Textbox.Size = new System.Drawing.Size(100, 20);
-            this.FilterSearch_Textbox.TabIndex = 68;
-            // 
-            // FilterSearch_Label
-            // 
-            this.FilterSearch_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.FilterSearch_Label.AutoSize = true;
-            this.FilterSearch_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.FilterSearch_Label.Location = new System.Drawing.Point(13, 55);
-            this.FilterSearch_Label.Name = "FilterSearch_Label";
-            this.FilterSearch_Label.Size = new System.Drawing.Size(44, 13);
-            this.FilterSearch_Label.TabIndex = 5;
-            this.FilterSearch_Label.Text = "Search:";
-            // 
-            // empagE_VIEWSIDE1
-            // 
-            this.empagE_VIEWSIDE1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.empagE_VIEWSIDE1.Location = new System.Drawing.Point(265, -1);
-            this.empagE_VIEWSIDE1.Name = "empagE_VIEWSIDE1";
-            this.empagE_VIEWSIDE1.Size = new System.Drawing.Size(372, 386);
-            this.empagE_VIEWSIDE1.TabIndex = 69;
             // 
             // EmployeePage_EMPLOYEE_AGENTS_
             // 

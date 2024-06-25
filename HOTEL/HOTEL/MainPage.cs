@@ -85,5 +85,10 @@ namespace HOTEL
             Dashboard_Button.Font = new Font("Calibri", 9, FontStyle.Bold);
 
         }
+
+        private void MainPage_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
