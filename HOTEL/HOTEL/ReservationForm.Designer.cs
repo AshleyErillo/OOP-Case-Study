@@ -30,50 +30,50 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReservationForm));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.textBox37 = new System.Windows.Forms.TextBox();
             this.textBox38 = new System.Windows.Forms.TextBox();
+            this.textBox35 = new System.Windows.Forms.TextBox();
+            this.textBox36 = new System.Windows.Forms.TextBox();
+            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox39 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -129,446 +129,19 @@
             this.panel1.Size = new System.Drawing.Size(776, 453);
             this.panel1.TabIndex = 0;
             this.panel1.UseWaitCursor = true;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.Silver;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Cambria", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(284, 13);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(226, 32);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "Reservation Form";
-            this.textBox1.UseWaitCursor = true;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.Silver;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(22, 42);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(95, 20);
-            this.textBox2.TabIndex = 1;
-            this.textBox2.Text = "Guest Details";
-            this.textBox2.UseWaitCursor = true;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.Silver;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(21, 60);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(132, 14);
-            this.textBox3.TabIndex = 2;
-            this.textBox3.Text = "Last Name*";
-            this.textBox3.UseWaitCursor = true;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
-            // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.Color.Silver;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(547, 60);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(45, 14);
-            this.textBox4.TabIndex = 3;
-            this.textBox4.Text = "Suffix";
-            this.textBox4.UseWaitCursor = true;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
-            // 
-            // textBox5
-            // 
-            this.textBox5.BackColor = System.Drawing.Color.Silver;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(401, 60);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(136, 14);
-            this.textBox5.TabIndex = 4;
-            this.textBox5.Text = "Middle Name*";
-            this.textBox5.UseWaitCursor = true;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
-            // 
-            // textBox6
-            // 
-            this.textBox6.BackColor = System.Drawing.Color.Silver;
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(215, 60);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(165, 14);
-            this.textBox6.TabIndex = 5;
-            this.textBox6.Text = "First Name*";
-            this.textBox6.UseWaitCursor = true;
-            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(21, 79);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(188, 20);
-            this.textBox7.TabIndex = 6;
-            this.textBox7.UseWaitCursor = true;
-            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(215, 79);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(174, 20);
-            this.textBox8.TabIndex = 7;
-            this.textBox8.UseWaitCursor = true;
-            this.textBox8.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(395, 80);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(145, 20);
-            this.textBox9.TabIndex = 8;
-            this.textBox9.UseWaitCursor = true;
-            this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(546, 80);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(74, 20);
-            this.textBox10.TabIndex = 9;
-            this.textBox10.UseWaitCursor = true;
-            this.textBox10.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(227, 125);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(46, 20);
-            this.textBox11.TabIndex = 11;
-            this.textBox11.UseWaitCursor = true;
-            this.textBox11.TextChanged += new System.EventHandler(this.textBox11_TextChanged);
-            // 
-            // textBox12
-            // 
-            this.textBox12.BackColor = System.Drawing.Color.Silver;
-            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox12.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(228, 105);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(45, 14);
-            this.textBox12.TabIndex = 10;
-            this.textBox12.Text = "Age*";
-            this.textBox12.UseWaitCursor = true;
-            this.textBox12.TextChanged += new System.EventHandler(this.textBox12_TextChanged);
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(627, 80);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(74, 20);
-            this.textBox13.TabIndex = 13;
-            this.textBox13.UseWaitCursor = true;
-            this.textBox13.TextChanged += new System.EventHandler(this.textBox13_TextChanged);
-            // 
-            // textBox14
-            // 
-            this.textBox14.BackColor = System.Drawing.Color.Silver;
-            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox14.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(628, 60);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(73, 14);
-            this.textBox14.TabIndex = 12;
-            this.textBox14.Text = "Marital Status";
-            this.textBox14.UseWaitCursor = true;
-            this.textBox14.TextChanged += new System.EventHandler(this.textBox14_TextChanged);
-            // 
-            // textBox16
-            // 
-            this.textBox16.BackColor = System.Drawing.Color.Silver;
-            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox16.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.Location = new System.Drawing.Point(23, 105);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(45, 14);
-            this.textBox16.TabIndex = 14;
-            this.textBox16.Text = "Suffix";
-            this.textBox16.UseWaitCursor = true;
-            this.textBox16.TextChanged += new System.EventHandler(this.textBox16_TextChanged);
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(22, 125);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(199, 20);
-            this.dateTimePicker1.TabIndex = 15;
-            this.dateTimePicker1.UseWaitCursor = true;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
-            // 
-            // textBox15
-            // 
-            this.textBox15.BackColor = System.Drawing.Color.Silver;
-            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox15.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.Location = new System.Drawing.Point(21, 150);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(146, 20);
-            this.textBox15.TabIndex = 16;
-            this.textBox15.Text = "Contact Information";
-            this.textBox15.UseWaitCursor = true;
-            this.textBox15.TextChanged += new System.EventHandler(this.textBox15_TextChanged);
-            // 
-            // textBox18
-            // 
-            this.textBox18.Location = new System.Drawing.Point(22, 189);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(187, 20);
-            this.textBox18.TabIndex = 18;
-            this.textBox18.UseWaitCursor = true;
-            this.textBox18.TextChanged += new System.EventHandler(this.textBox18_TextChanged);
-            // 
-            // textBox19
-            // 
-            this.textBox19.BackColor = System.Drawing.Color.Silver;
-            this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox19.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox19.Location = new System.Drawing.Point(22, 170);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(132, 14);
-            this.textBox19.TabIndex = 17;
-            this.textBox19.Text = "E-mail*";
-            this.textBox19.UseWaitCursor = true;
-            this.textBox19.TextChanged += new System.EventHandler(this.textBox19_TextChanged);
-            // 
-            // textBox20
-            // 
-            this.textBox20.Location = new System.Drawing.Point(215, 189);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(174, 20);
-            this.textBox20.TabIndex = 20;
-            this.textBox20.UseWaitCursor = true;
-            this.textBox20.TextChanged += new System.EventHandler(this.textBox20_TextChanged);
-            // 
-            // textBox21
-            // 
-            this.textBox21.BackColor = System.Drawing.Color.Silver;
-            this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox21.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox21.Location = new System.Drawing.Point(215, 170);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(132, 14);
-            this.textBox21.TabIndex = 19;
-            this.textBox21.Text = "Phone Number*";
-            this.textBox21.UseWaitCursor = true;
-            this.textBox21.TextChanged += new System.EventHandler(this.textBox21_TextChanged);
-            // 
-            // textBox17
-            // 
-            this.textBox17.BackColor = System.Drawing.Color.Silver;
-            this.textBox17.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox17.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox17.Location = new System.Drawing.Point(22, 214);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(146, 20);
-            this.textBox17.TabIndex = 21;
-            this.textBox17.Text = "Booking Details";
-            this.textBox17.UseWaitCursor = true;
-            this.textBox17.TextChanged += new System.EventHandler(this.textBox17_TextChanged);
-            // 
-            // textBox23
-            // 
-            this.textBox23.BackColor = System.Drawing.Color.Silver;
-            this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox23.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox23.Location = new System.Drawing.Point(22, 235);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(132, 14);
-            this.textBox23.TabIndex = 22;
-            this.textBox23.Text = "Arrival Date*";
-            this.textBox23.UseWaitCursor = true;
-            this.textBox23.TextChanged += new System.EventHandler(this.textBox23_TextChanged);
-            // 
-            // textBox22
-            // 
-            this.textBox22.BackColor = System.Drawing.Color.Silver;
-            this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox22.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox22.Location = new System.Drawing.Point(227, 235);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(132, 14);
-            this.textBox22.TabIndex = 23;
-            this.textBox22.Text = "Departure Date*";
-            this.textBox22.UseWaitCursor = true;
-            this.textBox22.TextChanged += new System.EventHandler(this.textBox22_TextChanged);
-            // 
-            // dateTimePicker3
-            // 
-            this.dateTimePicker3.Location = new System.Drawing.Point(22, 255);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(198, 20);
-            this.dateTimePicker3.TabIndex = 25;
-            this.dateTimePicker3.UseWaitCursor = true;
-            this.dateTimePicker3.ValueChanged += new System.EventHandler(this.dateTimePicker3_ValueChanged);
-            // 
-            // dateTimePicker4
-            // 
-            this.dateTimePicker4.Location = new System.Drawing.Point(227, 255);
-            this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(198, 20);
-            this.dateTimePicker4.TabIndex = 26;
-            this.dateTimePicker4.UseWaitCursor = true;
-            this.dateTimePicker4.ValueChanged += new System.EventHandler(this.dateTimePicker4_ValueChanged);
-            // 
-            // textBox24
-            // 
-            this.textBox24.Location = new System.Drawing.Point(432, 255);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(188, 20);
-            this.textBox24.TabIndex = 28;
-            this.textBox24.UseWaitCursor = true;
-            this.textBox24.TextChanged += new System.EventHandler(this.textBox24_TextChanged);
-            // 
-            // textBox25
-            // 
-            this.textBox25.BackColor = System.Drawing.Color.Silver;
-            this.textBox25.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox25.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox25.Location = new System.Drawing.Point(432, 236);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(132, 14);
-            this.textBox25.TabIndex = 27;
-            this.textBox25.Text = "Room Preference*";
-            this.textBox25.UseWaitCursor = true;
-            this.textBox25.TextChanged += new System.EventHandler(this.textBox25_TextChanged);
-            // 
-            // textBox26
-            // 
-            this.textBox26.Location = new System.Drawing.Point(628, 255);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(117, 20);
-            this.textBox26.TabIndex = 30;
-            this.textBox26.UseWaitCursor = true;
-            this.textBox26.TextChanged += new System.EventHandler(this.textBox26_TextChanged);
-            // 
-            // textBox27
-            // 
-            this.textBox27.BackColor = System.Drawing.Color.Silver;
-            this.textBox27.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox27.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox27.Location = new System.Drawing.Point(628, 236);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(61, 14);
-            this.textBox27.TabIndex = 29;
-            this.textBox27.Text = "Room Price*";
-            this.textBox27.UseWaitCursor = true;
-            this.textBox27.TextChanged += new System.EventHandler(this.textBox27_TextChanged);
-            // 
-            // textBox28
-            // 
-            this.textBox28.Location = new System.Drawing.Point(22, 299);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(95, 20);
-            this.textBox28.TabIndex = 32;
-            this.textBox28.UseWaitCursor = true;
-            this.textBox28.TextChanged += new System.EventHandler(this.textBox28_TextChanged);
-            // 
-            // textBox29
-            // 
-            this.textBox29.BackColor = System.Drawing.Color.Silver;
-            this.textBox29.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox29.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox29.Location = new System.Drawing.Point(22, 280);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(132, 14);
-            this.textBox29.TabIndex = 31;
-            this.textBox29.Text = "Number of Guests*";
-            this.textBox29.UseWaitCursor = true;
-            this.textBox29.TextChanged += new System.EventHandler(this.textBox29_TextChanged);
-            // 
-            // textBox30
-            // 
-            this.textBox30.Location = new System.Drawing.Point(123, 299);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(188, 20);
-            this.textBox30.TabIndex = 34;
-            this.textBox30.UseWaitCursor = true;
-            this.textBox30.TextChanged += new System.EventHandler(this.textBox30_TextChanged);
-            // 
-            // textBox31
-            // 
-            this.textBox31.BackColor = System.Drawing.Color.Silver;
-            this.textBox31.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox31.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox31.Location = new System.Drawing.Point(123, 280);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(132, 14);
-            this.textBox31.TabIndex = 33;
-            this.textBox31.Text = "Additional Room Services";
-            this.textBox31.UseWaitCursor = true;
-            this.textBox31.TextChanged += new System.EventHandler(this.textBox31_TextChanged);
-            // 
-            // textBox32
-            // 
-            this.textBox32.BackColor = System.Drawing.Color.Silver;
-            this.textBox32.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox32.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox32.Location = new System.Drawing.Point(23, 325);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(146, 20);
-            this.textBox32.TabIndex = 35;
-            this.textBox32.Text = "Payment Details";
-            this.textBox32.UseWaitCursor = true;
-            this.textBox32.TextChanged += new System.EventHandler(this.textBox32_TextChanged);
-            // 
-            // textBox33
-            // 
-            this.textBox33.Location = new System.Drawing.Point(23, 366);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(187, 20);
-            this.textBox33.TabIndex = 37;
-            this.textBox33.UseWaitCursor = true;
-            this.textBox33.TextChanged += new System.EventHandler(this.textBox33_TextChanged);
-            // 
-            // textBox34
-            // 
-            this.textBox34.BackColor = System.Drawing.Color.Silver;
-            this.textBox34.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox34.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox34.Location = new System.Drawing.Point(23, 347);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(132, 14);
-            this.textBox34.TabIndex = 36;
-            this.textBox34.Text = "Mode of Payment*";
-            this.textBox34.UseWaitCursor = true;
-            this.textBox34.TextChanged += new System.EventHandler(this.textBox34_TextChanged);
-            // 
-            // textBox35
-            // 
-            this.textBox35.Location = new System.Drawing.Point(216, 366);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(187, 20);
-            this.textBox35.TabIndex = 39;
-            this.textBox35.UseWaitCursor = true;
-            this.textBox35.TextChanged += new System.EventHandler(this.textBox35_TextChanged);
-            // 
-            // textBox36
-            // 
-            this.textBox36.BackColor = System.Drawing.Color.Silver;
-            this.textBox36.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox36.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox36.Location = new System.Drawing.Point(216, 347);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(132, 14);
-            this.textBox36.TabIndex = 38;
-            this.textBox36.Text = "Initial Payment";
-            this.textBox36.UseWaitCursor = true;
-            this.textBox36.TextChanged += new System.EventHandler(this.textBox36_TextChanged);
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel1_Paint);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Yellow;
+            this.button1.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(562, 402);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(202, 39);
+            this.button1.TabIndex = 42;
+            this.button1.Text = "Confirm Reservation";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.UseWaitCursor = true;
             // 
             // textBox37
             // 
@@ -577,7 +150,7 @@
             this.textBox37.Size = new System.Drawing.Size(187, 20);
             this.textBox37.TabIndex = 41;
             this.textBox37.UseWaitCursor = true;
-            this.textBox37.TextChanged += new System.EventHandler(this.textBox37_TextChanged);
+            this.textBox37.TextChanged += new System.EventHandler(this.TextBox37_TextChanged);
             // 
             // textBox38
             // 
@@ -590,7 +163,446 @@
             this.textBox38.TabIndex = 40;
             this.textBox38.Text = "E-mail*";
             this.textBox38.UseWaitCursor = true;
-            this.textBox38.TextChanged += new System.EventHandler(this.textBox38_TextChanged);
+            this.textBox38.TextChanged += new System.EventHandler(this.TextBox38_TextChanged);
+            // 
+            // textBox35
+            // 
+            this.textBox35.Location = new System.Drawing.Point(216, 366);
+            this.textBox35.Name = "textBox35";
+            this.textBox35.Size = new System.Drawing.Size(187, 20);
+            this.textBox35.TabIndex = 39;
+            this.textBox35.UseWaitCursor = true;
+            this.textBox35.TextChanged += new System.EventHandler(this.TextBox35_TextChanged);
+            // 
+            // textBox36
+            // 
+            this.textBox36.BackColor = System.Drawing.Color.Silver;
+            this.textBox36.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox36.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox36.Location = new System.Drawing.Point(216, 347);
+            this.textBox36.Name = "textBox36";
+            this.textBox36.Size = new System.Drawing.Size(132, 14);
+            this.textBox36.TabIndex = 38;
+            this.textBox36.Text = "Initial Payment";
+            this.textBox36.UseWaitCursor = true;
+            this.textBox36.TextChanged += new System.EventHandler(this.TextBox36_TextChanged);
+            // 
+            // textBox33
+            // 
+            this.textBox33.Location = new System.Drawing.Point(23, 366);
+            this.textBox33.Name = "textBox33";
+            this.textBox33.Size = new System.Drawing.Size(187, 20);
+            this.textBox33.TabIndex = 37;
+            this.textBox33.UseWaitCursor = true;
+            this.textBox33.TextChanged += new System.EventHandler(this.TextBox33_TextChanged);
+            // 
+            // textBox34
+            // 
+            this.textBox34.BackColor = System.Drawing.Color.Silver;
+            this.textBox34.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox34.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox34.Location = new System.Drawing.Point(23, 347);
+            this.textBox34.Name = "textBox34";
+            this.textBox34.Size = new System.Drawing.Size(132, 14);
+            this.textBox34.TabIndex = 36;
+            this.textBox34.Text = "Mode of Payment*";
+            this.textBox34.UseWaitCursor = true;
+            this.textBox34.TextChanged += new System.EventHandler(this.TextBox34_TextChanged);
+            // 
+            // textBox32
+            // 
+            this.textBox32.BackColor = System.Drawing.Color.Silver;
+            this.textBox32.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox32.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox32.Location = new System.Drawing.Point(23, 325);
+            this.textBox32.Name = "textBox32";
+            this.textBox32.Size = new System.Drawing.Size(146, 20);
+            this.textBox32.TabIndex = 35;
+            this.textBox32.Text = "Payment Details";
+            this.textBox32.UseWaitCursor = true;
+            this.textBox32.TextChanged += new System.EventHandler(this.TextBox32_TextChanged);
+            // 
+            // textBox30
+            // 
+            this.textBox30.Location = new System.Drawing.Point(123, 299);
+            this.textBox30.Name = "textBox30";
+            this.textBox30.Size = new System.Drawing.Size(188, 20);
+            this.textBox30.TabIndex = 34;
+            this.textBox30.UseWaitCursor = true;
+            this.textBox30.TextChanged += new System.EventHandler(this.TextBox30_TextChanged);
+            // 
+            // textBox31
+            // 
+            this.textBox31.BackColor = System.Drawing.Color.Silver;
+            this.textBox31.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox31.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox31.Location = new System.Drawing.Point(123, 280);
+            this.textBox31.Name = "textBox31";
+            this.textBox31.Size = new System.Drawing.Size(132, 14);
+            this.textBox31.TabIndex = 33;
+            this.textBox31.Text = "Additional Room Services";
+            this.textBox31.UseWaitCursor = true;
+            this.textBox31.TextChanged += new System.EventHandler(this.TextBox31_TextChanged);
+            // 
+            // textBox28
+            // 
+            this.textBox28.Location = new System.Drawing.Point(22, 299);
+            this.textBox28.Name = "textBox28";
+            this.textBox28.Size = new System.Drawing.Size(95, 20);
+            this.textBox28.TabIndex = 32;
+            this.textBox28.UseWaitCursor = true;
+            this.textBox28.TextChanged += new System.EventHandler(this.TextBox28_TextChanged);
+            // 
+            // textBox29
+            // 
+            this.textBox29.BackColor = System.Drawing.Color.Silver;
+            this.textBox29.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox29.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox29.Location = new System.Drawing.Point(22, 280);
+            this.textBox29.Name = "textBox29";
+            this.textBox29.Size = new System.Drawing.Size(132, 14);
+            this.textBox29.TabIndex = 31;
+            this.textBox29.Text = "Number of Guests*";
+            this.textBox29.UseWaitCursor = true;
+            this.textBox29.TextChanged += new System.EventHandler(this.TextBox29_TextChanged);
+            // 
+            // textBox26
+            // 
+            this.textBox26.Location = new System.Drawing.Point(628, 255);
+            this.textBox26.Name = "textBox26";
+            this.textBox26.Size = new System.Drawing.Size(117, 20);
+            this.textBox26.TabIndex = 30;
+            this.textBox26.UseWaitCursor = true;
+            this.textBox26.TextChanged += new System.EventHandler(this.TextBox26_TextChanged);
+            // 
+            // textBox27
+            // 
+            this.textBox27.BackColor = System.Drawing.Color.Silver;
+            this.textBox27.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox27.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox27.Location = new System.Drawing.Point(628, 236);
+            this.textBox27.Name = "textBox27";
+            this.textBox27.Size = new System.Drawing.Size(61, 14);
+            this.textBox27.TabIndex = 29;
+            this.textBox27.Text = "Room Price*";
+            this.textBox27.UseWaitCursor = true;
+            this.textBox27.TextChanged += new System.EventHandler(this.TextBox27_TextChanged);
+            // 
+            // textBox24
+            // 
+            this.textBox24.Location = new System.Drawing.Point(432, 255);
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(188, 20);
+            this.textBox24.TabIndex = 28;
+            this.textBox24.UseWaitCursor = true;
+            this.textBox24.TextChanged += new System.EventHandler(this.TextBox24_TextChanged);
+            // 
+            // textBox25
+            // 
+            this.textBox25.BackColor = System.Drawing.Color.Silver;
+            this.textBox25.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox25.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox25.Location = new System.Drawing.Point(432, 236);
+            this.textBox25.Name = "textBox25";
+            this.textBox25.Size = new System.Drawing.Size(132, 14);
+            this.textBox25.TabIndex = 27;
+            this.textBox25.Text = "Room Preference*";
+            this.textBox25.UseWaitCursor = true;
+            this.textBox25.TextChanged += new System.EventHandler(this.TextBox25_TextChanged);
+            // 
+            // dateTimePicker4
+            // 
+            this.dateTimePicker4.Location = new System.Drawing.Point(227, 255);
+            this.dateTimePicker4.Name = "dateTimePicker4";
+            this.dateTimePicker4.Size = new System.Drawing.Size(198, 20);
+            this.dateTimePicker4.TabIndex = 26;
+            this.dateTimePicker4.UseWaitCursor = true;
+            this.dateTimePicker4.ValueChanged += new System.EventHandler(this.DateTimePicker4_ValueChanged);
+            // 
+            // dateTimePicker3
+            // 
+            this.dateTimePicker3.Location = new System.Drawing.Point(22, 255);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(198, 20);
+            this.dateTimePicker3.TabIndex = 25;
+            this.dateTimePicker3.UseWaitCursor = true;
+            this.dateTimePicker3.ValueChanged += new System.EventHandler(this.DateTimePicker3_ValueChanged);
+            // 
+            // textBox22
+            // 
+            this.textBox22.BackColor = System.Drawing.Color.Silver;
+            this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox22.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox22.Location = new System.Drawing.Point(227, 235);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(132, 14);
+            this.textBox22.TabIndex = 23;
+            this.textBox22.Text = "Departure Date*";
+            this.textBox22.UseWaitCursor = true;
+            this.textBox22.TextChanged += new System.EventHandler(this.TextBox22_TextChanged);
+            // 
+            // textBox23
+            // 
+            this.textBox23.BackColor = System.Drawing.Color.Silver;
+            this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox23.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox23.Location = new System.Drawing.Point(22, 235);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(132, 14);
+            this.textBox23.TabIndex = 22;
+            this.textBox23.Text = "Arrival Date*";
+            this.textBox23.UseWaitCursor = true;
+            this.textBox23.TextChanged += new System.EventHandler(this.TextBox23_TextChanged);
+            // 
+            // textBox17
+            // 
+            this.textBox17.BackColor = System.Drawing.Color.Silver;
+            this.textBox17.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox17.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox17.Location = new System.Drawing.Point(22, 214);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(146, 20);
+            this.textBox17.TabIndex = 21;
+            this.textBox17.Text = "Booking Details";
+            this.textBox17.UseWaitCursor = true;
+            this.textBox17.TextChanged += new System.EventHandler(this.TextBox17_TextChanged);
+            // 
+            // textBox20
+            // 
+            this.textBox20.Location = new System.Drawing.Point(215, 189);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(174, 20);
+            this.textBox20.TabIndex = 20;
+            this.textBox20.UseWaitCursor = true;
+            this.textBox20.TextChanged += new System.EventHandler(this.TextBox20_TextChanged);
+            // 
+            // textBox21
+            // 
+            this.textBox21.BackColor = System.Drawing.Color.Silver;
+            this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox21.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox21.Location = new System.Drawing.Point(215, 170);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(132, 14);
+            this.textBox21.TabIndex = 19;
+            this.textBox21.Text = "Phone Number*";
+            this.textBox21.UseWaitCursor = true;
+            this.textBox21.TextChanged += new System.EventHandler(this.TextBox21_TextChanged);
+            // 
+            // textBox18
+            // 
+            this.textBox18.Location = new System.Drawing.Point(22, 189);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(187, 20);
+            this.textBox18.TabIndex = 18;
+            this.textBox18.UseWaitCursor = true;
+            this.textBox18.TextChanged += new System.EventHandler(this.TextBox18_TextChanged);
+            // 
+            // textBox19
+            // 
+            this.textBox19.BackColor = System.Drawing.Color.Silver;
+            this.textBox19.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox19.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox19.Location = new System.Drawing.Point(22, 170);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(132, 14);
+            this.textBox19.TabIndex = 17;
+            this.textBox19.Text = "E-mail*";
+            this.textBox19.UseWaitCursor = true;
+            this.textBox19.TextChanged += new System.EventHandler(this.TextBox19_TextChanged);
+            // 
+            // textBox15
+            // 
+            this.textBox15.BackColor = System.Drawing.Color.Silver;
+            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox15.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox15.Location = new System.Drawing.Point(21, 150);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(146, 20);
+            this.textBox15.TabIndex = 16;
+            this.textBox15.Text = "Contact Information";
+            this.textBox15.UseWaitCursor = true;
+            this.textBox15.TextChanged += new System.EventHandler(this.TextBox15_TextChanged);
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(22, 125);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(199, 20);
+            this.dateTimePicker1.TabIndex = 15;
+            this.dateTimePicker1.UseWaitCursor = true;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.DateTimePicker1_ValueChanged);
+            // 
+            // textBox16
+            // 
+            this.textBox16.BackColor = System.Drawing.Color.Silver;
+            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox16.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox16.Location = new System.Drawing.Point(23, 105);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(45, 14);
+            this.textBox16.TabIndex = 14;
+            this.textBox16.Text = "Suffix";
+            this.textBox16.UseWaitCursor = true;
+            this.textBox16.TextChanged += new System.EventHandler(this.TextBox16_TextChanged);
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(627, 80);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(74, 20);
+            this.textBox13.TabIndex = 13;
+            this.textBox13.UseWaitCursor = true;
+            this.textBox13.TextChanged += new System.EventHandler(this.TextBox13_TextChanged);
+            // 
+            // textBox14
+            // 
+            this.textBox14.BackColor = System.Drawing.Color.Silver;
+            this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox14.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox14.Location = new System.Drawing.Point(628, 60);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(73, 14);
+            this.textBox14.TabIndex = 12;
+            this.textBox14.Text = "Marital Status";
+            this.textBox14.UseWaitCursor = true;
+            this.textBox14.TextChanged += new System.EventHandler(this.TextBox14_TextChanged);
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(227, 125);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(46, 20);
+            this.textBox11.TabIndex = 11;
+            this.textBox11.UseWaitCursor = true;
+            this.textBox11.TextChanged += new System.EventHandler(this.TextBox11_TextChanged);
+            // 
+            // textBox12
+            // 
+            this.textBox12.BackColor = System.Drawing.Color.Silver;
+            this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox12.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox12.Location = new System.Drawing.Point(228, 105);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(45, 14);
+            this.textBox12.TabIndex = 10;
+            this.textBox12.Text = "Age*";
+            this.textBox12.UseWaitCursor = true;
+            this.textBox12.TextChanged += new System.EventHandler(this.TextBox12_TextChanged);
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(546, 80);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(74, 20);
+            this.textBox10.TabIndex = 9;
+            this.textBox10.UseWaitCursor = true;
+            this.textBox10.TextChanged += new System.EventHandler(this.TextBox10_TextChanged);
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(395, 80);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(145, 20);
+            this.textBox9.TabIndex = 8;
+            this.textBox9.UseWaitCursor = true;
+            this.textBox9.TextChanged += new System.EventHandler(this.TextBox9_TextChanged);
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(215, 79);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(174, 20);
+            this.textBox8.TabIndex = 7;
+            this.textBox8.UseWaitCursor = true;
+            this.textBox8.TextChanged += new System.EventHandler(this.TextBox8_TextChanged);
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(21, 79);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(188, 20);
+            this.textBox7.TabIndex = 6;
+            this.textBox7.UseWaitCursor = true;
+            this.textBox7.TextChanged += new System.EventHandler(this.TextBox7_TextChanged);
+            // 
+            // textBox6
+            // 
+            this.textBox6.BackColor = System.Drawing.Color.Silver;
+            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox6.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.Location = new System.Drawing.Point(215, 60);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(165, 14);
+            this.textBox6.TabIndex = 5;
+            this.textBox6.Text = "First Name*";
+            this.textBox6.UseWaitCursor = true;
+            this.textBox6.TextChanged += new System.EventHandler(this.TextBox6_TextChanged);
+            // 
+            // textBox5
+            // 
+            this.textBox5.BackColor = System.Drawing.Color.Silver;
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox5.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(401, 60);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(136, 14);
+            this.textBox5.TabIndex = 4;
+            this.textBox5.Text = "Middle Name*";
+            this.textBox5.UseWaitCursor = true;
+            this.textBox5.TextChanged += new System.EventHandler(this.TextBox5_TextChanged);
+            // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.Color.Silver;
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(547, 60);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(45, 14);
+            this.textBox4.TabIndex = 3;
+            this.textBox4.Text = "Suffix";
+            this.textBox4.UseWaitCursor = true;
+            this.textBox4.TextChanged += new System.EventHandler(this.TextBox4_TextChanged);
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.Silver;
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(21, 60);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(132, 14);
+            this.textBox3.TabIndex = 2;
+            this.textBox3.Text = "Last Name*";
+            this.textBox3.UseWaitCursor = true;
+            this.textBox3.TextChanged += new System.EventHandler(this.TextBox3_TextChanged);
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.Silver;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(22, 42);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(95, 20);
+            this.textBox2.TabIndex = 1;
+            this.textBox2.Text = "Guest Details";
+            this.textBox2.UseWaitCursor = true;
+            this.textBox2.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.Silver;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(297, 3);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(205, 33);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "Reservation Form";
+            this.textBox1.UseWaitCursor = true;
+            this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // textBox39
             // 
@@ -603,6 +615,7 @@
             this.textBox39.Size = new System.Drawing.Size(128, 19);
             this.textBox39.TabIndex = 1;
             this.textBox39.Text = "Royal Reef Hotel";
+            this.textBox39.UseWaitCursor = true;
             // 
             // pictureBox1
             // 
@@ -614,17 +627,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Yellow;
-            this.button1.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(562, 402);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(202, 39);
-            this.button1.TabIndex = 42;
-            this.button1.Text = "Confirm Reservation";
-            this.button1.UseVisualStyleBackColor = false;
+            this.pictureBox1.UseWaitCursor = true;
             // 
             // ReservationForm
             // 
