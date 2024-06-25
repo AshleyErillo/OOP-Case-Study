@@ -58,6 +58,12 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="DialogConfirmation1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogConfirmation1.Designer.cs">
+      <DependentUpon>DialogConfirmation1.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditReservationForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -156,6 +162,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogConfirmation1.resx">
+      <DependentUpon>DialogConfirmation1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditReservationForm.resx">
       <DependentUpon>EditReservationForm.cs</DependentUpon>
