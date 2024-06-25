@@ -70,6 +70,12 @@
     <Compile Include="DialogConfirmation1.Designer.cs">
       <DependentUpon>DialogConfirmation1.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditConfirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditConfirmation.Designer.cs">
+      <DependentUpon>EditConfirmation.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditReservationForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -174,6 +180,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DialogConfirmation1.resx">
       <DependentUpon>DialogConfirmation1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditConfirmation.resx">
+      <DependentUpon>EditConfirmation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditReservationForm.resx">
       <DependentUpon>EditReservationForm.cs</DependentUpon>
