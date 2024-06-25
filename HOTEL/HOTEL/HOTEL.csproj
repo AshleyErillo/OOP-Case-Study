@@ -88,6 +88,12 @@
     <Compile Include="EditConfirmation.Designer.cs">
       <DependentUpon>EditConfirmation.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EditDetails.Designer.cs">
+      <DependentUpon>EditDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditEmployeeProfile.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -207,6 +213,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EditConfirmation.resx">
       <DependentUpon>EditConfirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditDetails.resx">
+      <DependentUpon>EditDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditEmployeeProfile.resx">
       <DependentUpon>EditEmployeeProfile.cs</DependentUpon>
