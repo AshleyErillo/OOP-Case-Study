@@ -52,6 +52,12 @@
     <Compile Include="AddEmployee.Designer.cs">
       <DependentUpon>AddEmployee.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddNewGuest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddNewGuest.Designer.cs">
+      <DependentUpon>AddNewGuest.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConfirmationForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -183,6 +189,9 @@
     </Compile>
     <EmbeddedResource Include="AddEmployee.resx">
       <DependentUpon>AddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewGuest.resx">
+      <DependentUpon>AddNewGuest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConfirmationForm.resx">
       <DependentUpon>ConfirmationForm.cs</DependentUpon>

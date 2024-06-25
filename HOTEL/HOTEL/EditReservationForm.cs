@@ -16,5 +16,20 @@ namespace HOTEL
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox39_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EditReservationForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
