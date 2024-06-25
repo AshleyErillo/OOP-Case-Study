@@ -40,5 +40,10 @@ namespace HOTEL
         {
             guest_FeedbackPanel_VIEW_1.Hide();
         }
+
+        private void GuestPanel_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

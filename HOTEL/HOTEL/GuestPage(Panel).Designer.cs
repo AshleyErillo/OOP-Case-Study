@@ -122,7 +122,7 @@
             this.GuestPanel.Name = "GuestPanel";
             this.GuestPanel.Size = new System.Drawing.Size(637, 388);
             this.GuestPanel.TabIndex = 1;
-            this.GuestPanel.Load += new System.EventHandler(this.guestPanel_VIEW_1_Load);
+            this.GuestPanel.Load += new System.EventHandler(this.GuestPanel_Load);
             // 
             // guest_FeedbackPanel_VIEW_1
             // 

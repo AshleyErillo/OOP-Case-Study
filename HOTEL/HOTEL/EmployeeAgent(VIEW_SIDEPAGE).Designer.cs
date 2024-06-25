@@ -50,6 +50,7 @@
             // 
             // Close_Icon
             // 
+            this.Close_Icon.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Close_Icon.Image = global::HOTEL.Properties.Resources.x_square_icon;
             this.Close_Icon.Location = new System.Drawing.Point(340, 5);
             this.Close_Icon.Name = "Close_Icon";
@@ -61,6 +62,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -72,6 +74,7 @@
             // 
             // email
             // 
+            this.email.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.email.AutoSize = true;
             this.email.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.email.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -83,6 +86,7 @@
             // 
             // EmployeeName
             // 
+            this.EmployeeName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EmployeeName.AutoSize = true;
             this.EmployeeName.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EmployeeName.Location = new System.Drawing.Point(101, 54);
@@ -93,6 +97,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox2.Location = new System.Drawing.Point(20, 41);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(75, 75);
@@ -101,6 +106,7 @@
             // 
             // vScrollBar1
             // 
+            this.vScrollBar1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.vScrollBar1.Location = new System.Drawing.Point(0, 0);
             this.vScrollBar1.Name = "vScrollBar1";
             this.vScrollBar1.Size = new System.Drawing.Size(17, 386);
@@ -108,6 +114,7 @@
             // 
             // EmployeeID
             // 
+            this.EmployeeID.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EmployeeID.AutoSize = true;
             this.EmployeeID.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EmployeeID.ForeColor = System.Drawing.SystemColors.MenuText;
@@ -119,6 +126,7 @@
             // 
             // Address_label
             // 
+            this.Address_label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Address_label.AutoSize = true;
             this.Address_label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Address_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -130,6 +138,7 @@
             // 
             // nationality_label
             // 
+            this.nationality_label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.nationality_label.AutoSize = true;
             this.nationality_label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nationality_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -141,6 +150,7 @@
             // 
             // Birthdate_labek
             // 
+            this.Birthdate_labek.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Birthdate_labek.AutoSize = true;
             this.Birthdate_labek.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Birthdate_labek.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -152,6 +162,7 @@
             // 
             // Age_label
             // 
+            this.Age_label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Age_label.AutoSize = true;
             this.Age_label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Age_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -163,6 +174,7 @@
             // 
             // PersonalInformation_Label
             // 
+            this.PersonalInformation_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PersonalInformation_Label.AutoSize = true;
             this.PersonalInformation_Label.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PersonalInformation_Label.Location = new System.Drawing.Point(20, 127);
@@ -173,6 +185,7 @@
             // 
             // Department_Label
             // 
+            this.Department_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Department_Label.AutoSize = true;
             this.Department_Label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Department_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -184,6 +197,7 @@
             // 
             // Jobtitle_Label
             // 
+            this.Jobtitle_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Jobtitle_Label.AutoSize = true;
             this.Jobtitle_Label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Jobtitle_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -195,6 +209,7 @@
             // 
             // CareerDetails_Label
             // 
+            this.CareerDetails_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CareerDetails_Label.AutoSize = true;
             this.CareerDetails_Label.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CareerDetails_Label.Location = new System.Drawing.Point(20, 203);
@@ -205,6 +220,7 @@
             // 
             // Achievements_label
             // 
+            this.Achievements_label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Achievements_label.AutoSize = true;
             this.Achievements_label.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Achievements_label.Location = new System.Drawing.Point(21, 260);

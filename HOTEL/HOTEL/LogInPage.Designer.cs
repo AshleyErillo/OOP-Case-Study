@@ -41,6 +41,7 @@
             // 
             // Username_Textbox
             // 
+            this.Username_Textbox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Username_Textbox.Location = new System.Drawing.Point(327, 226);
             this.Username_Textbox.Name = "Username_Textbox";
             this.Username_Textbox.Size = new System.Drawing.Size(200, 20);
@@ -48,6 +49,7 @@
             // 
             // Password_Textbox
             // 
+            this.Password_Textbox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Password_Textbox.Location = new System.Drawing.Point(327, 261);
             this.Password_Textbox.Name = "Password_Textbox";
             this.Password_Textbox.Size = new System.Drawing.Size(200, 20);
@@ -55,6 +57,7 @@
             // 
             // Username_Text
             // 
+            this.Username_Text.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Username_Text.AutoSize = true;
             this.Username_Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Username_Text.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -66,6 +69,7 @@
             // 
             // Password_Text
             // 
+            this.Password_Text.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Password_Text.AutoSize = true;
             this.Password_Text.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Password_Text.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -77,6 +81,7 @@
             // 
             // ForgotPassword_Label
             // 
+            this.ForgotPassword_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ForgotPassword_Label.AutoSize = true;
             this.ForgotPassword_Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForgotPassword_Label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -88,6 +93,7 @@
             // 
             // LogIn_Button
             // 
+            this.LogIn_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LogIn_Button.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.LogIn_Button.FlatAppearance.BorderSize = 0;
             this.LogIn_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -103,6 +109,7 @@
             // 
             // LogoPicture
             // 
+            this.LogoPicture.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LogoPicture.Image = global::HOTEL.Properties.Resources.HOTEL;
             this.LogoPicture.Location = new System.Drawing.Point(256, 101);
             this.LogoPicture.Name = "LogoPicture";

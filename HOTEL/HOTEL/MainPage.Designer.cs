@@ -36,10 +36,10 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.LogoPicture_Pic = new System.Windows.Forms.PictureBox();
-            this.Dashboard_Panel = new System.Windows.Forms.Panel();
             this.mainPage_Panel1 = new HOTEL.MainPage_Panel();
             this.employeePanel1 = new HOTEL.EmployeePanel();
             this.guestPagePanel1 = new HOTEL.GuestPagePanel();
+            this.dashboard1 = new HOTEL.Dashboard();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LogoPicture_Pic)).BeginInit();
@@ -47,6 +47,7 @@
             // 
             // Main_Button
             // 
+            this.Main_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Main_Button.AutoSize = true;
             this.Main_Button.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Main_Button.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -59,6 +60,7 @@
             // 
             // Guest_Button
             // 
+            this.Guest_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Guest_Button.AutoSize = true;
             this.Guest_Button.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Guest_Button.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -71,6 +73,7 @@
             // 
             // Employee_Button
             // 
+            this.Employee_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Employee_Button.AutoSize = true;
             this.Employee_Button.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Employee_Button.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -83,6 +86,7 @@
             // 
             // Dashboard_Button
             // 
+            this.Dashboard_Button.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Dashboard_Button.AutoSize = true;
             this.Dashboard_Button.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Dashboard_Button.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -95,6 +99,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox2.Image = global::HOTEL.Properties.Resources.logout_256x256;
             this.pictureBox2.Location = new System.Drawing.Point(763, 12);
             this.pictureBox2.Name = "pictureBox2";
@@ -105,6 +110,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = global::HOTEL.Properties.Resources.user_icon;
             this.pictureBox1.Location = new System.Drawing.Point(732, 12);
             this.pictureBox1.Name = "pictureBox1";
@@ -115,6 +121,7 @@
             // 
             // LogoPicture_Pic
             // 
+            this.LogoPicture_Pic.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LogoPicture_Pic.Image = global::HOTEL.Properties.Resources._2;
             this.LogoPicture_Pic.Location = new System.Drawing.Point(0, 0);
             this.LogoPicture_Pic.Name = "LogoPicture_Pic";
@@ -123,15 +130,9 @@
             this.LogoPicture_Pic.TabIndex = 0;
             this.LogoPicture_Pic.TabStop = false;
             // 
-            // Dashboard_Panel
-            // 
-            this.Dashboard_Panel.Location = new System.Drawing.Point(0, 56);
-            this.Dashboard_Panel.Name = "Dashboard_Panel";
-            this.Dashboard_Panel.Size = new System.Drawing.Size(801, 395);
-            this.Dashboard_Panel.TabIndex = 10;
-            // 
             // mainPage_Panel1
             // 
+            this.mainPage_Panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mainPage_Panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.mainPage_Panel1.Location = new System.Drawing.Point(0, 56);
             this.mainPage_Panel1.Name = "mainPage_Panel1";
@@ -140,6 +141,7 @@
             // 
             // employeePanel1
             // 
+            this.employeePanel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.employeePanel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.employeePanel1.Location = new System.Drawing.Point(0, 56);
             this.employeePanel1.Name = "employeePanel1";
@@ -148,19 +150,29 @@
             // 
             // guestPagePanel1
             // 
+            this.guestPagePanel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.guestPagePanel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guestPagePanel1.Location = new System.Drawing.Point(0, 56);
             this.guestPagePanel1.Name = "guestPagePanel1";
             this.guestPagePanel1.Size = new System.Drawing.Size(801, 395);
             this.guestPagePanel1.TabIndex = 8;
             // 
+            // dashboard1
+            // 
+            this.dashboard1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dashboard1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dashboard1.Location = new System.Drawing.Point(0, 56);
+            this.dashboard1.Name = "dashboard1";
+            this.dashboard1.Size = new System.Drawing.Size(801, 395);
+            this.dashboard1.TabIndex = 10;
+            // 
             // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.mainPage_Panel1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Dashboard_Button);
@@ -168,12 +180,14 @@
             this.Controls.Add(this.Guest_Button);
             this.Controls.Add(this.Main_Button);
             this.Controls.Add(this.LogoPicture_Pic);
+            this.Controls.Add(this.mainPage_Panel1);
             this.Controls.Add(this.employeePanel1);
             this.Controls.Add(this.guestPagePanel1);
-            this.Controls.Add(this.Dashboard_Panel);
+            this.Controls.Add(this.dashboard1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainPage";
             this.Text = "Royal Reef Hotel";
+            this.Load += new System.EventHandler(this.MainPage_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LogoPicture_Pic)).EndInit();
@@ -194,6 +208,6 @@
         private MainPage_Panel mainPage_Panel1;
         private GuestPagePanel guestPagePanel1;
         private EmployeePanel employeePanel1;
-        private System.Windows.Forms.Panel Dashboard_Panel;
+        private Dashboard dashboard1;
     }
 }

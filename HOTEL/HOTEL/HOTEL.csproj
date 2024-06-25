@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="EmployeeAgent%28VIEW_SIDEPAGE%29.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -121,6 +127,15 @@
     <Compile Include="Reservations%28VIEWSIDEPAGE%29.Designer.cs">
       <DependentUpon>Reservations%28VIEWSIDEPAGE%29.cs</DependentUpon>
     </Compile>
+    <Compile Include="ReservationsPANEL.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReservationsPANEL.Designer.cs">
+      <DependentUpon>ReservationsPANEL.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EmployeeAgent%28VIEW_SIDEPAGE%29.resx">
       <DependentUpon>EmployeeAgent%28VIEW_SIDEPAGE%29.cs</DependentUpon>
     </EmbeddedResource>
@@ -166,6 +181,9 @@
     </Compile>
     <EmbeddedResource Include="Reservations%28VIEWSIDEPAGE%29.resx">
       <DependentUpon>Reservations%28VIEWSIDEPAGE%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReservationsPANEL.resx">
+      <DependentUpon>ReservationsPANEL.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

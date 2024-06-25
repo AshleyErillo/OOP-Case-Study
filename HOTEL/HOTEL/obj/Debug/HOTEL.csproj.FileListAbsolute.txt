@@ -19,3 +19,5 @@ C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.exe
 C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.pdb
 C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.GuestPagePanel.resources
 C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.EMPAGE_VIEWSIDE.resources
+C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.Dashboard.resources
+C:\Users\gwyna\source\repos\HOTEL\HOTEL\obj\Debug\HOTEL.ReservationsPANEL.resources
