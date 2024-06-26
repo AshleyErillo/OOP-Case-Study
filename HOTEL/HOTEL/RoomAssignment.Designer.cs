@@ -271,9 +271,9 @@
             this.Reservations_Label.Font = new System.Drawing.Font("Calibri", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Reservations_Label.Location = new System.Drawing.Point(3, 11);
             this.Reservations_Label.Name = "Reservations_Label";
-            this.Reservations_Label.Size = new System.Drawing.Size(204, 42);
+            this.Reservations_Label.Size = new System.Drawing.Size(117, 42);
             this.Reservations_Label.TabIndex = 78;
-            this.Reservations_Label.Text = "Reservations";
+            this.Reservations_Label.Text = "Rooms";
             this.Reservations_Label.Click += new System.EventHandler(this.Reservations_Label_Click);
             // 
             // pictureBox1
