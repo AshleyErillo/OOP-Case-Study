@@ -70,6 +70,7 @@
             this.NewEmpAge_Label.TabIndex = 65;
             this.NewEmpAge_Label.Text = "Add New Employee";
             this.NewEmpAge_Label.UseVisualStyleBackColor = false;
+            this.NewEmpAge_Label.Click += new System.EventHandler(this.NewEmpAge_Label_Click);
             // 
             // tableLayoutPanel1
             // 

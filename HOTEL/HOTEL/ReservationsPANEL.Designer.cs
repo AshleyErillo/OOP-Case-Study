@@ -110,6 +110,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 71;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.PictureBox2_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -261,6 +262,7 @@
             this.CheckInvoice_Label.TabIndex = 75;
             this.CheckInvoice_Label.Text = "Delete";
             this.CheckInvoice_Label.UseVisualStyleBackColor = false;
+            this.CheckInvoice_Label.Click += new System.EventHandler(this.CheckInvoice_Label_Click);
             // 
             // label1
             // 

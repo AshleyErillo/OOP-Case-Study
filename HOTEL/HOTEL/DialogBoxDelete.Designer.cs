@@ -70,7 +70,7 @@
             this.textBox1.Size = new System.Drawing.Size(421, 19);
             this.textBox1.TabIndex = 3;
             this.textBox1.Text = "Are you sure you want to delete this? It will be permanently erased.";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // DialogBoxDelete
             // 

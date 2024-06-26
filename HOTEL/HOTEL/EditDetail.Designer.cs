@@ -139,7 +139,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(811, 478);
             this.panel1.TabIndex = 90;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel1_Paint);
             // 
             // button2
             // 
@@ -151,6 +151,7 @@
             this.button2.TabIndex = 150;
             this.button2.Text = "Confirm and save";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // textBox37
             // 

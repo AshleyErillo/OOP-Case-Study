@@ -87,6 +87,7 @@
             this.button2.TabIndex = 192;
             this.button2.Text = "Confirm and save";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // button1
             // 
@@ -99,6 +100,7 @@
             this.button1.TabIndex = 190;
             this.button1.Text = "Remove Employee";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // textBox18
             // 
@@ -119,7 +121,7 @@
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(122, 18);
             this.textBox17.TabIndex = 187;
-            this.textBox17.TextChanged += new System.EventHandler(this.textBox17_TextChanged);
+            this.textBox17.TextChanged += new System.EventHandler(this.TextBox17_TextChanged);
             // 
             // Supervisor_Label
             // 
@@ -140,7 +142,7 @@
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(122, 18);
             this.textBox16.TabIndex = 185;
-            this.textBox16.TextChanged += new System.EventHandler(this.textBox16_TextChanged);
+            this.textBox16.TextChanged += new System.EventHandler(this.TextBox16_TextChanged);
             // 
             // Hiredate_label
             // 
@@ -161,7 +163,7 @@
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(142, 18);
             this.textBox15.TabIndex = 183;
-            this.textBox15.TextChanged += new System.EventHandler(this.textBox15_TextChanged);
+            this.textBox15.TextChanged += new System.EventHandler(this.TextBox15_TextChanged);
             // 
             // Department_label
             // 
@@ -182,7 +184,7 @@
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(142, 18);
             this.textBox14.TabIndex = 181;
-            this.textBox14.TextChanged += new System.EventHandler(this.textBox14_TextChanged);
+            this.textBox14.TextChanged += new System.EventHandler(this.TextBox14_TextChanged);
             // 
             // Jobtitle_LAbel
             // 
@@ -214,7 +216,7 @@
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(86, 18);
             this.textBox13.TabIndex = 178;
-            this.textBox13.TextChanged += new System.EventHandler(this.textBox13_TextChanged);
+            this.textBox13.TextChanged += new System.EventHandler(this.TextBox13_TextChanged);
             // 
             // ZipCode_Label
             // 
@@ -235,7 +237,7 @@
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(142, 18);
             this.textBox12.TabIndex = 176;
-            this.textBox12.TextChanged += new System.EventHandler(this.textBox12_TextChanged);
+            this.textBox12.TextChanged += new System.EventHandler(this.TextBox12_TextChanged);
             // 
             // Region_label
             // 
@@ -256,7 +258,7 @@
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(142, 18);
             this.textBox11.TabIndex = 174;
-            this.textBox11.TextChanged += new System.EventHandler(this.textBox11_TextChanged);
+            this.textBox11.TextChanged += new System.EventHandler(this.TextBox11_TextChanged);
             // 
             // Address_label
             // 
@@ -277,7 +279,7 @@
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(142, 18);
             this.textBox10.TabIndex = 172;
-            this.textBox10.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
+            this.textBox10.TextChanged += new System.EventHandler(this.TextBox10_TextChanged);
             // 
             // ContactNumber_Label
             // 
@@ -298,7 +300,7 @@
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(142, 18);
             this.textBox9.TabIndex = 170;
-            this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
+            this.textBox9.TextChanged += new System.EventHandler(this.TextBox9_TextChanged);
             // 
             // Email_label
             // 
@@ -319,7 +321,7 @@
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(95, 18);
             this.textBox8.TabIndex = 168;
-            this.textBox8.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
+            this.textBox8.TextChanged += new System.EventHandler(this.TextBox8_TextChanged);
             // 
             // MaritalStatus_Label
             // 
@@ -340,7 +342,7 @@
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(82, 18);
             this.textBox7.TabIndex = 166;
-            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
+            this.textBox7.TextChanged += new System.EventHandler(this.TextBox7_TextChanged);
             // 
             // Gender_label
             // 
@@ -361,7 +363,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(57, 18);
             this.textBox6.TabIndex = 164;
-            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
+            this.textBox6.TextChanged += new System.EventHandler(this.TextBox6_TextChanged);
             // 
             // Age_Label
             // 
@@ -382,7 +384,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(119, 18);
             this.textBox5.TabIndex = 162;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+            this.textBox5.TextChanged += new System.EventHandler(this.TextBox5_TextChanged);
             // 
             // Birthday_Label
             // 
@@ -403,7 +405,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(74, 18);
             this.textBox4.TabIndex = 160;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.textBox4.TextChanged += new System.EventHandler(this.TextBox4_TextChanged);
             // 
             // Suffix_label
             // 
@@ -424,7 +426,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(121, 18);
             this.textBox3.TabIndex = 158;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.textBox3.TextChanged += new System.EventHandler(this.TextBox3_TextChanged);
             // 
             // MiddleName_label
             // 
@@ -445,7 +447,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(143, 18);
             this.textBox2.TabIndex = 156;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox2.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);
             // 
             // FirstName_label
             // 
@@ -477,7 +479,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(182, 18);
             this.textBox1.TabIndex = 153;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // LastName_label
             // 
@@ -529,7 +531,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(120, 120);
             this.pictureBox1.TabIndex = 151;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
             // 
             // EditEmployeeProfiles
             // 
@@ -584,6 +586,7 @@
             this.Name = "EditEmployeeProfiles";
             this.Text = "Royal Reef Hotel";
             this.Load += new System.EventHandler(this.EditEmployeeProfiles_Load);
+            this.Click += new System.EventHandler(this.EditEmployeeProfiles_Click);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

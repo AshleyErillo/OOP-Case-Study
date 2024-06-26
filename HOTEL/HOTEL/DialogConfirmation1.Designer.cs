@@ -85,6 +85,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DialogConfirmation1";
             this.Text = "Royal Reef Hotel";
+            this.Load += new System.EventHandler(this.DialogConfirmation1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

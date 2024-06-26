@@ -70,7 +70,7 @@
             this.textBox1.Size = new System.Drawing.Size(244, 19);
             this.textBox1.TabIndex = 6;
             this.textBox1.Text = "Would you like to save these changes?";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // EditConfirmation
             // 

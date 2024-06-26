@@ -86,6 +86,7 @@
             this.button2.TabIndex = 192;
             this.button2.Text = "Confirm and save";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.MyProfileHeader_Click);
             // 
             // textBox18
             // 
@@ -532,6 +533,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddEmployees";
             this.Text = "Royal Reef Hotel";
+            this.Load += new System.EventHandler(this.AddEmployees_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

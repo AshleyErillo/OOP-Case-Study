@@ -16,5 +16,20 @@ namespace HOTEL
         {
             InitializeComponent();
         }
+
+        private void DialogConfirmation1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MyProfileHeader_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AddEmployees f2 = new AddEmployees();
+            f2.Show();
+
+
+        }
+        
     }
 }

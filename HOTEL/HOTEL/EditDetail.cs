@@ -17,9 +17,16 @@ namespace HOTEL
             InitializeComponent();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void Panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DialogConfirmation1 f2 = new DialogConfirmation1();
+            f2.Show();
         }
     }
 }

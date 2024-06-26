@@ -16,5 +16,21 @@ namespace HOTEL
         {
             InitializeComponent();
         }
+
+        private void PictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            EditDetail f2 = new  EditDetail();
+            f2.Show();
+
+
+        }
+
+        private void CheckInvoice_Label_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DialogBoxDelete f2 = new DialogBoxDelete();
+            f2.Show();
+        }
     }
 }

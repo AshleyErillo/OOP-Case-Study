@@ -27,5 +27,12 @@ namespace HOTEL
 
         }
 
+        private void NewEmpAge_Label_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AddEmployees f1 = new AddEmployees();
+            f1.Show();
+
+        }
     }
 }
