@@ -54,3 +54,47 @@ C:\Users\Francine\Desktop\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.EditConfirm
 C:\Users\Francine\Desktop\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.EditDetails.resources
 C:\Users\Francine\Desktop\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.EditEmployeeProfile.resources
 C:\Users\Francine\Desktop\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.EditReservationForm.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\bin\Debug\HOTEL.exe.config
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\bin\Debug\HOTEL.exe
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\bin\Debug\HOTEL.pdb
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.csproj.AssemblyReference.cache
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.AddEmployees.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.AddNewGuests.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.Standardadd.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.ConfirmationForm.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.Dashboard.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.Updeluxe1.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.deluxeadd.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.Deluxeinventory.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.DialogBoxDelete.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.DialogConfirmation1.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.EditConfirmation.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.EditDetail.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.EditEmployeeProfiles.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.EditReservation.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.EMPAGE_VIEWSIDE.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.EmployeePage_EMPLOYEE_AGENTS_.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.EmployeePanel.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.GuestPagePanel.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.GuestPanel_VIEW_.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.GuestPanel_VIEW_SIDEPAGE_.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.Guest_FeedbackPanel_VIEW_.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.LogInPage.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.MainPage_Panel.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.MainPage.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.MyProfile.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.Properties.Resources.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.ReservationForm.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.Reservations_VIEWSIDEPAGE_.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.ReservationsPANEL.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.RoomAssignment.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.Standardinventory.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.standardroom.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.Suite.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.Suiteadd.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.csproj.GenerateResource.cache
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.csproj.CoreCompileInputs.cache
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.exe
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.pdb
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.DashboardView.resources
+C:\Users\Samantha Sarsoza\source\AshleyErillo\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.SuiteInventory.resources

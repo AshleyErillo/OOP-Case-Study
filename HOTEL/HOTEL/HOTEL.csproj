@@ -58,6 +58,18 @@
     <Compile Include="AddNewGuests.Designer.cs">
       <DependentUpon>AddNewGuests.cs</DependentUpon>
     </Compile>
+    <Compile Include="Dashboardview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dashboardview.Designer.cs">
+      <DependentUpon>Dashboardview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Standardadd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Standardadd.Designer.cs">
+      <DependentUpon>Standardadd.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConfirmationForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -69,6 +81,24 @@
     </Compile>
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deluxeroom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deluxeroom.Designer.cs">
+      <DependentUpon>Deluxeroom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deluxeadd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="deluxeadd.Designer.cs">
+      <DependentUpon>deluxeadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deluxeinventory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Deluxeinventory.Designer.cs">
+      <DependentUpon>Deluxeinventory.cs</DependentUpon>
     </Compile>
     <Compile Include="DialogBoxDelete.cs">
       <SubType>Form</SubType>
@@ -199,17 +229,62 @@
     <Compile Include="RoomAssignment.Designer.cs">
       <DependentUpon>RoomAssignment.cs</DependentUpon>
     </Compile>
+    <Compile Include="Standardinventory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Standardinventory.Designer.cs">
+      <DependentUpon>Standardinventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="standardroom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="standardroom.Designer.cs">
+      <DependentUpon>standardroom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suite.Designer.cs">
+      <DependentUpon>Suite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suiteadd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Suiteadd.Designer.cs">
+      <DependentUpon>Suiteadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuiteInventory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SuiteInventory.Designer.cs">
+      <DependentUpon>SuiteInventory.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddEmployees.resx">
       <DependentUpon>AddEmployees.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AddNewGuests.resx">
       <DependentUpon>AddNewGuests.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dashboardview.resx">
+      <DependentUpon>Dashboardview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Standardadd.resx">
+      <DependentUpon>Standardadd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ConfirmationForm.resx">
       <DependentUpon>ConfirmationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deluxeroom.resx">
+      <DependentUpon>Deluxeroom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deluxeadd.resx">
+      <DependentUpon>deluxeadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deluxeinventory.resx">
+      <DependentUpon>Deluxeinventory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DialogBoxDelete.resx">
       <DependentUpon>DialogBoxDelete.cs</DependentUpon>
@@ -284,6 +359,21 @@
     <EmbeddedResource Include="RoomAssignment.resx">
       <DependentUpon>RoomAssignment.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Standardinventory.resx">
+      <DependentUpon>Standardinventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="standardroom.resx">
+      <DependentUpon>standardroom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suite.resx">
+      <DependentUpon>Suite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suiteadd.resx">
+      <DependentUpon>Suiteadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuiteInventory.resx">
+      <DependentUpon>SuiteInventory.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -320,6 +410,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\edit-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Colebemis-Feather-Arrow-left.512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Colebemis-Feather-Maximize-2.512.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
