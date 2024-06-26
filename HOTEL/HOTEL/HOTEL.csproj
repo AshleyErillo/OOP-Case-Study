@@ -193,6 +193,12 @@
     <Compile Include="ReservationsPANEL.Designer.cs">
       <DependentUpon>ReservationsPANEL.cs</DependentUpon>
     </Compile>
+    <Compile Include="RoomAssignment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RoomAssignment.Designer.cs">
+      <DependentUpon>RoomAssignment.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddEmployees.resx">
       <DependentUpon>AddEmployees.cs</DependentUpon>
     </EmbeddedResource>
@@ -274,6 +280,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ReservationsPANEL.resx">
       <DependentUpon>ReservationsPANEL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomAssignment.resx">
+      <DependentUpon>RoomAssignment.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
