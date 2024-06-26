@@ -1,13 +1,13 @@
 ﻿namespace HOTEL
 {
-    partial class AddNewGuest
+    partial class EditDetail
     {
-        /// <summary> 
+        /// <summary>
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary> 
+        /// <summary>
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
@@ -20,16 +20,18 @@
             base.Dispose(disposing);
         }
 
-        #region Component Designer generated code
+        #region Windows Form Designer generated code
 
-        /// <summary> 
-        /// Required method for Designer support - do not modify 
+        /// <summary>
+        /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddNewGuest));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EditDetail));
+            this.textBox39 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.textBox37 = new System.Windows.Forms.TextBox();
             this.textBox38 = new System.Windows.Forms.TextBox();
             this.textBox35 = new System.Windows.Forms.TextBox();
@@ -71,12 +73,22 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // textBox39
+            // 
+            this.textBox39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.textBox39.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox39.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox39.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.textBox39.Location = new System.Drawing.Point(658, 8);
+            this.textBox39.Name = "textBox39";
+            this.textBox39.Size = new System.Drawing.Size(137, 19);
+            this.textBox39.TabIndex = 92;
+            this.textBox39.Text = "Royal Reef Hotel";
             // 
             // panel1
             // 
@@ -123,10 +135,22 @@
             this.panel1.Controls.Add(this.textBox3);
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Location = new System.Drawing.Point(17, 36);
+            this.panel1.Location = new System.Drawing.Point(16, 39);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(802, 453);
-            this.panel1.TabIndex = 1;
+            this.panel1.Size = new System.Drawing.Size(790, 478);
+            this.panel1.TabIndex = 90;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Yellow;
+            this.button2.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(580, 410);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(191, 45);
+            this.button2.TabIndex = 150;
+            this.button2.Text = "Confirm and save";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // textBox37
             // 
@@ -541,57 +565,37 @@
             this.textBox1.BackColor = System.Drawing.Color.Silver;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(308, 3);
+            this.textBox1.Location = new System.Drawing.Point(340, 7);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(212, 33);
+            this.textBox1.Size = new System.Drawing.Size(132, 33);
             this.textBox1.TabIndex = 42;
-            this.textBox1.Text = "Adding New Guest";
+            this.textBox1.Text = "Edit Details";
             this.textBox1.UseWaitCursor = true;
-            // 
-            // textBox39
-            // 
-            this.textBox39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.textBox39.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox39.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox39.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.textBox39.Location = new System.Drawing.Point(670, 11);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(137, 19);
-            this.textBox39.TabIndex = 86;
-            this.textBox39.Text = "Royal Reef Hotel";
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(630, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(614, 1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(56, 32);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 85;
+            this.pictureBox1.TabIndex = 93;
             this.pictureBox1.TabStop = false;
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Yellow;
-            this.button2.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(599, 396);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(191, 45);
-            this.button2.TabIndex = 150;
-            this.button2.Text = "Confirm and save";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // AddNewGuest
+            // EditDetail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.ClientSize = new System.Drawing.Size(835, 450);
             this.Controls.Add(this.textBox39);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
-            this.Name = "AddNewGuest";
-            this.Size = new System.Drawing.Size(836, 489);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "EditDetail";
+            this.Text = "Royal Reef Hotel";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -602,7 +606,9 @@
 
         #endregion
 
+        private System.Windows.Forms.TextBox textBox39;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox37;
         private System.Windows.Forms.TextBox textBox38;
         private System.Windows.Forms.TextBox textBox35;
@@ -644,8 +650,6 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox39;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button2;
     }
 }

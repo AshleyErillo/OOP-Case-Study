@@ -104,7 +104,7 @@
             // textBox17
             // 
             this.textBox17.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox17.Location = new System.Drawing.Point(224, 378);
+            this.textBox17.Location = new System.Drawing.Point(582, 334);
             this.textBox17.Name = "textBox17";
             this.textBox17.Size = new System.Drawing.Size(122, 18);
             this.textBox17.TabIndex = 143;
@@ -114,7 +114,7 @@
             this.Supervisor_Label.AutoSize = true;
             this.Supervisor_Label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Supervisor_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Supervisor_Label.Location = new System.Drawing.Point(221, 362);
+            this.Supervisor_Label.Location = new System.Drawing.Point(579, 318);
             this.Supervisor_Label.Name = "Supervisor_Label";
             this.Supervisor_Label.Size = new System.Drawing.Size(46, 11);
             this.Supervisor_Label.TabIndex = 142;
@@ -123,7 +123,7 @@
             // textBox16
             // 
             this.textBox16.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.Location = new System.Drawing.Point(518, 342);
+            this.textBox16.Location = new System.Drawing.Point(454, 334);
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(122, 18);
             this.textBox16.TabIndex = 141;
@@ -133,7 +133,7 @@
             this.Hiredate_label.AutoSize = true;
             this.Hiredate_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Hiredate_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Hiredate_label.Location = new System.Drawing.Point(515, 326);
+            this.Hiredate_label.Location = new System.Drawing.Point(451, 318);
             this.Hiredate_label.Name = "Hiredate_label";
             this.Hiredate_label.Size = new System.Drawing.Size(41, 11);
             this.Hiredate_label.TabIndex = 140;
@@ -142,7 +142,7 @@
             // textBox15
             // 
             this.textBox15.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.Location = new System.Drawing.Point(370, 342);
+            this.textBox15.Location = new System.Drawing.Point(306, 334);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(142, 18);
             this.textBox15.TabIndex = 139;
@@ -152,7 +152,7 @@
             this.Department_label.AutoSize = true;
             this.Department_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Department_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Department_label.Location = new System.Drawing.Point(367, 326);
+            this.Department_label.Location = new System.Drawing.Point(303, 318);
             this.Department_label.Name = "Department_label";
             this.Department_label.Size = new System.Drawing.Size(51, 11);
             this.Department_label.TabIndex = 138;
@@ -161,7 +161,7 @@
             // textBox14
             // 
             this.textBox14.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(224, 342);
+            this.textBox14.Location = new System.Drawing.Point(160, 334);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(142, 18);
             this.textBox14.TabIndex = 137;
@@ -171,7 +171,7 @@
             this.Jobtitle_LAbel.AutoSize = true;
             this.Jobtitle_LAbel.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Jobtitle_LAbel.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Jobtitle_LAbel.Location = new System.Drawing.Point(221, 326);
+            this.Jobtitle_LAbel.Location = new System.Drawing.Point(157, 318);
             this.Jobtitle_LAbel.Name = "Jobtitle_LAbel";
             this.Jobtitle_LAbel.Size = new System.Drawing.Size(37, 11);
             this.Jobtitle_LAbel.TabIndex = 136;
@@ -181,7 +181,7 @@
             // 
             this.EmploymentInfor_label.AutoSize = true;
             this.EmploymentInfor_label.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EmploymentInfor_label.Location = new System.Drawing.Point(219, 305);
+            this.EmploymentInfor_label.Location = new System.Drawing.Point(155, 297);
             this.EmploymentInfor_label.Name = "EmploymentInfor_label";
             this.EmploymentInfor_label.Size = new System.Drawing.Size(207, 23);
             this.EmploymentInfor_label.TabIndex = 135;
@@ -190,7 +190,7 @@
             // textBox13
             // 
             this.textBox13.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(519, 286);
+            this.textBox13.Location = new System.Drawing.Point(307, 279);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(86, 18);
             this.textBox13.TabIndex = 134;
@@ -200,7 +200,7 @@
             this.ZipCode_Label.AutoSize = true;
             this.ZipCode_Label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ZipCode_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ZipCode_Label.Location = new System.Drawing.Point(516, 270);
+            this.ZipCode_Label.Location = new System.Drawing.Point(305, 263);
             this.ZipCode_Label.Name = "ZipCode_Label";
             this.ZipCode_Label.Size = new System.Drawing.Size(39, 11);
             this.ZipCode_Label.TabIndex = 133;
@@ -209,7 +209,7 @@
             // textBox12
             // 
             this.textBox12.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(371, 280);
+            this.textBox12.Location = new System.Drawing.Point(159, 279);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(142, 18);
             this.textBox12.TabIndex = 132;
@@ -219,7 +219,7 @@
             this.Region_label.AutoSize = true;
             this.Region_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Region_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Region_label.Location = new System.Drawing.Point(368, 264);
+            this.Region_label.Location = new System.Drawing.Point(156, 263);
             this.Region_label.Name = "Region_label";
             this.Region_label.Size = new System.Drawing.Size(79, 11);
             this.Region_label.TabIndex = 131;
@@ -228,7 +228,7 @@
             // textBox11
             // 
             this.textBox11.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(223, 280);
+            this.textBox11.Location = new System.Drawing.Point(455, 235);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(142, 18);
             this.textBox11.TabIndex = 130;
@@ -238,7 +238,7 @@
             this.Address_label.AutoSize = true;
             this.Address_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Address_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Address_label.Location = new System.Drawing.Point(220, 264);
+            this.Address_label.Location = new System.Drawing.Point(452, 219);
             this.Address_label.Name = "Address_label";
             this.Address_label.Size = new System.Drawing.Size(95, 11);
             this.Address_label.TabIndex = 129;
@@ -247,7 +247,7 @@
             // textBox10
             // 
             this.textBox10.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(371, 243);
+            this.textBox10.Location = new System.Drawing.Point(307, 235);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(142, 18);
             this.textBox10.TabIndex = 128;
@@ -257,7 +257,7 @@
             this.ContactNumber_Label.AutoSize = true;
             this.ContactNumber_Label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ContactNumber_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ContactNumber_Label.Location = new System.Drawing.Point(368, 227);
+            this.ContactNumber_Label.Location = new System.Drawing.Point(304, 219);
             this.ContactNumber_Label.Name = "ContactNumber_Label";
             this.ContactNumber_Label.Size = new System.Drawing.Size(68, 11);
             this.ContactNumber_Label.TabIndex = 127;
@@ -266,7 +266,7 @@
             // textBox9
             // 
             this.textBox9.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(223, 243);
+            this.textBox9.Location = new System.Drawing.Point(159, 235);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(142, 18);
             this.textBox9.TabIndex = 126;
@@ -276,7 +276,7 @@
             this.Email_label.AutoSize = true;
             this.Email_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Email_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Email_label.Location = new System.Drawing.Point(220, 227);
+            this.Email_label.Location = new System.Drawing.Point(156, 219);
             this.Email_label.Name = "Email_label";
             this.Email_label.Size = new System.Drawing.Size(29, 11);
             this.Email_label.TabIndex = 125;
@@ -285,7 +285,7 @@
             // textBox8
             // 
             this.textBox8.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(500, 206);
+            this.textBox8.Location = new System.Drawing.Point(436, 198);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(95, 18);
             this.textBox8.TabIndex = 124;
@@ -295,7 +295,7 @@
             this.MaritalStatus_Label.AutoSize = true;
             this.MaritalStatus_Label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MaritalStatus_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.MaritalStatus_Label.Location = new System.Drawing.Point(497, 190);
+            this.MaritalStatus_Label.Location = new System.Drawing.Point(434, 182);
             this.MaritalStatus_Label.Name = "MaritalStatus_Label";
             this.MaritalStatus_Label.Size = new System.Drawing.Size(58, 11);
             this.MaritalStatus_Label.TabIndex = 123;
@@ -304,7 +304,7 @@
             // textBox7
             // 
             this.textBox7.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(412, 206);
+            this.textBox7.Location = new System.Drawing.Point(348, 198);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(82, 18);
             this.textBox7.TabIndex = 122;
@@ -314,7 +314,7 @@
             this.Gender_label.AutoSize = true;
             this.Gender_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Gender_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Gender_label.Location = new System.Drawing.Point(409, 190);
+            this.Gender_label.Location = new System.Drawing.Point(345, 182);
             this.Gender_label.Name = "Gender_label";
             this.Gender_label.Size = new System.Drawing.Size(34, 11);
             this.Gender_label.TabIndex = 121;
@@ -323,7 +323,7 @@
             // textBox6
             // 
             this.textBox6.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(349, 206);
+            this.textBox6.Location = new System.Drawing.Point(285, 198);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(57, 18);
             this.textBox6.TabIndex = 120;
@@ -333,7 +333,7 @@
             this.Age_Label.AutoSize = true;
             this.Age_Label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Age_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Age_Label.Location = new System.Drawing.Point(346, 190);
+            this.Age_Label.Location = new System.Drawing.Point(282, 182);
             this.Age_Label.Name = "Age_Label";
             this.Age_Label.Size = new System.Drawing.Size(20, 11);
             this.Age_Label.TabIndex = 119;
@@ -342,7 +342,7 @@
             // textBox5
             // 
             this.textBox5.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(224, 206);
+            this.textBox5.Location = new System.Drawing.Point(160, 198);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(119, 18);
             this.textBox5.TabIndex = 118;
@@ -352,7 +352,7 @@
             this.Birthday_Label.AutoSize = true;
             this.Birthday_Label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Birthday_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Birthday_Label.Location = new System.Drawing.Point(221, 190);
+            this.Birthday_Label.Location = new System.Drawing.Point(157, 182);
             this.Birthday_Label.Name = "Birthday_Label";
             this.Birthday_Label.Size = new System.Drawing.Size(38, 11);
             this.Birthday_Label.TabIndex = 117;
@@ -361,7 +361,7 @@
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(581, 169);
+            this.textBox4.Location = new System.Drawing.Point(627, 161);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(74, 18);
             this.textBox4.TabIndex = 116;
@@ -371,7 +371,7 @@
             this.Suffix_label.AutoSize = true;
             this.Suffix_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Suffix_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Suffix_label.Location = new System.Drawing.Point(578, 153);
+            this.Suffix_label.Location = new System.Drawing.Point(625, 145);
             this.Suffix_label.Name = "Suffix_label";
             this.Suffix_label.Size = new System.Drawing.Size(27, 11);
             this.Suffix_label.TabIndex = 115;
@@ -380,9 +380,9 @@
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(476, 169);
+            this.textBox3.Location = new System.Drawing.Point(500, 161);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(99, 18);
+            this.textBox3.Size = new System.Drawing.Size(121, 18);
             this.textBox3.TabIndex = 114;
             // 
             // MiddleName_label
@@ -390,7 +390,7 @@
             this.MiddleName_label.AutoSize = true;
             this.MiddleName_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MiddleName_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.MiddleName_label.Location = new System.Drawing.Point(473, 153);
+            this.MiddleName_label.Location = new System.Drawing.Point(498, 145);
             this.MiddleName_label.Name = "MiddleName_label";
             this.MiddleName_label.Size = new System.Drawing.Size(56, 11);
             this.MiddleName_label.TabIndex = 113;
@@ -399,9 +399,9 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(349, 169);
+            this.textBox2.Location = new System.Drawing.Point(348, 161);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(121, 18);
+            this.textBox2.Size = new System.Drawing.Size(143, 18);
             this.textBox2.TabIndex = 112;
             // 
             // FirstName_label
@@ -409,7 +409,7 @@
             this.FirstName_label.AutoSize = true;
             this.FirstName_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FirstName_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.FirstName_label.Location = new System.Drawing.Point(346, 153);
+            this.FirstName_label.Location = new System.Drawing.Point(346, 145);
             this.FirstName_label.Name = "FirstName_label";
             this.FirstName_label.Size = new System.Drawing.Size(46, 11);
             this.FirstName_label.TabIndex = 111;
@@ -419,7 +419,7 @@
             // 
             this.PersonalInformation_label.AutoSize = true;
             this.PersonalInformation_label.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PersonalInformation_label.Location = new System.Drawing.Point(216, 127);
+            this.PersonalInformation_label.Location = new System.Drawing.Point(152, 119);
             this.PersonalInformation_label.Name = "PersonalInformation_label";
             this.PersonalInformation_label.Size = new System.Drawing.Size(176, 23);
             this.PersonalInformation_label.TabIndex = 110;
@@ -428,9 +428,9 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(224, 169);
+            this.textBox1.Location = new System.Drawing.Point(160, 161);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(119, 18);
+            this.textBox1.Size = new System.Drawing.Size(182, 18);
             this.textBox1.TabIndex = 109;
             // 
             // LastName_label
@@ -438,7 +438,7 @@
             this.LastName_label.AutoSize = true;
             this.LastName_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LastName_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.LastName_label.Location = new System.Drawing.Point(221, 155);
+            this.LastName_label.Location = new System.Drawing.Point(158, 147);
             this.LastName_label.Name = "LastName_label";
             this.LastName_label.Size = new System.Drawing.Size(45, 11);
             this.LastName_label.TabIndex = 108;
@@ -448,7 +448,7 @@
             // 
             this.MyProfileHeader.AutoSize = true;
             this.MyProfileHeader.Font = new System.Drawing.Font("Calibri", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MyProfileHeader.Location = new System.Drawing.Point(274, 69);
+            this.MyProfileHeader.Location = new System.Drawing.Point(278, 57);
             this.MyProfileHeader.Name = "MyProfileHeader";
             this.MyProfileHeader.Size = new System.Drawing.Size(331, 42);
             this.MyProfileHeader.TabIndex = 106;
@@ -477,7 +477,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(90, 127);
+            this.pictureBox1.Location = new System.Drawing.Point(26, 119);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(120, 120);
             this.pictureBox1.TabIndex = 107;
@@ -544,6 +544,7 @@
             this.Controls.Add(this.MyProfileHeader);
             this.Name = "EditEmployeeProfile";
             this.Size = new System.Drawing.Size(839, 489);
+            this.Load += new System.EventHandler(this.EditEmployeeProfile_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

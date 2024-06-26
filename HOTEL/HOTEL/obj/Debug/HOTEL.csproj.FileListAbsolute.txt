@@ -45,3 +45,12 @@ C:\Users\Francine\Desktop\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.csproj.Gene
 C:\Users\Francine\Desktop\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.csproj.CoreCompileInputs.cache
 C:\Users\Francine\Desktop\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.exe
 C:\Users\Francine\Desktop\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.pdb
+C:\Users\Francine\Desktop\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.AddEmployee.resources
+C:\Users\Francine\Desktop\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.AddNewGuest.resources
+C:\Users\Francine\Desktop\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.ConfirmationForm.resources
+C:\Users\Francine\Desktop\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.DialogBoxDelete.resources
+C:\Users\Francine\Desktop\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.DialogConfirmation1.resources
+C:\Users\Francine\Desktop\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.EditConfirmation.resources
+C:\Users\Francine\Desktop\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.EditDetails.resources
+C:\Users\Francine\Desktop\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.EditEmployeeProfile.resources
+C:\Users\Francine\Desktop\OOP-Case-Study\HOTEL\HOTEL\obj\Debug\HOTEL.EditReservationForm.resources

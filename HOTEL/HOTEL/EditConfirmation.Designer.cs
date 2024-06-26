@@ -40,7 +40,7 @@
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button2.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(279, 90);
+            this.button2.Location = new System.Drawing.Point(279, 95);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(151, 42);
             this.button2.TabIndex = 8;
@@ -53,7 +53,7 @@
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button1.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(42, 90);
+            this.button1.Location = new System.Drawing.Point(42, 95);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(151, 42);
             this.button1.TabIndex = 7;

@@ -52,11 +52,11 @@
     <Compile Include="AddEmployee.Designer.cs">
       <DependentUpon>AddEmployee.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddNewGuest.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="AddNewGuests.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddNewGuest.Designer.cs">
-      <DependentUpon>AddNewGuest.cs</DependentUpon>
+    <Compile Include="AddNewGuests.Designer.cs">
+      <DependentUpon>AddNewGuests.cs</DependentUpon>
     </Compile>
     <Compile Include="ConfirmationForm.cs">
       <SubType>UserControl</SubType>
@@ -88,11 +88,11 @@
     <Compile Include="EditConfirmation.Designer.cs">
       <DependentUpon>EditConfirmation.cs</DependentUpon>
     </Compile>
-    <Compile Include="EditDetails.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="EditDetail.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditDetails.Designer.cs">
-      <DependentUpon>EditDetails.cs</DependentUpon>
+    <Compile Include="EditDetail.Designer.cs">
+      <DependentUpon>EditDetail.cs</DependentUpon>
     </Compile>
     <Compile Include="EditEmployeeProfile.cs">
       <SubType>UserControl</SubType>
@@ -100,11 +100,11 @@
     <Compile Include="EditEmployeeProfile.Designer.cs">
       <DependentUpon>EditEmployeeProfile.cs</DependentUpon>
     </Compile>
-    <Compile Include="EditReservationForm.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="EditReservation.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditReservationForm.Designer.cs">
-      <DependentUpon>EditReservationForm.cs</DependentUpon>
+    <Compile Include="EditReservation.Designer.cs">
+      <DependentUpon>EditReservation.cs</DependentUpon>
     </Compile>
     <Compile Include="EmployeeAgent%28VIEW_SIDEPAGE%29.cs">
       <SubType>UserControl</SubType>
@@ -196,8 +196,8 @@
     <EmbeddedResource Include="AddEmployee.resx">
       <DependentUpon>AddEmployee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddNewGuest.resx">
-      <DependentUpon>AddNewGuest.cs</DependentUpon>
+    <EmbeddedResource Include="AddNewGuests.resx">
+      <DependentUpon>AddNewGuests.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ConfirmationForm.resx">
       <DependentUpon>ConfirmationForm.cs</DependentUpon>
@@ -214,14 +214,14 @@
     <EmbeddedResource Include="EditConfirmation.resx">
       <DependentUpon>EditConfirmation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EditDetails.resx">
-      <DependentUpon>EditDetails.cs</DependentUpon>
+    <EmbeddedResource Include="EditDetail.resx">
+      <DependentUpon>EditDetail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditEmployeeProfile.resx">
       <DependentUpon>EditEmployeeProfile.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EditReservationForm.resx">
-      <DependentUpon>EditReservationForm.cs</DependentUpon>
+    <EmbeddedResource Include="EditReservation.resx">
+      <DependentUpon>EditReservation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmployeeAgent%28VIEW_SIDEPAGE%29.resx">
       <DependentUpon>EmployeeAgent%28VIEW_SIDEPAGE%29.cs</DependentUpon>

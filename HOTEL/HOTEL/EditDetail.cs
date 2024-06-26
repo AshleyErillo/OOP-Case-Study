@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace HOTEL
 {
-    public partial class EditEmployeeProfile : UserControl
+    public partial class EditDetail : Form
     {
-        public EditEmployeeProfile()
+        public EditDetail()
         {
             InitializeComponent();
         }
 
-        private void EditEmployeeProfile_Load(object sender, EventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
