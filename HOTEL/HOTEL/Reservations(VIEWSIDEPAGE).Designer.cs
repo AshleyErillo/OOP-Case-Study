@@ -57,9 +57,8 @@
             // 
             // Close_Icon
             // 
-            this.Close_Icon.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Close_Icon.Image = global::HOTEL.Properties.Resources.x_square_icon;
-            this.Close_Icon.Location = new System.Drawing.Point(340, 5);
+            this.Close_Icon.Location = new System.Drawing.Point(340, 14);
             this.Close_Icon.Name = "Close_Icon";
             this.Close_Icon.Size = new System.Drawing.Size(25, 25);
             this.Close_Icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -68,11 +67,10 @@
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label1.Location = new System.Drawing.Point(94, 89);
+            this.label1.Location = new System.Drawing.Point(94, 98);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(84, 13);
             this.label1.TabIndex = 9;
@@ -80,11 +78,10 @@
             // 
             // email
             // 
-            this.email.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.email.AutoSize = true;
             this.email.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.email.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.email.Location = new System.Drawing.Point(94, 76);
+            this.email.Location = new System.Drawing.Point(94, 85);
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(37, 13);
             this.email.TabIndex = 8;
@@ -92,10 +89,9 @@
             // 
             // GuestName
             // 
-            this.GuestName.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.GuestName.AutoSize = true;
             this.GuestName.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GuestName.Location = new System.Drawing.Point(94, 57);
+            this.GuestName.Location = new System.Drawing.Point(94, 66);
             this.GuestName.Name = "GuestName";
             this.GuestName.Size = new System.Drawing.Size(92, 19);
             this.GuestName.TabIndex = 7;
@@ -103,8 +99,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox2.Location = new System.Drawing.Point(13, 40);
+            this.pictureBox2.Location = new System.Drawing.Point(13, 49);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(75, 75);
             this.pictureBox2.TabIndex = 6;
@@ -112,11 +107,10 @@
             // 
             // GuestID_Label
             // 
-            this.GuestID_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.GuestID_Label.AutoSize = true;
             this.GuestID_Label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GuestID_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.GuestID_Label.Location = new System.Drawing.Point(95, 44);
+            this.GuestID_Label.Location = new System.Drawing.Point(95, 53);
             this.GuestID_Label.Name = "GuestID_Label";
             this.GuestID_Label.Size = new System.Drawing.Size(50, 13);
             this.GuestID_Label.TabIndex = 10;
@@ -124,13 +118,12 @@
             // 
             // CheckInvoice_Label
             // 
-            this.CheckInvoice_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CheckInvoice_Label.BackColor = System.Drawing.Color.Gold;
             this.CheckInvoice_Label.FlatAppearance.BorderSize = 0;
             this.CheckInvoice_Label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CheckInvoice_Label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CheckInvoice_Label.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.CheckInvoice_Label.Location = new System.Drawing.Point(253, 89);
+            this.CheckInvoice_Label.Location = new System.Drawing.Point(253, 98);
             this.CheckInvoice_Label.Name = "CheckInvoice_Label";
             this.CheckInvoice_Label.Size = new System.Drawing.Size(112, 28);
             this.CheckInvoice_Label.TabIndex = 66;
@@ -139,11 +132,10 @@
             // 
             // Details_Label
             // 
-            this.Details_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Details_Label.AutoSize = true;
             this.Details_Label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Details_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Details_Label.Location = new System.Drawing.Point(10, 247);
+            this.Details_Label.Location = new System.Drawing.Point(10, 256);
             this.Details_Label.Name = "Details_Label";
             this.Details_Label.Size = new System.Drawing.Size(73, 13);
             this.Details_Label.TabIndex = 76;
@@ -151,11 +143,10 @@
             // 
             // Numberofguest_label
             // 
-            this.Numberofguest_label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Numberofguest_label.AutoSize = true;
             this.Numberofguest_label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Numberofguest_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Numberofguest_label.Location = new System.Drawing.Point(163, 234);
+            this.Numberofguest_label.Location = new System.Drawing.Point(163, 243);
             this.Numberofguest_label.Name = "Numberofguest_label";
             this.Numberofguest_label.Size = new System.Drawing.Size(89, 13);
             this.Numberofguest_label.TabIndex = 75;
@@ -163,11 +154,10 @@
             // 
             // RoomNumber_label
             // 
-            this.RoomNumber_label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.RoomNumber_label.AutoSize = true;
             this.RoomNumber_label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RoomNumber_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.RoomNumber_label.Location = new System.Drawing.Point(10, 234);
+            this.RoomNumber_label.Location = new System.Drawing.Point(10, 243);
             this.RoomNumber_label.Name = "RoomNumber_label";
             this.RoomNumber_label.Size = new System.Drawing.Size(55, 13);
             this.RoomNumber_label.TabIndex = 74;
@@ -175,11 +165,10 @@
             // 
             // RoomType_label
             // 
-            this.RoomType_label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.RoomType_label.AutoSize = true;
             this.RoomType_label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RoomType_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.RoomType_label.Location = new System.Drawing.Point(10, 221);
+            this.RoomType_label.Location = new System.Drawing.Point(10, 230);
             this.RoomType_label.Name = "RoomType_label";
             this.RoomType_label.Size = new System.Drawing.Size(61, 13);
             this.RoomType_label.TabIndex = 73;
@@ -187,10 +176,9 @@
             // 
             // RoomPreference_Label
             // 
-            this.RoomPreference_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.RoomPreference_Label.AutoSize = true;
             this.RoomPreference_Label.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RoomPreference_Label.Location = new System.Drawing.Point(10, 206);
+            this.RoomPreference_Label.Location = new System.Drawing.Point(10, 215);
             this.RoomPreference_Label.Name = "RoomPreference_Label";
             this.RoomPreference_Label.Size = new System.Drawing.Size(103, 15);
             this.RoomPreference_Label.TabIndex = 72;
@@ -198,11 +186,10 @@
             // 
             // Address_label
             // 
-            this.Address_label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Address_label.AutoSize = true;
             this.Address_label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Address_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Address_label.Location = new System.Drawing.Point(10, 180);
+            this.Address_label.Location = new System.Drawing.Point(10, 189);
             this.Address_label.Name = "Address_label";
             this.Address_label.Size = new System.Drawing.Size(48, 13);
             this.Address_label.TabIndex = 71;
@@ -210,11 +197,10 @@
             // 
             // nationality_label
             // 
-            this.nationality_label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.nationality_label.AutoSize = true;
             this.nationality_label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nationality_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.nationality_label.Location = new System.Drawing.Point(10, 167);
+            this.nationality_label.Location = new System.Drawing.Point(10, 176);
             this.nationality_label.Name = "nationality_label";
             this.nationality_label.Size = new System.Drawing.Size(62, 13);
             this.nationality_label.TabIndex = 70;
@@ -222,11 +208,10 @@
             // 
             // Birthdate_labek
             // 
-            this.Birthdate_labek.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Birthdate_labek.AutoSize = true;
             this.Birthdate_labek.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Birthdate_labek.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Birthdate_labek.Location = new System.Drawing.Point(10, 154);
+            this.Birthdate_labek.Location = new System.Drawing.Point(10, 163);
             this.Birthdate_labek.Name = "Birthdate_labek";
             this.Birthdate_labek.Size = new System.Drawing.Size(55, 13);
             this.Birthdate_labek.TabIndex = 69;
@@ -234,11 +219,10 @@
             // 
             // Age_label
             // 
-            this.Age_label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Age_label.AutoSize = true;
             this.Age_label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Age_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Age_label.Location = new System.Drawing.Point(10, 141);
+            this.Age_label.Location = new System.Drawing.Point(10, 150);
             this.Age_label.Name = "Age_label";
             this.Age_label.Size = new System.Drawing.Size(27, 13);
             this.Age_label.TabIndex = 68;
@@ -246,10 +230,9 @@
             // 
             // PersonalInformation_Label
             // 
-            this.PersonalInformation_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PersonalInformation_Label.AutoSize = true;
             this.PersonalInformation_Label.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PersonalInformation_Label.Location = new System.Drawing.Point(10, 126);
+            this.PersonalInformation_Label.Location = new System.Drawing.Point(10, 135);
             this.PersonalInformation_Label.Name = "PersonalInformation_Label";
             this.PersonalInformation_Label.Size = new System.Drawing.Size(122, 15);
             this.PersonalInformation_Label.TabIndex = 67;
@@ -257,11 +240,10 @@
             // 
             // ArrivalDate
             // 
-            this.ArrivalDate.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ArrivalDate.AutoSize = true;
             this.ArrivalDate.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ArrivalDate.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ArrivalDate.Location = new System.Drawing.Point(10, 260);
+            this.ArrivalDate.Location = new System.Drawing.Point(10, 269);
             this.ArrivalDate.Name = "ArrivalDate";
             this.ArrivalDate.Size = new System.Drawing.Size(66, 13);
             this.ArrivalDate.TabIndex = 77;
@@ -269,11 +251,10 @@
             // 
             // DepartureDate
             // 
-            this.DepartureDate.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.DepartureDate.AutoSize = true;
             this.DepartureDate.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DepartureDate.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.DepartureDate.Location = new System.Drawing.Point(163, 260);
+            this.DepartureDate.Location = new System.Drawing.Point(163, 269);
             this.DepartureDate.Name = "DepartureDate";
             this.DepartureDate.Size = new System.Drawing.Size(84, 13);
             this.DepartureDate.TabIndex = 78;
@@ -281,11 +262,10 @@
             // 
             // label3
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label3.Location = new System.Drawing.Point(10, 320);
+            this.label3.Location = new System.Drawing.Point(10, 329);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(153, 13);
             this.label3.TabIndex = 81;
@@ -293,11 +273,10 @@
             // 
             // ModeofPayment_Label
             // 
-            this.ModeofPayment_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ModeofPayment_Label.AutoSize = true;
             this.ModeofPayment_Label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ModeofPayment_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ModeofPayment_Label.Location = new System.Drawing.Point(10, 307);
+            this.ModeofPayment_Label.Location = new System.Drawing.Point(10, 316);
             this.ModeofPayment_Label.Name = "ModeofPayment_Label";
             this.ModeofPayment_Label.Size = new System.Drawing.Size(92, 13);
             this.ModeofPayment_Label.TabIndex = 80;
@@ -305,10 +284,9 @@
             // 
             // PaymentDetails_Label
             // 
-            this.PaymentDetails_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PaymentDetails_Label.AutoSize = true;
             this.PaymentDetails_Label.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PaymentDetails_Label.Location = new System.Drawing.Point(9, 292);
+            this.PaymentDetails_Label.Location = new System.Drawing.Point(9, 301);
             this.PaymentDetails_Label.Name = "PaymentDetails_Label";
             this.PaymentDetails_Label.Size = new System.Drawing.Size(96, 15);
             this.PaymentDetails_Label.TabIndex = 79;
@@ -316,10 +294,9 @@
             // 
             // PaymentStatus_Label
             // 
-            this.PaymentStatus_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PaymentStatus_Label.AutoSize = true;
             this.PaymentStatus_Label.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PaymentStatus_Label.Location = new System.Drawing.Point(10, 342);
+            this.PaymentStatus_Label.Location = new System.Drawing.Point(10, 351);
             this.PaymentStatus_Label.Name = "PaymentStatus_Label";
             this.PaymentStatus_Label.Size = new System.Drawing.Size(97, 15);
             this.PaymentStatus_Label.TabIndex = 82;
@@ -354,7 +331,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.Close_Icon);
             this.Name = "Reservations_VIEWSIDEPAGE_";
-            this.Size = new System.Drawing.Size(372, 386);
+            this.Size = new System.Drawing.Size(372, 404);
             ((System.ComponentModel.ISupportInitialize)(this.Close_Icon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

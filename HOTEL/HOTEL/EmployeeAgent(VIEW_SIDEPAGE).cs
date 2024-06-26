@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HOTEL
 {
-    public partial class EMPAGE_VIEWSIDE : UserControl
+    public partial class EMPLOY_AGE_VEIW : UserControl
     {
-        public EMPAGE_VIEWSIDE()
+        public EMPLOY_AGE_VEIW()
         {
             InitializeComponent();
         }
@@ -21,5 +21,6 @@ namespace HOTEL
         {
 
         }
+
     }
 }

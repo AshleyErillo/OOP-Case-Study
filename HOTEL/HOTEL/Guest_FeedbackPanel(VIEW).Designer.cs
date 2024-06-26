@@ -30,11 +30,11 @@
         {
             this.FeedbackHeader = new System.Windows.Forms.Label();
             this.FeedbackBox = new System.Windows.Forms.GroupBox();
-            this.GuestName = new System.Windows.Forms.Label();
-            this.Category_Label = new System.Windows.Forms.Label();
-            this.GuestRating = new System.Windows.Forms.Label();
-            this.Comment_Text = new System.Windows.Forms.Label();
             this.TimeStamp = new System.Windows.Forms.Label();
+            this.Comment_Text = new System.Windows.Forms.Label();
+            this.GuestRating = new System.Windows.Forms.Label();
+            this.Category_Label = new System.Windows.Forms.Label();
+            this.GuestName = new System.Windows.Forms.Label();
             this.NumberofFeedbacks_Label = new System.Windows.Forms.Label();
             this.FeedbackBox.SuspendLayout();
             this.SuspendLayout();
@@ -51,6 +51,8 @@
             // 
             // FeedbackBox
             // 
+            this.FeedbackBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.FeedbackBox.BackColor = System.Drawing.Color.WhiteSmoke;
             this.FeedbackBox.Controls.Add(this.TimeStamp);
             this.FeedbackBox.Controls.Add(this.Comment_Text);
@@ -65,37 +67,17 @@
             this.FeedbackBox.TabStop = false;
             this.FeedbackBox.Text = "Feedback";
             // 
-            // GuestName
+            // TimeStamp
             // 
-            this.GuestName.AutoSize = true;
-            this.GuestName.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GuestName.Location = new System.Drawing.Point(6, 17);
-            this.GuestName.Name = "GuestName";
-            this.GuestName.Size = new System.Drawing.Size(98, 21);
-            this.GuestName.TabIndex = 0;
-            this.GuestName.Text = "Guest Name";
-            // 
-            // Category_Label
-            // 
-            this.Category_Label.AutoSize = true;
-            this.Category_Label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Category_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Category_Label.Location = new System.Drawing.Point(11, 37);
-            this.Category_Label.Name = "Category_Label";
-            this.Category_Label.Size = new System.Drawing.Size(39, 11);
-            this.Category_Label.TabIndex = 1;
-            this.Category_Label.Text = "Category:";
-            // 
-            // GuestRating
-            // 
-            this.GuestRating.AutoSize = true;
-            this.GuestRating.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GuestRating.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.GuestRating.Location = new System.Drawing.Point(164, 37);
-            this.GuestRating.Name = "GuestRating";
-            this.GuestRating.Size = new System.Drawing.Size(54, 11);
-            this.GuestRating.TabIndex = 2;
-            this.GuestRating.Text = "Guest Rating:";
+            this.TimeStamp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.TimeStamp.AutoSize = true;
+            this.TimeStamp.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.TimeStamp.Location = new System.Drawing.Point(545, 70);
+            this.TimeStamp.Name = "TimeStamp";
+            this.TimeStamp.Size = new System.Drawing.Size(59, 18);
+            this.TimeStamp.TabIndex = 4;
+            this.TimeStamp.Text = "Time Stamp";
+            this.TimeStamp.UseCompatibleTextRendering = true;
             // 
             // Comment_Text
             // 
@@ -108,19 +90,41 @@
             this.Comment_Text.TabIndex = 3;
             this.Comment_Text.Text = "Comment";
             // 
-            // TimeStamp
+            // GuestRating
             // 
-            this.TimeStamp.AutoSize = true;
-            this.TimeStamp.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.TimeStamp.Location = new System.Drawing.Point(545, 70);
-            this.TimeStamp.Name = "TimeStamp";
-            this.TimeStamp.Size = new System.Drawing.Size(59, 18);
-            this.TimeStamp.TabIndex = 4;
-            this.TimeStamp.Text = "Time Stamp";
-            this.TimeStamp.UseCompatibleTextRendering = true;
+            this.GuestRating.AutoSize = true;
+            this.GuestRating.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GuestRating.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.GuestRating.Location = new System.Drawing.Point(164, 37);
+            this.GuestRating.Name = "GuestRating";
+            this.GuestRating.Size = new System.Drawing.Size(54, 11);
+            this.GuestRating.TabIndex = 2;
+            this.GuestRating.Text = "Guest Rating:";
+            // 
+            // Category_Label
+            // 
+            this.Category_Label.AutoSize = true;
+            this.Category_Label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Category_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.Category_Label.Location = new System.Drawing.Point(11, 37);
+            this.Category_Label.Name = "Category_Label";
+            this.Category_Label.Size = new System.Drawing.Size(39, 11);
+            this.Category_Label.TabIndex = 1;
+            this.Category_Label.Text = "Category:";
+            // 
+            // GuestName
+            // 
+            this.GuestName.AutoSize = true;
+            this.GuestName.Font = new System.Drawing.Font("Calibri", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GuestName.Location = new System.Drawing.Point(6, 17);
+            this.GuestName.Name = "GuestName";
+            this.GuestName.Size = new System.Drawing.Size(98, 21);
+            this.GuestName.TabIndex = 0;
+            this.GuestName.Text = "Guest Name";
             // 
             // NumberofFeedbacks_Label
             // 
+            this.NumberofFeedbacks_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.NumberofFeedbacks_Label.AutoSize = true;
             this.NumberofFeedbacks_Label.Font = new System.Drawing.Font("Calibri", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NumberofFeedbacks_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -135,6 +139,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Controls.Add(this.NumberofFeedbacks_Label);
             this.Controls.Add(this.FeedbackBox);

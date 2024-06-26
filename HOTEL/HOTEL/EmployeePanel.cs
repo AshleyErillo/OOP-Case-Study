@@ -20,7 +20,7 @@ namespace HOTEL
         private void Profile_button_Click(object sender, EventArgs e)
         {
             myProfile1.Show();
-            employeePage_EMPLOYEE_AGENTS_1.Hide();
+            Employee_AgentsPANEL.Hide();
 
             Profile_button.BackColor = Color.Gold;
             EmployeeAgents_Button.BackColor = Color.White;
@@ -28,12 +28,17 @@ namespace HOTEL
 
         private void EmployeeAgents_Button_Click(object sender, EventArgs e)
         {
-            employeePage_EMPLOYEE_AGENTS_1.Show();
+            Employee_AgentsPANEL.Show();
             myProfile1.Hide();
 
             EmployeeAgents_Button.BackColor = Color.Gold;
             Profile_button.BackColor = Color.White;
         }
 
+        private void EmployeePanel_Load(object sender, EventArgs e)
+        {
+            myProfile1.Show();
+            Employee_AgentsPANEL.Hide();
+        }
     }
 }

@@ -60,6 +60,9 @@
             // 
             // vScrollBar1
             // 
+            this.vScrollBar1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.vScrollBar1.Location = new System.Drawing.Point(0, 0);
             this.vScrollBar1.Name = "vScrollBar1";
             this.vScrollBar1.Size = new System.Drawing.Size(17, 386);
@@ -67,6 +70,9 @@
             // 
             // GuestName
             // 
+            this.GuestName.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.GuestName.AutoSize = true;
             this.GuestName.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GuestName.Location = new System.Drawing.Point(101, 51);
@@ -77,6 +83,9 @@
             // 
             // email
             // 
+            this.email.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.email.AutoSize = true;
             this.email.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.email.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -88,6 +97,9 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -99,6 +111,9 @@
             // 
             // PersonalInformation_Label
             // 
+            this.PersonalInformation_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.PersonalInformation_Label.AutoSize = true;
             this.PersonalInformation_Label.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PersonalInformation_Label.Location = new System.Drawing.Point(20, 116);
@@ -109,6 +124,9 @@
             // 
             // Age_label
             // 
+            this.Age_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Age_label.AutoSize = true;
             this.Age_label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Age_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -120,6 +138,9 @@
             // 
             // Birthdate_labek
             // 
+            this.Birthdate_labek.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Birthdate_labek.AutoSize = true;
             this.Birthdate_labek.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Birthdate_labek.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -131,6 +152,9 @@
             // 
             // nationality_label
             // 
+            this.nationality_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.nationality_label.AutoSize = true;
             this.nationality_label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nationality_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -142,6 +166,9 @@
             // 
             // Address_label
             // 
+            this.Address_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Address_label.AutoSize = true;
             this.Address_label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Address_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -153,6 +180,9 @@
             // 
             // RoomPreference_Label
             // 
+            this.RoomPreference_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.RoomPreference_Label.AutoSize = true;
             this.RoomPreference_Label.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RoomPreference_Label.Location = new System.Drawing.Point(20, 196);
@@ -163,6 +193,9 @@
             // 
             // RoomType_label
             // 
+            this.RoomType_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.RoomType_label.AutoSize = true;
             this.RoomType_label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RoomType_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -174,6 +207,9 @@
             // 
             // RoomNumber_label
             // 
+            this.RoomNumber_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.RoomNumber_label.AutoSize = true;
             this.RoomNumber_label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RoomNumber_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -185,6 +221,9 @@
             // 
             // PaymentDetails_Label
             // 
+            this.PaymentDetails_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.PaymentDetails_Label.AutoSize = true;
             this.PaymentDetails_Label.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PaymentDetails_Label.Location = new System.Drawing.Point(20, 263);
@@ -195,6 +234,9 @@
             // 
             // Details_Label
             // 
+            this.Details_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Details_Label.AutoSize = true;
             this.Details_Label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Details_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -206,6 +248,9 @@
             // 
             // ModeofPayment_Label
             // 
+            this.ModeofPayment_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ModeofPayment_Label.AutoSize = true;
             this.ModeofPayment_Label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ModeofPayment_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -217,6 +262,9 @@
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -228,6 +276,8 @@
             // 
             // BookingDetailsHistory_Label
             // 
+            this.BookingDetailsHistory_Label.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.BookingDetailsHistory_Label.BackColor = System.Drawing.Color.Gold;
             this.BookingDetailsHistory_Label.FlatAppearance.BorderSize = 0;
             this.BookingDetailsHistory_Label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -241,6 +291,9 @@
             // 
             // BookingHistory_Box
             // 
+            this.BookingHistory_Box.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.BookingHistory_Box.Controls.Add(this.label2);
             this.BookingHistory_Box.Controls.Add(this.ArrivalDate_Date);
             this.BookingHistory_Box.Controls.Add(this.Status_Label);
@@ -255,6 +308,9 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -266,6 +322,9 @@
             // 
             // ArrivalDate_Date
             // 
+            this.ArrivalDate_Date.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ArrivalDate_Date.AutoSize = true;
             this.ArrivalDate_Date.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ArrivalDate_Date.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -277,6 +336,9 @@
             // 
             // Status_Label
             // 
+            this.Status_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Status_Label.AutoSize = true;
             this.Status_Label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Status_Label.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -288,6 +350,9 @@
             // 
             // DepartureDate
             // 
+            this.DepartureDate.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.DepartureDate.AutoSize = true;
             this.DepartureDate.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DepartureDate.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -299,6 +364,9 @@
             // 
             // ArrivalDate_Text
             // 
+            this.ArrivalDate_Text.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ArrivalDate_Text.AutoSize = true;
             this.ArrivalDate_Text.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ArrivalDate_Text.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -310,6 +378,9 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Location = new System.Drawing.Point(20, 38);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(75, 75);
@@ -318,6 +389,8 @@
             // 
             // Close_Icon
             // 
+            this.Close_Icon.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Close_Icon.Image = global::HOTEL.Properties.Resources.x_square_icon;
             this.Close_Icon.Location = new System.Drawing.Point(340, 5);
             this.Close_Icon.Name = "Close_Icon";

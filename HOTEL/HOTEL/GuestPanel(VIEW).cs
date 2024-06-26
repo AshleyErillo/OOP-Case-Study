@@ -17,5 +17,10 @@ namespace HOTEL
             InitializeComponent();
         }
 
+        private void GuestPanel_VIEW__Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

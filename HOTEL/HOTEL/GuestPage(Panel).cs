@@ -19,8 +19,8 @@ namespace HOTEL
 
         private void Guest_button_Click(object sender, EventArgs e)
         {
-            GuestPanel.Show();
-            guest_FeedbackPanel_VIEW_1.Hide();
+            guestPanel_VIEW_2.Show();
+            guest_FeedbackPanel_VIEW_3.Hide();
 
             Guest_button.BackColor = Color.Gold;
             Feedback_Button.BackColor = Color.White;
@@ -29,21 +29,12 @@ namespace HOTEL
 
         private void Feedback_Button_Click(object sender, EventArgs e)
         {
-            guest_FeedbackPanel_VIEW_1.Show();
-            GuestPanel.Hide();
+            guest_FeedbackPanel_VIEW_3.Show();
+            guestPanel_VIEW_2.Hide();
 
             Feedback_Button.BackColor = Color.Gold;
             Guest_button.BackColor = Color.White;
         }
 
-        private void GuestPanel_VIEW_1_Load(object sender, EventArgs e)
-        {
-            guest_FeedbackPanel_VIEW_1.Hide();
-        }
-
-        private void GuestPanel_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
