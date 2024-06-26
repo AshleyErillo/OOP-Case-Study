@@ -41,7 +41,6 @@
             this.View_Icon = new System.Windows.Forms.PictureBox();
             this.FilterSearch_Textbox = new System.Windows.Forms.TextBox();
             this.FilterSearch_Label = new System.Windows.Forms.Label();
-            this.empagE_VIEWSIDE1 = new HOTEL.EMPAGE_VIEWSIDE();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Edit_Icon)).BeginInit();
@@ -209,20 +208,11 @@
             this.FilterSearch_Label.TabIndex = 5;
             this.FilterSearch_Label.Text = "Search:";
             // 
-            // empagE_VIEWSIDE1
-            // 
-            this.empagE_VIEWSIDE1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.empagE_VIEWSIDE1.Location = new System.Drawing.Point(265, -1);
-            this.empagE_VIEWSIDE1.Name = "empagE_VIEWSIDE1";
-            this.empagE_VIEWSIDE1.Size = new System.Drawing.Size(372, 386);
-            this.empagE_VIEWSIDE1.TabIndex = 69;
-            // 
             // EmployeePage_EMPLOYEE_AGENTS_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Controls.Add(this.empagE_VIEWSIDE1);
             this.Controls.Add(this.FilterSearch_Label);
             this.Controls.Add(this.FilterSearch_Textbox);
             this.Controls.Add(this.tableLayoutPanel2);
@@ -257,6 +247,5 @@
         private System.Windows.Forms.PictureBox Edit_Icon;
         private System.Windows.Forms.TextBox FilterSearch_Textbox;
         private System.Windows.Forms.Label FilterSearch_Label;
-        private EMPAGE_VIEWSIDE empagE_VIEWSIDE1;
     }
 }
