@@ -135,9 +135,9 @@
             this.panel1.Controls.Add(this.textBox3);
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Location = new System.Drawing.Point(16, 39);
+            this.panel1.Location = new System.Drawing.Point(12, 39);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(790, 478);
+            this.panel1.Size = new System.Drawing.Size(811, 478);
             this.panel1.TabIndex = 90;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -145,7 +145,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.Yellow;
             this.button2.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(580, 410);
+            this.button2.Location = new System.Drawing.Point(592, 411);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(191, 45);
             this.button2.TabIndex = 150;
@@ -589,7 +589,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(835, 450);
+            this.ClientSize = new System.Drawing.Size(852, 450);
             this.Controls.Add(this.textBox39);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);

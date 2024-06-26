@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddEmployee.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="AddEmployees.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddEmployee.Designer.cs">
-      <DependentUpon>AddEmployee.cs</DependentUpon>
+    <Compile Include="AddEmployees.Designer.cs">
+      <DependentUpon>AddEmployees.cs</DependentUpon>
     </Compile>
     <Compile Include="AddNewGuests.cs">
       <SubType>Form</SubType>
@@ -94,11 +94,11 @@
     <Compile Include="EditDetail.Designer.cs">
       <DependentUpon>EditDetail.cs</DependentUpon>
     </Compile>
-    <Compile Include="EditEmployeeProfile.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="EditEmployeeProfiles.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EditEmployeeProfile.Designer.cs">
-      <DependentUpon>EditEmployeeProfile.cs</DependentUpon>
+    <Compile Include="EditEmployeeProfiles.Designer.cs">
+      <DependentUpon>EditEmployeeProfiles.cs</DependentUpon>
     </Compile>
     <Compile Include="EditReservation.cs">
       <SubType>Form</SubType>
@@ -193,8 +193,8 @@
     <Compile Include="ReservationsPANEL.Designer.cs">
       <DependentUpon>ReservationsPANEL.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddEmployee.resx">
-      <DependentUpon>AddEmployee.cs</DependentUpon>
+    <EmbeddedResource Include="AddEmployees.resx">
+      <DependentUpon>AddEmployees.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AddNewGuests.resx">
       <DependentUpon>AddNewGuests.cs</DependentUpon>
@@ -217,8 +217,8 @@
     <EmbeddedResource Include="EditDetail.resx">
       <DependentUpon>EditDetail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EditEmployeeProfile.resx">
-      <DependentUpon>EditEmployeeProfile.cs</DependentUpon>
+    <EmbeddedResource Include="EditEmployeeProfiles.resx">
+      <DependentUpon>EditEmployeeProfiles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EditReservation.resx">
       <DependentUpon>EditReservation.cs</DependentUpon>
