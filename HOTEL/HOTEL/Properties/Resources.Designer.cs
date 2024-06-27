@@ -73,6 +73,26 @@ namespace HOTEL.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Colebemis_Feather_Arrow_left_512 {
+            get {
+                object obj = ResourceManager.GetObject("Colebemis-Feather-Arrow-left.512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Colebemis_Feather_Maximize_2_512 {
+            get {
+                object obj = ResourceManager.GetObject("Colebemis-Feather-Maximize-2.512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap edit_icon {
             get {
                 object obj = ResourceManager.GetObject("edit-icon", resourceCulture);
