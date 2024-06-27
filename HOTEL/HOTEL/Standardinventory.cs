@@ -19,8 +19,8 @@ namespace HOTEL
 
         private void Backstandard3_Click(object sender, EventArgs e)
         {
-            var Mainpage = new Standardadd();
-            Mainpage.Show();
+            Standardadd back = new Standardadd();
+            back.Show();
             this.Hide();
         }
 

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HOTEL
 {
-    public partial class Updeluxe1 : Form
+    public partial class Delroom : UserControl
     {
-        public Updeluxe1()
+        public Delroom()
         {
             InitializeComponent();
         }
@@ -22,6 +22,7 @@ namespace HOTEL
             var Mainpage = new Deluxeadd();
             Mainpage.Show();
             this.Hide();
+
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace HOTEL
 {
-    partial class deluxeadd
+    partial class Deluxeadd
     {
         /// <summary> 
         /// Required designer variable.
@@ -52,7 +52,6 @@
             this.SuiteUpDown13 = new System.Windows.Forms.NumericUpDown();
             this.SuiteUpDown12 = new System.Windows.Forms.NumericUpDown();
             this.SuiteUpDown11 = new System.Windows.Forms.NumericUpDown();
-            this.Backdeluxeadd2 = new System.Windows.Forms.PictureBox();
             this.Backdeluxe2 = new System.Windows.Forms.Button();
             this.Nextdeluxeadd2 = new System.Windows.Forms.Button();
             this.Titledeluxeroom2 = new System.Windows.Forms.TextBox();
@@ -78,7 +77,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.SuiteUpDown13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SuiteUpDown12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SuiteUpDown11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Backdeluxeadd2)).BeginInit();
             this.SuspendLayout();
             // 
             // Amenitiesdeluxe2
@@ -387,16 +385,6 @@
             this.SuiteUpDown11.TabIndex = 19;
             this.SuiteUpDown11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // Backdeluxeadd2
-            // 
-            this.Backdeluxeadd2.Image = global::HOTEL.Properties.Resources.Colebemis_Feather_Arrow_left_512;
-            this.Backdeluxeadd2.Location = new System.Drawing.Point(23, 23);
-            this.Backdeluxeadd2.Name = "Backdeluxeadd2";
-            this.Backdeluxeadd2.Size = new System.Drawing.Size(37, 33);
-            this.Backdeluxeadd2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Backdeluxeadd2.TabIndex = 2;
-            this.Backdeluxeadd2.TabStop = false;
-            // 
             // Backdeluxe2
             // 
             this.Backdeluxe2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -468,7 +456,6 @@
             this.Controls.Add(this.Titledeluxeroom2);
             this.Controls.Add(this.Nextdeluxeadd2);
             this.Controls.Add(this.Backdeluxe2);
-            this.Controls.Add(this.Backdeluxeadd2);
             this.Controls.Add(this.Inventorydeluxe2);
             this.Controls.Add(this.Amenitiesdeluxe2);
             this.Name = "deluxeadd";
@@ -495,7 +482,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.SuiteUpDown13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SuiteUpDown12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SuiteUpDown11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Backdeluxeadd2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -505,7 +491,6 @@
 
         private System.Windows.Forms.Panel Amenitiesdeluxe2;
         private System.Windows.Forms.Panel Inventorydeluxe2;
-        private System.Windows.Forms.PictureBox Backdeluxeadd2;
         private System.Windows.Forms.Button Backdeluxe2;
         private System.Windows.Forms.Button Nextdeluxeadd2;
         private System.Windows.Forms.TextBox Titledeluxeroom2;

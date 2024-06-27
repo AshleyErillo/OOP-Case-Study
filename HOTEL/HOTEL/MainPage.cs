@@ -91,5 +91,14 @@ namespace HOTEL
 
         }
 
+        private void MainPage_Panel1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Dashboard1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

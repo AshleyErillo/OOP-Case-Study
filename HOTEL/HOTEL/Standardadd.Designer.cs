@@ -359,6 +359,7 @@
             this.Controls.Add(this.Amenitiesstandard2);
             this.Name = "Standardadd";
             this.Size = new System.Drawing.Size(890, 559);
+            this.Load += new System.EventHandler(this.Standardadd_Load);
             this.Amenitiesstandard2.ResumeLayout(false);
             this.Amenitiesstandard2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.UpDown5)).EndInit();

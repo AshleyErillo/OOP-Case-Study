@@ -28,7 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.Day6 = new System.Windows.Forms.TextBox();
+            this.Day5 = new System.Windows.Forms.TextBox();
+            this.Titledash = new System.Windows.Forms.TextBox();
+            this.Titleavail = new System.Windows.Forms.TextBox();
+            this.Zero2 = new System.Windows.Forms.TextBox();
+            this.Day4 = new System.Windows.Forms.TextBox();
+            this.Countguest = new System.Windows.Forms.Label();
+            this.Zero7 = new System.Windows.Forms.TextBox();
+            this.Zero6 = new System.Windows.Forms.TextBox();
             this.Perweek = new System.Windows.Forms.TableLayoutPanel();
             this.Sun = new System.Windows.Forms.Label();
             this.Sat = new System.Windows.Forms.Label();
@@ -38,82 +46,161 @@
             this.Tues = new System.Windows.Forms.Label();
             this.Mon = new System.Windows.Forms.Label();
             this.Day7 = new System.Windows.Forms.TextBox();
-            this.Day6 = new System.Windows.Forms.TextBox();
-            this.Day5 = new System.Windows.Forms.TextBox();
-            this.Day4 = new System.Windows.Forms.TextBox();
             this.Day3 = new System.Windows.Forms.TextBox();
             this.Day2 = new System.Windows.Forms.TextBox();
             this.Day1 = new System.Windows.Forms.TextBox();
-            this.Bsuite = new System.Windows.Forms.TextBox();
-            this.Titledash = new System.Windows.Forms.TextBox();
+            this.Pstandard = new System.Windows.Forms.Panel();
+            this.Nstan1 = new System.Windows.Forms.Label();
+            this.Navstandard = new System.Windows.Forms.PictureBox();
+            this.Pdeluxe = new System.Windows.Forms.Panel();
+            this.Ndel1 = new System.Windows.Forms.Label();
+            this.Navdeluxe = new System.Windows.Forms.PictureBox();
+            this.Zero4 = new System.Windows.Forms.TextBox();
+            this.Zero3 = new System.Windows.Forms.TextBox();
+            this.Zero5 = new System.Windows.Forms.TextBox();
+            this.Zero1 = new System.Windows.Forms.TextBox();
+            this.Panelperweek = new System.Windows.Forms.Panel();
             this.Countperweek = new System.Windows.Forms.Label();
-            this.Titleavail = new System.Windows.Forms.TextBox();
+            this.Labelout = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Labelbook = new System.Windows.Forms.Label();
             this.Panelguesttoday = new System.Windows.Forms.TableLayoutPanel();
             this.Timedate = new System.Windows.Forms.Label();
-            this.Countguest = new System.Windows.Forms.Label();
             this.Count = new System.Windows.Forms.TextBox();
-            this.Pstandard = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.Navstandard = new System.Windows.Forms.PictureBox();
-            this.Panelperweek = new System.Windows.Forms.Panel();
-            this.Pdeluxe = new System.Windows.Forms.Panel();
-            this.Bdeluxe = new System.Windows.Forms.TextBox();
-            this.Navdeluxe = new System.Windows.Forms.PictureBox();
             this.Psuite = new System.Windows.Forms.Panel();
+            this.Nsuite1 = new System.Windows.Forms.Label();
             this.Navsuite = new System.Windows.Forms.PictureBox();
+            this.Paneltotalcheckins = new System.Windows.Forms.Panel();
+            this.Table1 = new System.Windows.Forms.TableLayoutPanel();
+            this.Labelcheck = new System.Windows.Forms.Label();
+            this.Labelnow = new System.Windows.Forms.Label();
+            this.Labelroom = new System.Windows.Forms.Label();
             this.Panelavailroom = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.Labeloccu = new System.Windows.Forms.Label();
             this.Labelavail = new System.Windows.Forms.Label();
             this.Zero8 = new System.Windows.Forms.TextBox();
-            this.Zero7 = new System.Windows.Forms.TextBox();
-            this.Zero6 = new System.Windows.Forms.TextBox();
-            this.Zero5 = new System.Windows.Forms.TextBox();
-            this.Labelroom = new System.Windows.Forms.Label();
             this.Labelnot = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.Paneltotalcheckins = new System.Windows.Forms.Panel();
-            this.Table1 = new System.Windows.Forms.TableLayoutPanel();
-            this.Labelout = new System.Windows.Forms.Label();
-            this.Labelcheck = new System.Windows.Forms.Label();
-            this.Zero4 = new System.Windows.Forms.TextBox();
-            this.Zero3 = new System.Windows.Forms.TextBox();
-            this.Zero2 = new System.Windows.Forms.TextBox();
-            this.Zero1 = new System.Windows.Forms.TextBox();
-            this.Labelbook = new System.Windows.Forms.Label();
-            this.Labelnow = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
             this.Perweek.SuspendLayout();
-            this.Panelguesttoday.SuspendLayout();
             this.Pstandard.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Navstandard)).BeginInit();
-            this.Panelperweek.SuspendLayout();
             this.Pdeluxe.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Navdeluxe)).BeginInit();
+            this.Panelperweek.SuspendLayout();
+            this.Panelguesttoday.SuspendLayout();
             this.Psuite.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Navsuite)).BeginInit();
-            this.Panelavailroom.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
             this.Paneltotalcheckins.SuspendLayout();
             this.Table1.SuspendLayout();
+            this.Panelavailroom.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // Day6
             // 
-            this.panel1.Controls.Add(this.Titledash);
-            this.panel1.Controls.Add(this.Titleavail);
-            this.panel1.Controls.Add(this.Panelguesttoday);
-            this.panel1.Controls.Add(this.Pstandard);
-            this.panel1.Controls.Add(this.Panelperweek);
-            this.panel1.Controls.Add(this.Pdeluxe);
-            this.panel1.Controls.Add(this.Psuite);
-            this.panel1.Controls.Add(this.Panelavailroom);
-            this.panel1.Controls.Add(this.Paneltotalcheckins);
-            this.panel1.Location = new System.Drawing.Point(30, 26);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(847, 478);
-            this.panel1.TabIndex = 0;
+            this.Day6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Day6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Day6.Font = new System.Drawing.Font("Calisto MT", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Day6.Location = new System.Drawing.Point(253, 3);
+            this.Day6.Name = "Day6";
+            this.Day6.Size = new System.Drawing.Size(44, 28);
+            this.Day6.TabIndex = 9;
+            this.Day6.Text = "00";
+            this.Day6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Day5
+            // 
+            this.Day5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Day5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Day5.Font = new System.Drawing.Font("Calisto MT", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Day5.Location = new System.Drawing.Point(203, 3);
+            this.Day5.Name = "Day5";
+            this.Day5.Size = new System.Drawing.Size(44, 28);
+            this.Day5.TabIndex = 8;
+            this.Day5.Text = "00";
+            this.Day5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Titledash
+            // 
+            this.Titledash.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Titledash.Font = new System.Drawing.Font("Calibri", 26.25F, System.Drawing.FontStyle.Bold);
+            this.Titledash.Location = new System.Drawing.Point(3, 7);
+            this.Titledash.Name = "Titledash";
+            this.Titledash.Size = new System.Drawing.Size(332, 54);
+            this.Titledash.TabIndex = 48;
+            this.Titledash.Text = "Dashboard";
+            // 
+            // Titleavail
+            // 
+            this.Titleavail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Titleavail.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Titleavail.Location = new System.Drawing.Point(25, 209);
+            this.Titleavail.Name = "Titleavail";
+            this.Titleavail.Size = new System.Drawing.Size(234, 33);
+            this.Titleavail.TabIndex = 53;
+            this.Titleavail.Text = "Available Rooms";
+            this.Titleavail.TextChanged += new System.EventHandler(this.Titleavail_TextChanged);
+            // 
+            // Zero2
+            // 
+            this.Zero2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Zero2.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Zero2.Location = new System.Drawing.Point(99, 6);
+            this.Zero2.Name = "Zero2";
+            this.Zero2.Size = new System.Drawing.Size(82, 44);
+            this.Zero2.TabIndex = 1;
+            this.Zero2.Text = "00";
+            this.Zero2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Day4
+            // 
+            this.Day4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Day4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Day4.Font = new System.Drawing.Font("Calisto MT", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Day4.Location = new System.Drawing.Point(153, 3);
+            this.Day4.Name = "Day4";
+            this.Day4.Size = new System.Drawing.Size(44, 28);
+            this.Day4.TabIndex = 7;
+            this.Day4.Text = "00";
+            this.Day4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Countguest
+            // 
+            this.Countguest.AutoSize = true;
+            this.Countguest.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.Countguest.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Countguest.Location = new System.Drawing.Point(3, 7);
+            this.Countguest.Margin = new System.Windows.Forms.Padding(3);
+            this.Countguest.Name = "Countguest";
+            this.Countguest.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Countguest.Size = new System.Drawing.Size(210, 22);
+            this.Countguest.TabIndex = 12;
+            this.Countguest.Text = "Total of Guest Today";
+            this.Countguest.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Zero7
+            // 
+            this.Zero7.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Zero7.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Zero7.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Zero7.Location = new System.Drawing.Point(192, 6);
+            this.Zero7.Name = "Zero7";
+            this.Zero7.Size = new System.Drawing.Size(82, 44);
+            this.Zero7.TabIndex = 2;
+            this.Zero7.Text = "00";
+            this.Zero7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Zero6
+            // 
+            this.Zero6.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Zero6.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Zero6.Location = new System.Drawing.Point(99, 6);
+            this.Zero6.Name = "Zero6";
+            this.Zero6.Size = new System.Drawing.Size(82, 44);
+            this.Zero6.TabIndex = 1;
+            this.Zero6.Text = "00";
+            this.Zero6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Perweek
             // 
@@ -265,42 +352,6 @@
             this.Day7.Text = "00";
             this.Day7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // Day6
-            // 
-            this.Day6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Day6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Day6.Font = new System.Drawing.Font("Calisto MT", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Day6.Location = new System.Drawing.Point(253, 3);
-            this.Day6.Name = "Day6";
-            this.Day6.Size = new System.Drawing.Size(44, 28);
-            this.Day6.TabIndex = 9;
-            this.Day6.Text = "00";
-            this.Day6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // Day5
-            // 
-            this.Day5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Day5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Day5.Font = new System.Drawing.Font("Calisto MT", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Day5.Location = new System.Drawing.Point(203, 3);
-            this.Day5.Name = "Day5";
-            this.Day5.Size = new System.Drawing.Size(44, 28);
-            this.Day5.TabIndex = 8;
-            this.Day5.Text = "00";
-            this.Day5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // Day4
-            // 
-            this.Day4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Day4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Day4.Font = new System.Drawing.Font("Calisto MT", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Day4.Location = new System.Drawing.Point(153, 3);
-            this.Day4.Name = "Day4";
-            this.Day4.Size = new System.Drawing.Size(44, 28);
-            this.Day4.TabIndex = 7;
-            this.Day4.Text = "00";
-            this.Day4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // Day3
             // 
             this.Day3.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -336,24 +387,125 @@
             this.Day1.Text = "00";
             this.Day1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // Bsuite
+            // Pstandard
             // 
-            this.Bsuite.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Bsuite.Location = new System.Drawing.Point(13, 13);
-            this.Bsuite.Name = "Bsuite";
-            this.Bsuite.Size = new System.Drawing.Size(155, 29);
-            this.Bsuite.TabIndex = 0;
-            this.Bsuite.Text = "Suite: 00";
+            this.Pstandard.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Pstandard.Controls.Add(this.Nstan1);
+            this.Pstandard.Controls.Add(this.Navstandard);
+            this.Pstandard.Location = new System.Drawing.Point(25, 250);
+            this.Pstandard.Name = "Pstandard";
+            this.Pstandard.Size = new System.Drawing.Size(391, 60);
+            this.Pstandard.TabIndex = 54;
+            this.Pstandard.Paint += new System.Windows.Forms.PaintEventHandler(this.Pstandard_Paint);
             // 
-            // Titledash
+            // Nstan1
             // 
-            this.Titledash.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Titledash.Font = new System.Drawing.Font("Calibri", 26.25F, System.Drawing.FontStyle.Bold);
-            this.Titledash.Location = new System.Drawing.Point(17, 20);
-            this.Titledash.Name = "Titledash";
-            this.Titledash.Size = new System.Drawing.Size(332, 54);
-            this.Titledash.TabIndex = 39;
-            this.Titledash.Text = "Dashboard";
+            this.Nstan1.AutoSize = true;
+            this.Nstan1.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nstan1.Location = new System.Drawing.Point(13, 13);
+            this.Nstan1.Name = "Nstan1";
+            this.Nstan1.Size = new System.Drawing.Size(193, 28);
+            this.Nstan1.TabIndex = 32;
+            this.Nstan1.Text = "Standard Room: 00";
+            // 
+            // Navstandard
+            // 
+            this.Navstandard.Image = global::HOTEL.Properties.Resources.Colebemis_Feather_Maximize_2_512;
+            this.Navstandard.Location = new System.Drawing.Point(341, 16);
+            this.Navstandard.Name = "Navstandard";
+            this.Navstandard.Size = new System.Drawing.Size(29, 28);
+            this.Navstandard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Navstandard.TabIndex = 31;
+            this.Navstandard.TabStop = false;
+            this.Navstandard.Click += new System.EventHandler(this.Navstandard_Click);
+            // 
+            // Pdeluxe
+            // 
+            this.Pdeluxe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Pdeluxe.Controls.Add(this.Ndel1);
+            this.Pdeluxe.Controls.Add(this.Navdeluxe);
+            this.Pdeluxe.Location = new System.Drawing.Point(25, 320);
+            this.Pdeluxe.Name = "Pdeluxe";
+            this.Pdeluxe.Size = new System.Drawing.Size(391, 60);
+            this.Pdeluxe.TabIndex = 55;
+            this.Pdeluxe.Paint += new System.Windows.Forms.PaintEventHandler(this.Pdeluxe_Paint);
+            // 
+            // Ndel1
+            // 
+            this.Ndel1.AutoSize = true;
+            this.Ndel1.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ndel1.Location = new System.Drawing.Point(13, 13);
+            this.Ndel1.Name = "Ndel1";
+            this.Ndel1.Size = new System.Drawing.Size(175, 28);
+            this.Ndel1.TabIndex = 35;
+            this.Ndel1.Text = "Deluxe Room: 00";
+            // 
+            // Navdeluxe
+            // 
+            this.Navdeluxe.Image = global::HOTEL.Properties.Resources.Colebemis_Feather_Maximize_2_512;
+            this.Navdeluxe.Location = new System.Drawing.Point(341, 14);
+            this.Navdeluxe.Name = "Navdeluxe";
+            this.Navdeluxe.Size = new System.Drawing.Size(29, 28);
+            this.Navdeluxe.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Navdeluxe.TabIndex = 34;
+            this.Navdeluxe.TabStop = false;
+            this.Navdeluxe.Click += new System.EventHandler(this.Navdeluxe_Click);
+            // 
+            // Zero4
+            // 
+            this.Zero4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Zero4.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Zero4.Location = new System.Drawing.Point(285, 6);
+            this.Zero4.Name = "Zero4";
+            this.Zero4.Size = new System.Drawing.Size(82, 44);
+            this.Zero4.TabIndex = 3;
+            this.Zero4.Text = "00";
+            this.Zero4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Zero3
+            // 
+            this.Zero3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Zero3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Zero3.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Zero3.Location = new System.Drawing.Point(192, 6);
+            this.Zero3.Name = "Zero3";
+            this.Zero3.Size = new System.Drawing.Size(82, 44);
+            this.Zero3.TabIndex = 2;
+            this.Zero3.Text = "00";
+            this.Zero3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Zero5
+            // 
+            this.Zero5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Zero5.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Zero5.Location = new System.Drawing.Point(6, 6);
+            this.Zero5.Name = "Zero5";
+            this.Zero5.Size = new System.Drawing.Size(87, 44);
+            this.Zero5.TabIndex = 0;
+            this.Zero5.Text = "00";
+            this.Zero5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Zero1
+            // 
+            this.Zero1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Zero1.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Zero1.Location = new System.Drawing.Point(6, 6);
+            this.Zero1.Name = "Zero1";
+            this.Zero1.Size = new System.Drawing.Size(82, 44);
+            this.Zero1.TabIndex = 0;
+            this.Zero1.Text = "00";
+            this.Zero1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Panelperweek
+            // 
+            this.Panelperweek.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Panelperweek.Controls.Add(this.Perweek);
+            this.Panelperweek.Controls.Add(this.Countperweek);
+            this.Panelperweek.Location = new System.Drawing.Point(437, 204);
+            this.Panelperweek.Name = "Panelperweek";
+            this.Panelperweek.Size = new System.Drawing.Size(391, 106);
+            this.Panelperweek.TabIndex = 51;
+            this.Panelperweek.Paint += new System.Windows.Forms.PaintEventHandler(this.Panelperweek_Paint);
             // 
             // Countperweek
             // 
@@ -366,15 +518,48 @@
             this.Countperweek.Text = "Guest count per week";
             this.Countperweek.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
-            // Titleavail
+            // Labelout
             // 
-            this.Titleavail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Titleavail.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Titleavail.Location = new System.Drawing.Point(27, 218);
-            this.Titleavail.Name = "Titleavail";
-            this.Titleavail.Size = new System.Drawing.Size(234, 33);
-            this.Titleavail.TabIndex = 44;
-            this.Titleavail.Text = "Available Rooms";
+            this.Labelout.AutoSize = true;
+            this.Labelout.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.Labelout.Font = new System.Drawing.Font("Calibri", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Labelout.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Labelout.Location = new System.Drawing.Point(192, 51);
+            this.Labelout.Margin = new System.Windows.Forms.Padding(3);
+            this.Labelout.Name = "Labelout";
+            this.Labelout.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Labelout.Size = new System.Drawing.Size(87, 14);
+            this.Labelout.TabIndex = 6;
+            this.Labelout.Tag = "";
+            this.Labelout.Text = "Check-Out";
+            this.Labelout.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Labelout.UseMnemonic = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(6, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(135, 24);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Total Check-Ins";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            // 
+            // Labelbook
+            // 
+            this.Labelbook.AutoSize = true;
+            this.Labelbook.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.Labelbook.Font = new System.Drawing.Font("Calibri", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Labelbook.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Labelbook.Location = new System.Drawing.Point(6, 51);
+            this.Labelbook.Margin = new System.Windows.Forms.Padding(3);
+            this.Labelbook.Name = "Labelbook";
+            this.Labelbook.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Labelbook.Size = new System.Drawing.Size(87, 14);
+            this.Labelbook.TabIndex = 4;
+            this.Labelbook.Text = "Bookings";
+            this.Labelbook.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Panelguesttoday
             // 
@@ -384,14 +569,15 @@
             this.Panelguesttoday.Controls.Add(this.Timedate, 0, 2);
             this.Panelguesttoday.Controls.Add(this.Countguest, 0, 0);
             this.Panelguesttoday.Controls.Add(this.Count, 0, 1);
-            this.Panelguesttoday.Location = new System.Drawing.Point(534, 329);
+            this.Panelguesttoday.Location = new System.Drawing.Point(532, 320);
             this.Panelguesttoday.Name = "Panelguesttoday";
             this.Panelguesttoday.RowCount = 3;
             this.Panelguesttoday.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 49.23077F));
             this.Panelguesttoday.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.76923F));
             this.Panelguesttoday.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 29F));
             this.Panelguesttoday.Size = new System.Drawing.Size(216, 95);
-            this.Panelguesttoday.TabIndex = 43;
+            this.Panelguesttoday.TabIndex = 52;
+            this.Panelguesttoday.Paint += new System.Windows.Forms.PaintEventHandler(this.Panelguesttoday_Paint);
             // 
             // Timedate
             // 
@@ -409,20 +595,6 @@
             this.Timedate.Text = "00:00  00/00/000";
             this.Timedate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Countguest
-            // 
-            this.Countguest.AutoSize = true;
-            this.Countguest.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Countguest.Font = new System.Drawing.Font("Calibri", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Countguest.Location = new System.Drawing.Point(3, 7);
-            this.Countguest.Margin = new System.Windows.Forms.Padding(3);
-            this.Countguest.Name = "Countguest";
-            this.Countguest.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Countguest.Size = new System.Drawing.Size(210, 22);
-            this.Countguest.TabIndex = 12;
-            this.Countguest.Text = "Total of Guest Today";
-            this.Countguest.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // Count
             // 
             this.Count.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -435,83 +607,26 @@
             this.Count.Text = "0000";
             this.Count.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // Pstandard
-            // 
-            this.Pstandard.Controls.Add(this.textBox1);
-            this.Pstandard.Controls.Add(this.Navstandard);
-            this.Pstandard.Location = new System.Drawing.Point(27, 259);
-            this.Pstandard.Name = "Pstandard";
-            this.Pstandard.Size = new System.Drawing.Size(391, 60);
-            this.Pstandard.TabIndex = 45;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(13, 13);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(184, 29);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "Standard room: 00";
-            // 
-            // Navstandard
-            // 
-            this.Navstandard.Image = global::HOTEL.Properties.Resources.Colebemis_Feather_Maximize_2_512;
-            this.Navstandard.Location = new System.Drawing.Point(341, 16);
-            this.Navstandard.Name = "Navstandard";
-            this.Navstandard.Size = new System.Drawing.Size(29, 28);
-            this.Navstandard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Navstandard.TabIndex = 31;
-            this.Navstandard.TabStop = false;
-            // 
-            // Panelperweek
-            // 
-            this.Panelperweek.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Panelperweek.Controls.Add(this.Perweek);
-            this.Panelperweek.Controls.Add(this.Countperweek);
-            this.Panelperweek.Location = new System.Drawing.Point(439, 213);
-            this.Panelperweek.Name = "Panelperweek";
-            this.Panelperweek.Size = new System.Drawing.Size(391, 106);
-            this.Panelperweek.TabIndex = 42;
-            // 
-            // Pdeluxe
-            // 
-            this.Pdeluxe.Controls.Add(this.Bdeluxe);
-            this.Pdeluxe.Controls.Add(this.Navdeluxe);
-            this.Pdeluxe.Location = new System.Drawing.Point(27, 329);
-            this.Pdeluxe.Name = "Pdeluxe";
-            this.Pdeluxe.Size = new System.Drawing.Size(391, 60);
-            this.Pdeluxe.TabIndex = 46;
-            // 
-            // Bdeluxe
-            // 
-            this.Bdeluxe.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Bdeluxe.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Bdeluxe.Location = new System.Drawing.Point(13, 13);
-            this.Bdeluxe.Name = "Bdeluxe";
-            this.Bdeluxe.Size = new System.Drawing.Size(184, 29);
-            this.Bdeluxe.TabIndex = 0;
-            this.Bdeluxe.Text = "Deluxe room: 00";
-            // 
-            // Navdeluxe
-            // 
-            this.Navdeluxe.Image = global::HOTEL.Properties.Resources.Colebemis_Feather_Maximize_2_512;
-            this.Navdeluxe.Location = new System.Drawing.Point(341, 14);
-            this.Navdeluxe.Name = "Navdeluxe";
-            this.Navdeluxe.Size = new System.Drawing.Size(29, 28);
-            this.Navdeluxe.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Navdeluxe.TabIndex = 34;
-            this.Navdeluxe.TabStop = false;
-            // 
             // Psuite
             // 
-            this.Psuite.Controls.Add(this.Bsuite);
+            this.Psuite.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Psuite.Controls.Add(this.Nsuite1);
             this.Psuite.Controls.Add(this.Navsuite);
             this.Psuite.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Psuite.Location = new System.Drawing.Point(27, 399);
+            this.Psuite.Location = new System.Drawing.Point(25, 390);
             this.Psuite.Name = "Psuite";
             this.Psuite.Size = new System.Drawing.Size(391, 60);
-            this.Psuite.TabIndex = 47;
+            this.Psuite.TabIndex = 56;
+            this.Psuite.Paint += new System.Windows.Forms.PaintEventHandler(this.Psuite_Paint);
+            // 
+            // Nsuite1
+            // 
+            this.Nsuite1.AutoSize = true;
+            this.Nsuite1.Location = new System.Drawing.Point(13, 13);
+            this.Nsuite1.Name = "Nsuite1";
+            this.Nsuite1.Size = new System.Drawing.Size(96, 28);
+            this.Nsuite1.TabIndex = 36;
+            this.Nsuite1.Text = "Suite: 00";
             // 
             // Navsuite
             // 
@@ -522,17 +637,107 @@
             this.Navsuite.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Navsuite.TabIndex = 35;
             this.Navsuite.TabStop = false;
+            this.Navsuite.Click += new System.EventHandler(this.Navsuite_Click);
+            // 
+            // Paneltotalcheckins
+            // 
+            this.Paneltotalcheckins.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Paneltotalcheckins.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Paneltotalcheckins.Controls.Add(this.Table1);
+            this.Paneltotalcheckins.Controls.Add(this.label1);
+            this.Paneltotalcheckins.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Paneltotalcheckins.Location = new System.Drawing.Point(25, 71);
+            this.Paneltotalcheckins.Name = "Paneltotalcheckins";
+            this.Paneltotalcheckins.Padding = new System.Windows.Forms.Padding(3);
+            this.Paneltotalcheckins.Size = new System.Drawing.Size(391, 117);
+            this.Paneltotalcheckins.TabIndex = 49;
+            this.Paneltotalcheckins.Paint += new System.Windows.Forms.PaintEventHandler(this.Paneltotalcheckins_Paint);
+            // 
+            // Table1
+            // 
+            this.Table1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Table1.ColumnCount = 4;
+            this.Table1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.Table1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.Table1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.Table1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.Table1.Controls.Add(this.Labelout, 2, 1);
+            this.Table1.Controls.Add(this.Labelcheck, 1, 1);
+            this.Table1.Controls.Add(this.Zero4, 3, 0);
+            this.Table1.Controls.Add(this.Zero3, 2, 0);
+            this.Table1.Controls.Add(this.Zero2, 1, 0);
+            this.Table1.Controls.Add(this.Zero1, 0, 0);
+            this.Table1.Controls.Add(this.Labelbook, 0, 1);
+            this.Table1.Controls.Add(this.Labelnow, 3, 1);
+            this.Table1.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
+            this.Table1.Location = new System.Drawing.Point(2, 32);
+            this.Table1.Name = "Table1";
+            this.Table1.Padding = new System.Windows.Forms.Padding(3);
+            this.Table1.RowCount = 2;
+            this.Table1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.Table1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 28F));
+            this.Table1.Size = new System.Drawing.Size(381, 71);
+            this.Table1.TabIndex = 1;
+            // 
+            // Labelcheck
+            // 
+            this.Labelcheck.AutoSize = true;
+            this.Labelcheck.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.Labelcheck.Font = new System.Drawing.Font("Calibri", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Labelcheck.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Labelcheck.Location = new System.Drawing.Point(99, 51);
+            this.Labelcheck.Margin = new System.Windows.Forms.Padding(3);
+            this.Labelcheck.Name = "Labelcheck";
+            this.Labelcheck.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Labelcheck.Size = new System.Drawing.Size(87, 14);
+            this.Labelcheck.TabIndex = 5;
+            this.Labelcheck.Tag = "";
+            this.Labelcheck.Text = "Check-In";
+            this.Labelcheck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Labelcheck.UseMnemonic = false;
+            // 
+            // Labelnow
+            // 
+            this.Labelnow.AutoEllipsis = true;
+            this.Labelnow.AutoSize = true;
+            this.Labelnow.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.Labelnow.Font = new System.Drawing.Font("Calibri", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Labelnow.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Labelnow.Location = new System.Drawing.Point(285, 50);
+            this.Labelnow.Margin = new System.Windows.Forms.Padding(3);
+            this.Labelnow.Name = "Labelnow";
+            this.Labelnow.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Labelnow.Size = new System.Drawing.Size(90, 15);
+            this.Labelnow.TabIndex = 5;
+            this.Labelnow.Text = "Staying Now";
+            this.Labelnow.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // Labelroom
+            // 
+            this.Labelroom.AutoSize = true;
+            this.Labelroom.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.Labelroom.Font = new System.Drawing.Font("Calibri", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Labelroom.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Labelroom.Location = new System.Drawing.Point(6, 51);
+            this.Labelroom.Margin = new System.Windows.Forms.Padding(3);
+            this.Labelroom.Name = "Labelroom";
+            this.Labelroom.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Labelroom.Size = new System.Drawing.Size(87, 14);
+            this.Labelroom.TabIndex = 4;
+            this.Labelroom.Text = "No. of Rooms";
+            this.Labelroom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Panelavailroom
             // 
             this.Panelavailroom.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Panelavailroom.Controls.Add(this.tableLayoutPanel2);
             this.Panelavailroom.Controls.Add(this.label10);
-            this.Panelavailroom.Location = new System.Drawing.Point(439, 80);
+            this.Panelavailroom.Location = new System.Drawing.Point(437, 71);
             this.Panelavailroom.Name = "Panelavailroom";
             this.Panelavailroom.Padding = new System.Windows.Forms.Padding(3);
             this.Panelavailroom.Size = new System.Drawing.Size(391, 117);
-            this.Panelavailroom.TabIndex = 41;
+            this.Panelavailroom.TabIndex = 50;
+            this.Panelavailroom.Paint += new System.Windows.Forms.PaintEventHandler(this.Panelavailroom_Paint);
             // 
             // tableLayoutPanel2
             // 
@@ -605,55 +810,6 @@
             this.Zero8.Text = "00";
             this.Zero8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // Zero7
-            // 
-            this.Zero7.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Zero7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Zero7.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Zero7.Location = new System.Drawing.Point(192, 6);
-            this.Zero7.Name = "Zero7";
-            this.Zero7.Size = new System.Drawing.Size(82, 44);
-            this.Zero7.TabIndex = 2;
-            this.Zero7.Text = "00";
-            this.Zero7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // Zero6
-            // 
-            this.Zero6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Zero6.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Zero6.Location = new System.Drawing.Point(99, 6);
-            this.Zero6.Name = "Zero6";
-            this.Zero6.Size = new System.Drawing.Size(82, 44);
-            this.Zero6.TabIndex = 1;
-            this.Zero6.Text = "00";
-            this.Zero6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // Zero5
-            // 
-            this.Zero5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Zero5.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Zero5.Location = new System.Drawing.Point(6, 6);
-            this.Zero5.Name = "Zero5";
-            this.Zero5.Size = new System.Drawing.Size(87, 44);
-            this.Zero5.TabIndex = 0;
-            this.Zero5.Text = "00";
-            this.Zero5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // Labelroom
-            // 
-            this.Labelroom.AutoSize = true;
-            this.Labelroom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Labelroom.Font = new System.Drawing.Font("Calibri", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Labelroom.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Labelroom.Location = new System.Drawing.Point(6, 51);
-            this.Labelroom.Margin = new System.Windows.Forms.Padding(3);
-            this.Labelroom.Name = "Labelroom";
-            this.Labelroom.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Labelroom.Size = new System.Drawing.Size(87, 14);
-            this.Labelroom.TabIndex = 4;
-            this.Labelroom.Text = "No. of Rooms";
-            this.Labelroom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // Labelnot
             // 
             this.Labelnot.AutoEllipsis = true;
@@ -682,216 +838,61 @@
             this.label10.Text = "Available Rooms";
             this.label10.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             // 
-            // Paneltotalcheckins
-            // 
-            this.Paneltotalcheckins.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Paneltotalcheckins.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Paneltotalcheckins.Controls.Add(this.Table1);
-            this.Paneltotalcheckins.Controls.Add(this.label1);
-            this.Paneltotalcheckins.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Paneltotalcheckins.Location = new System.Drawing.Point(27, 80);
-            this.Paneltotalcheckins.Name = "Paneltotalcheckins";
-            this.Paneltotalcheckins.Padding = new System.Windows.Forms.Padding(3);
-            this.Paneltotalcheckins.Size = new System.Drawing.Size(391, 117);
-            this.Paneltotalcheckins.TabIndex = 40;
-            // 
-            // Table1
-            // 
-            this.Table1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Table1.ColumnCount = 4;
-            this.Table1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.Table1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.Table1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.Table1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.Table1.Controls.Add(this.Labelout, 2, 1);
-            this.Table1.Controls.Add(this.Labelcheck, 1, 1);
-            this.Table1.Controls.Add(this.Zero4, 3, 0);
-            this.Table1.Controls.Add(this.Zero3, 2, 0);
-            this.Table1.Controls.Add(this.Zero2, 1, 0);
-            this.Table1.Controls.Add(this.Zero1, 0, 0);
-            this.Table1.Controls.Add(this.Labelbook, 0, 1);
-            this.Table1.Controls.Add(this.Labelnow, 3, 1);
-            this.Table1.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
-            this.Table1.Location = new System.Drawing.Point(2, 32);
-            this.Table1.Name = "Table1";
-            this.Table1.Padding = new System.Windows.Forms.Padding(3);
-            this.Table1.RowCount = 2;
-            this.Table1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.Table1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 28F));
-            this.Table1.Size = new System.Drawing.Size(381, 71);
-            this.Table1.TabIndex = 1;
-            // 
-            // Labelout
-            // 
-            this.Labelout.AutoSize = true;
-            this.Labelout.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Labelout.Font = new System.Drawing.Font("Calibri", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Labelout.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Labelout.Location = new System.Drawing.Point(192, 51);
-            this.Labelout.Margin = new System.Windows.Forms.Padding(3);
-            this.Labelout.Name = "Labelout";
-            this.Labelout.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Labelout.Size = new System.Drawing.Size(87, 14);
-            this.Labelout.TabIndex = 6;
-            this.Labelout.Tag = "";
-            this.Labelout.Text = "Check-Out";
-            this.Labelout.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.Labelout.UseMnemonic = false;
-            // 
-            // Labelcheck
-            // 
-            this.Labelcheck.AutoSize = true;
-            this.Labelcheck.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Labelcheck.Font = new System.Drawing.Font("Calibri", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Labelcheck.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Labelcheck.Location = new System.Drawing.Point(99, 51);
-            this.Labelcheck.Margin = new System.Windows.Forms.Padding(3);
-            this.Labelcheck.Name = "Labelcheck";
-            this.Labelcheck.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Labelcheck.Size = new System.Drawing.Size(87, 14);
-            this.Labelcheck.TabIndex = 5;
-            this.Labelcheck.Tag = "";
-            this.Labelcheck.Text = "Check-In";
-            this.Labelcheck.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.Labelcheck.UseMnemonic = false;
-            // 
-            // Zero4
-            // 
-            this.Zero4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Zero4.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Zero4.Location = new System.Drawing.Point(285, 6);
-            this.Zero4.Name = "Zero4";
-            this.Zero4.Size = new System.Drawing.Size(82, 44);
-            this.Zero4.TabIndex = 3;
-            this.Zero4.Text = "00";
-            this.Zero4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // Zero3
-            // 
-            this.Zero3.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Zero3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Zero3.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Zero3.Location = new System.Drawing.Point(192, 6);
-            this.Zero3.Name = "Zero3";
-            this.Zero3.Size = new System.Drawing.Size(82, 44);
-            this.Zero3.TabIndex = 2;
-            this.Zero3.Text = "00";
-            this.Zero3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // Zero2
-            // 
-            this.Zero2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Zero2.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Zero2.Location = new System.Drawing.Point(99, 6);
-            this.Zero2.Name = "Zero2";
-            this.Zero2.Size = new System.Drawing.Size(82, 44);
-            this.Zero2.TabIndex = 1;
-            this.Zero2.Text = "00";
-            this.Zero2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // Zero1
-            // 
-            this.Zero1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Zero1.Font = new System.Drawing.Font("Calisto MT", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Zero1.Location = new System.Drawing.Point(6, 6);
-            this.Zero1.Name = "Zero1";
-            this.Zero1.Size = new System.Drawing.Size(82, 44);
-            this.Zero1.TabIndex = 0;
-            this.Zero1.Text = "00";
-            this.Zero1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // Labelbook
-            // 
-            this.Labelbook.AutoSize = true;
-            this.Labelbook.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Labelbook.Font = new System.Drawing.Font("Calibri", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Labelbook.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Labelbook.Location = new System.Drawing.Point(6, 51);
-            this.Labelbook.Margin = new System.Windows.Forms.Padding(3);
-            this.Labelbook.Name = "Labelbook";
-            this.Labelbook.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Labelbook.Size = new System.Drawing.Size(87, 14);
-            this.Labelbook.TabIndex = 4;
-            this.Labelbook.Text = "Bookings";
-            this.Labelbook.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // Labelnow
-            // 
-            this.Labelnow.AutoEllipsis = true;
-            this.Labelnow.AutoSize = true;
-            this.Labelnow.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Labelnow.Font = new System.Drawing.Font("Calibri", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Labelnow.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Labelnow.Location = new System.Drawing.Point(285, 50);
-            this.Labelnow.Margin = new System.Windows.Forms.Padding(3);
-            this.Labelnow.Name = "Labelnow";
-            this.Labelnow.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Labelnow.Size = new System.Drawing.Size(90, 15);
-            this.Labelnow.TabIndex = 5;
-            this.Labelnow.Text = "Staying Now";
-            this.Labelnow.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 10);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Total Check-Ins";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            // 
             // DashboardView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.Titledash);
+            this.Controls.Add(this.Titleavail);
+            this.Controls.Add(this.Pstandard);
+            this.Controls.Add(this.Pdeluxe);
+            this.Controls.Add(this.Panelperweek);
+            this.Controls.Add(this.Panelguesttoday);
+            this.Controls.Add(this.Psuite);
+            this.Controls.Add(this.Paneltotalcheckins);
+            this.Controls.Add(this.Panelavailroom);
             this.Name = "DashboardView";
             this.Size = new System.Drawing.Size(849, 478);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.Perweek.ResumeLayout(false);
             this.Perweek.PerformLayout();
-            this.Panelguesttoday.ResumeLayout(false);
-            this.Panelguesttoday.PerformLayout();
             this.Pstandard.ResumeLayout(false);
             this.Pstandard.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Navstandard)).EndInit();
-            this.Panelperweek.ResumeLayout(false);
-            this.Panelperweek.PerformLayout();
             this.Pdeluxe.ResumeLayout(false);
             this.Pdeluxe.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Navdeluxe)).EndInit();
+            this.Panelperweek.ResumeLayout(false);
+            this.Panelperweek.PerformLayout();
+            this.Panelguesttoday.ResumeLayout(false);
+            this.Panelguesttoday.PerformLayout();
             this.Psuite.ResumeLayout(false);
             this.Psuite.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Navsuite)).EndInit();
-            this.Panelavailroom.ResumeLayout(false);
-            this.Panelavailroom.PerformLayout();
-            this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel2.PerformLayout();
             this.Paneltotalcheckins.ResumeLayout(false);
             this.Paneltotalcheckins.PerformLayout();
             this.Table1.ResumeLayout(false);
             this.Table1.PerformLayout();
+            this.Panelavailroom.ResumeLayout(false);
+            this.Panelavailroom.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TextBox Day6;
+        private System.Windows.Forms.TextBox Day5;
         private System.Windows.Forms.TextBox Titledash;
         private System.Windows.Forms.TextBox Titleavail;
-        private System.Windows.Forms.TableLayoutPanel Panelguesttoday;
-        public System.Windows.Forms.Label Timedate;
+        private System.Windows.Forms.TextBox Zero2;
+        private System.Windows.Forms.TextBox Day4;
         public System.Windows.Forms.Label Countguest;
-        private System.Windows.Forms.TextBox Count;
-        private System.Windows.Forms.Panel Pstandard;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.PictureBox Navstandard;
-        private System.Windows.Forms.Panel Panelperweek;
+        private System.Windows.Forms.TextBox Zero7;
+        private System.Windows.Forms.TextBox Zero6;
         private System.Windows.Forms.TableLayoutPanel Perweek;
         public System.Windows.Forms.Label Sun;
         public System.Windows.Forms.Label Sat;
@@ -901,40 +902,41 @@
         public System.Windows.Forms.Label Tues;
         public System.Windows.Forms.Label Mon;
         private System.Windows.Forms.TextBox Day7;
-        private System.Windows.Forms.TextBox Day6;
-        private System.Windows.Forms.TextBox Day5;
-        private System.Windows.Forms.TextBox Day4;
         private System.Windows.Forms.TextBox Day3;
         private System.Windows.Forms.TextBox Day2;
         private System.Windows.Forms.TextBox Day1;
-        private System.Windows.Forms.Label Countperweek;
+        private System.Windows.Forms.Panel Pstandard;
+        private System.Windows.Forms.PictureBox Navstandard;
         private System.Windows.Forms.Panel Pdeluxe;
-        private System.Windows.Forms.TextBox Bdeluxe;
         private System.Windows.Forms.PictureBox Navdeluxe;
+        private System.Windows.Forms.TextBox Zero4;
+        private System.Windows.Forms.TextBox Zero3;
+        private System.Windows.Forms.TextBox Zero5;
+        private System.Windows.Forms.TextBox Zero1;
+        private System.Windows.Forms.Panel Panelperweek;
+        private System.Windows.Forms.Label Countperweek;
+        public System.Windows.Forms.Label Labelout;
+        private System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label Labelbook;
+        private System.Windows.Forms.TableLayoutPanel Panelguesttoday;
+        public System.Windows.Forms.Label Timedate;
+        private System.Windows.Forms.TextBox Count;
         private System.Windows.Forms.Panel Psuite;
-        private System.Windows.Forms.TextBox Bsuite;
         private System.Windows.Forms.PictureBox Navsuite;
+        private System.Windows.Forms.Panel Paneltotalcheckins;
+        private System.Windows.Forms.TableLayoutPanel Table1;
+        public System.Windows.Forms.Label Labelcheck;
+        public System.Windows.Forms.Label Labelnow;
+        public System.Windows.Forms.Label Labelroom;
         private System.Windows.Forms.Panel Panelavailroom;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         public System.Windows.Forms.Label Labeloccu;
         public System.Windows.Forms.Label Labelavail;
         private System.Windows.Forms.TextBox Zero8;
-        private System.Windows.Forms.TextBox Zero7;
-        private System.Windows.Forms.TextBox Zero6;
-        private System.Windows.Forms.TextBox Zero5;
-        public System.Windows.Forms.Label Labelroom;
         public System.Windows.Forms.Label Labelnot;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Panel Paneltotalcheckins;
-        private System.Windows.Forms.TableLayoutPanel Table1;
-        public System.Windows.Forms.Label Labelout;
-        public System.Windows.Forms.Label Labelcheck;
-        private System.Windows.Forms.TextBox Zero4;
-        private System.Windows.Forms.TextBox Zero3;
-        private System.Windows.Forms.TextBox Zero2;
-        private System.Windows.Forms.TextBox Zero1;
-        public System.Windows.Forms.Label Labelbook;
-        public System.Windows.Forms.Label Labelnow;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Nstan1;
+        private System.Windows.Forms.Label Ndel1;
+        private System.Windows.Forms.Label Nsuite1;
     }
 }

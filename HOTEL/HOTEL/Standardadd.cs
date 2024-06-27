@@ -19,9 +19,10 @@ namespace HOTEL
 
         private void Backstandard_Click(object sender, EventArgs e)
         {
-            var Mainpage = new standardroom();
-            Mainpage.Show();
+            Stanroom back = new Stanroom();
+            back.Show();
             this.Hide();
+
         }
 
         private void TextBox1_TextChanged(object sender, EventArgs e)
@@ -44,6 +45,11 @@ namespace HOTEL
             var Mainpage = new Standardinventory();
             Mainpage.Show();
             this.Hide();
+        }
+
+        private void Standardadd_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

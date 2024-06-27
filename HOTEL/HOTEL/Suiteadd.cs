@@ -19,9 +19,9 @@ namespace HOTEL
 
         private void Backsuite2_Click(object sender, EventArgs e)
         {
-            var Mainpage = new Suite();
-            Mainpage.Show();
-            this.Hide();
+            Suiteroom back = new Suiteroom();
+            back.Show();
+            ((Form)this.TopLevelControl).Close();
         }
 
         private void Nextsuite2_Click(object sender, EventArgs e)

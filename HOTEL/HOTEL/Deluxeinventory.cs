@@ -19,8 +19,8 @@ namespace HOTEL
 
         private void Backdeluxe3_Click(object sender, EventArgs e)
         {
-            var Mainpage = new deluxeadd();
-            Mainpage.Show();
+            Deluxeadd back = new Deluxeadd();
+            back.Show();
             this.Hide();
         }
 

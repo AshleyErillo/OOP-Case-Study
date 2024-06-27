@@ -27,11 +27,34 @@ namespace HOTEL
 
         }
 
+        private void Stan2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Standardpanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void NextStandard_Click(object sender, EventArgs e)
         {
-            var Mainpage = new Standardadd();
-            Mainpage.Show();
-            this.Hide();
+
+        }
+
+        private void Standardadd3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -64,6 +64,12 @@
     <Compile Include="Dashboardview.Designer.cs">
       <DependentUpon>Dashboardview.cs</DependentUpon>
     </Compile>
+    <Compile Include="Delroom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Delroom.Designer.cs">
+      <DependentUpon>Delroom.cs</DependentUpon>
+    </Compile>
     <Compile Include="Standardadd.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -88,11 +94,11 @@
     <Compile Include="Deluxeroom.Designer.cs">
       <DependentUpon>Deluxeroom.cs</DependentUpon>
     </Compile>
-    <Compile Include="deluxeadd.cs">
+    <Compile Include="Deluxeadd.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="deluxeadd.Designer.cs">
-      <DependentUpon>deluxeadd.cs</DependentUpon>
+    <Compile Include="Deluxeadd.Designer.cs">
+      <DependentUpon>Deluxeadd.cs</DependentUpon>
     </Compile>
     <Compile Include="Deluxeinventory.cs">
       <SubType>UserControl</SubType>
@@ -241,6 +247,12 @@
     <Compile Include="standardroom.Designer.cs">
       <DependentUpon>standardroom.cs</DependentUpon>
     </Compile>
+    <Compile Include="Stanroom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Stanroom.Designer.cs">
+      <DependentUpon>Stanroom.cs</DependentUpon>
+    </Compile>
     <Compile Include="Suite.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -259,6 +271,12 @@
     <Compile Include="SuiteInventory.Designer.cs">
       <DependentUpon>SuiteInventory.cs</DependentUpon>
     </Compile>
+    <Compile Include="Suiteroom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Suiteroom.Designer.cs">
+      <DependentUpon>Suiteroom.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddEmployees.resx">
       <DependentUpon>AddEmployees.cs</DependentUpon>
     </EmbeddedResource>
@@ -267,6 +285,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboardview.resx">
       <DependentUpon>Dashboardview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delroom.resx">
+      <DependentUpon>Delroom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Standardadd.resx">
       <DependentUpon>Standardadd.cs</DependentUpon>
@@ -280,8 +301,8 @@
     <EmbeddedResource Include="Deluxeroom.resx">
       <DependentUpon>Deluxeroom.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="deluxeadd.resx">
-      <DependentUpon>deluxeadd.cs</DependentUpon>
+    <EmbeddedResource Include="Deluxeadd.resx">
+      <DependentUpon>Deluxeadd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Deluxeinventory.resx">
       <DependentUpon>Deluxeinventory.cs</DependentUpon>
@@ -365,6 +386,9 @@
     <EmbeddedResource Include="standardroom.resx">
       <DependentUpon>standardroom.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Stanroom.resx">
+      <DependentUpon>Stanroom.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Suite.resx">
       <DependentUpon>Suite.cs</DependentUpon>
     </EmbeddedResource>
@@ -373,6 +397,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SuiteInventory.resx">
       <DependentUpon>SuiteInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suiteroom.resx">
+      <DependentUpon>Suiteroom.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

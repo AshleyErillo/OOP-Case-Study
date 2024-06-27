@@ -767,7 +767,7 @@
             this.Nextbutton3.BackColor = System.Drawing.Color.Gold;
             this.Nextbutton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Nextbutton3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nextbutton3.Location = new System.Drawing.Point(689, 497);
+            this.Nextbutton3.Location = new System.Drawing.Point(682, 495);
             this.Nextbutton3.Name = "Nextbutton3";
             this.Nextbutton3.Size = new System.Drawing.Size(176, 46);
             this.Nextbutton3.TabIndex = 5;

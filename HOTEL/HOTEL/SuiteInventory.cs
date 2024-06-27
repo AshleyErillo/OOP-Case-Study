@@ -24,8 +24,8 @@ namespace HOTEL
 
         private void Backsuite3_Click(object sender, EventArgs e)
         {
-            var Mainpage = new Suiteadd();
-            Mainpage.Show();
+            Suiteadd back = new Suiteadd();
+            back.Show();
             this.Hide();
         }
 

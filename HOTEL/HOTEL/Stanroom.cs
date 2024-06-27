@@ -10,18 +10,19 @@ using System.Windows.Forms;
 
 namespace HOTEL
 {
-    public partial class Updeluxe1 : Form
+    public partial class Stanroom : UserControl
     {
-        public Updeluxe1()
+        public Stanroom()
         {
             InitializeComponent();
         }
 
-        private void Nextdeluxe1_Click(object sender, EventArgs e)
+        private void NextStandard_Click(object sender, EventArgs e)
         {
-            var Mainpage = new Deluxeadd();
+            var Mainpage = new Standardadd();
             Mainpage.Show();
             this.Hide();
+
         }
     }
 }

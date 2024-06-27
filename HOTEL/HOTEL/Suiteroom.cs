@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace HOTEL
 {
-    public partial class Updeluxe1 : Form
+    public partial class Suiteroom : UserControl
     {
-        public Updeluxe1()
+        public Suiteroom()
         {
             InitializeComponent();
         }
 
-        private void Nextdeluxe1_Click(object sender, EventArgs e)
+        private void Nextsuite1_Click(object sender, EventArgs e)
         {
-            var Mainpage = new Deluxeadd();
+            var Mainpage = new Suiteadd();
             Mainpage.Show();
             this.Hide();
         }

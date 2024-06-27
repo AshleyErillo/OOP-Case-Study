@@ -19,14 +19,14 @@ namespace HOTEL
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            var Mainpage = new DashboardView();
-            Mainpage.Show();
-            this.Hide();
+            reservationsPANEL1.Hide();
+            dashboardView1.Show();
         }
 
         private void Reservations_Label_Click(object sender, EventArgs e)
         {
-
+            reservationsPANEL1.Show();
+            dashboardView1.Hide();
         }
 
         private void Navstandard_Click(object sender, EventArgs e)
@@ -48,6 +48,11 @@ namespace HOTEL
             var Mainpage = new Suite();
             Mainpage.Show();
             this.Hide();
+        }
+
+        private void DashboardView1_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

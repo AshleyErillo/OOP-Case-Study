@@ -765,7 +765,7 @@
             this.Nextsuite3.BackColor = System.Drawing.Color.Gold;
             this.Nextsuite3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Nextsuite3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nextsuite3.Location = new System.Drawing.Point(689, 497);
+            this.Nextsuite3.Location = new System.Drawing.Point(691, 495);
             this.Nextsuite3.Name = "Nextsuite3";
             this.Nextsuite3.Size = new System.Drawing.Size(176, 46);
             this.Nextsuite3.TabIndex = 4;

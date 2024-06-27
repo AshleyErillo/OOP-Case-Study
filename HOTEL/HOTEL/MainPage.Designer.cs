@@ -51,9 +51,10 @@
             this.Main_Button.AutoSize = true;
             this.Main_Button.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Main_Button.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Main_Button.Location = new System.Drawing.Point(446, 17);
+            this.Main_Button.Location = new System.Drawing.Point(595, 21);
+            this.Main_Button.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Main_Button.Name = "Main_Button";
-            this.Main_Button.Size = new System.Drawing.Size(32, 14);
+            this.Main_Button.Size = new System.Drawing.Size(40, 18);
             this.Main_Button.TabIndex = 1;
             this.Main_Button.Text = "Main";
             this.Main_Button.Click += new System.EventHandler(this.Main_Button_Click);
@@ -64,9 +65,10 @@
             this.Guest_Button.AutoSize = true;
             this.Guest_Button.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Guest_Button.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Guest_Button.Location = new System.Drawing.Point(497, 17);
+            this.Guest_Button.Location = new System.Drawing.Point(663, 21);
+            this.Guest_Button.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Guest_Button.Name = "Guest_Button";
-            this.Guest_Button.Size = new System.Drawing.Size(36, 14);
+            this.Guest_Button.Size = new System.Drawing.Size(45, 18);
             this.Guest_Button.TabIndex = 2;
             this.Guest_Button.Text = "Guest";
             this.Guest_Button.Click += new System.EventHandler(this.Guest_Button_Click);
@@ -77,9 +79,10 @@
             this.Employee_Button.AutoSize = true;
             this.Employee_Button.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Employee_Button.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Employee_Button.Location = new System.Drawing.Point(635, 17);
+            this.Employee_Button.Location = new System.Drawing.Point(847, 21);
+            this.Employee_Button.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Employee_Button.Name = "Employee_Button";
-            this.Employee_Button.Size = new System.Drawing.Size(89, 14);
+            this.Employee_Button.Size = new System.Drawing.Size(110, 18);
             this.Employee_Button.TabIndex = 3;
             this.Employee_Button.Text = "Employee Name";
             this.Employee_Button.Click += new System.EventHandler(this.Employee_Button_Click);
@@ -90,9 +93,10 @@
             this.Dashboard_Button.AutoSize = true;
             this.Dashboard_Button.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Dashboard_Button.Font = new System.Drawing.Font("Calibri", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Dashboard_Button.Location = new System.Drawing.Point(552, 17);
+            this.Dashboard_Button.Location = new System.Drawing.Point(736, 21);
+            this.Dashboard_Button.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Dashboard_Button.Name = "Dashboard_Button";
-            this.Dashboard_Button.Size = new System.Drawing.Size(60, 14);
+            this.Dashboard_Button.Size = new System.Drawing.Size(74, 18);
             this.Dashboard_Button.TabIndex = 4;
             this.Dashboard_Button.Text = "Dashboard";
             this.Dashboard_Button.Click += new System.EventHandler(this.Dashboard_Button_Click);
@@ -101,9 +105,10 @@
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox2.Image = global::HOTEL.Properties.Resources.logout_256x256;
-            this.pictureBox2.Location = new System.Drawing.Point(763, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(1017, 15);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox2.Size = new System.Drawing.Size(33, 31);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
@@ -112,9 +117,10 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = global::HOTEL.Properties.Resources.user_icon;
-            this.pictureBox1.Location = new System.Drawing.Point(732, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(976, 15);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox1.Size = new System.Drawing.Size(33, 31);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -124,8 +130,9 @@
             this.LogoPicture_Pic.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LogoPicture_Pic.Image = global::HOTEL.Properties.Resources._2;
             this.LogoPicture_Pic.Location = new System.Drawing.Point(0, 0);
+            this.LogoPicture_Pic.Margin = new System.Windows.Forms.Padding(4);
             this.LogoPicture_Pic.Name = "LogoPicture_Pic";
-            this.LogoPicture_Pic.Size = new System.Drawing.Size(146, 50);
+            this.LogoPicture_Pic.Size = new System.Drawing.Size(195, 62);
             this.LogoPicture_Pic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.LogoPicture_Pic.TabIndex = 0;
             this.LogoPicture_Pic.TabStop = false;
@@ -134,45 +141,53 @@
             // 
             this.mainPage_Panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.mainPage_Panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.mainPage_Panel1.Location = new System.Drawing.Point(0, 56);
+            this.mainPage_Panel1.Location = new System.Drawing.Point(0, 69);
+            this.mainPage_Panel1.Margin = new System.Windows.Forms.Padding(5);
             this.mainPage_Panel1.Name = "mainPage_Panel1";
-            this.mainPage_Panel1.Size = new System.Drawing.Size(801, 395);
+            this.mainPage_Panel1.Size = new System.Drawing.Size(1068, 486);
             this.mainPage_Panel1.TabIndex = 7;
+            this.mainPage_Panel1.Load += new System.EventHandler(this.MainPage_Panel1_Load);
             // 
             // employeePanel1
             // 
             this.employeePanel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.employeePanel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.employeePanel1.Location = new System.Drawing.Point(0, 56);
+            this.employeePanel1.Location = new System.Drawing.Point(0, 69);
+            this.employeePanel1.Margin = new System.Windows.Forms.Padding(5);
             this.employeePanel1.Name = "employeePanel1";
-            this.employeePanel1.Size = new System.Drawing.Size(801, 395);
+            this.employeePanel1.Size = new System.Drawing.Size(1068, 486);
             this.employeePanel1.TabIndex = 9;
             // 
             // guestPagePanel1
             // 
-            this.guestPagePanel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.guestPagePanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.guestPagePanel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guestPagePanel1.Location = new System.Drawing.Point(0, 56);
+            this.guestPagePanel1.Location = new System.Drawing.Point(0, 69);
+            this.guestPagePanel1.Margin = new System.Windows.Forms.Padding(5);
             this.guestPagePanel1.Name = "guestPagePanel1";
-            this.guestPagePanel1.Size = new System.Drawing.Size(801, 395);
+            this.guestPagePanel1.Size = new System.Drawing.Size(1068, 486);
             this.guestPagePanel1.TabIndex = 8;
             // 
             // dashboard1
             // 
             this.dashboard1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dashboard1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dashboard1.Location = new System.Drawing.Point(0, 56);
+            this.dashboard1.Location = new System.Drawing.Point(0, 69);
+            this.dashboard1.Margin = new System.Windows.Forms.Padding(5);
             this.dashboard1.Name = "dashboard1";
-            this.dashboard1.Size = new System.Drawing.Size(801, 395);
+            this.dashboard1.Size = new System.Drawing.Size(1068, 486);
             this.dashboard1.TabIndex = 10;
+            this.dashboard1.Load += new System.EventHandler(this.Dashboard1_Load);
             // 
             // MainPage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Dashboard_Button);
@@ -180,11 +195,12 @@
             this.Controls.Add(this.Guest_Button);
             this.Controls.Add(this.Main_Button);
             this.Controls.Add(this.LogoPicture_Pic);
+            this.Controls.Add(this.dashboard1);
             this.Controls.Add(this.mainPage_Panel1);
             this.Controls.Add(this.employeePanel1);
             this.Controls.Add(this.guestPagePanel1);
-            this.Controls.Add(this.dashboard1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainPage";
             this.Text = "Royal Reef Hotel";
             this.Load += new System.EventHandler(this.MainPage_Load_1);
