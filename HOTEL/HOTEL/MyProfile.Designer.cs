@@ -67,11 +67,16 @@
             this.textBox17 = new System.Windows.Forms.TextBox();
             this.Supervisor_Label = new System.Windows.Forms.Label();
             this.Achievements_Label = new System.Windows.Forms.Label();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // MyProfileHeader
             // 
+            this.MyProfileHeader.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.MyProfileHeader.AutoSize = true;
             this.MyProfileHeader.Font = new System.Drawing.Font("Calibri", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MyProfileHeader.Location = new System.Drawing.Point(3, 7);
@@ -82,6 +87,9 @@
             // 
             // LastName_label
             // 
+            this.LastName_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.LastName_label.AutoSize = true;
             this.LastName_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LastName_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -101,6 +109,9 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Location = new System.Drawing.Point(10, 52);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(120, 120);
@@ -109,6 +120,9 @@
             // 
             // PersonalInformation_label
             // 
+            this.PersonalInformation_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.PersonalInformation_label.AutoSize = true;
             this.PersonalInformation_label.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PersonalInformation_label.Location = new System.Drawing.Point(136, 44);
@@ -127,6 +141,9 @@
             // 
             // FirstName_label
             // 
+            this.FirstName_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.FirstName_label.AutoSize = true;
             this.FirstName_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FirstName_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -146,6 +163,9 @@
             // 
             // MiddleName_label
             // 
+            this.MiddleName_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.MiddleName_label.AutoSize = true;
             this.MiddleName_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MiddleName_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -165,6 +185,9 @@
             // 
             // Suffix_label
             // 
+            this.Suffix_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Suffix_label.AutoSize = true;
             this.Suffix_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Suffix_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -184,6 +207,9 @@
             // 
             // Birthday_Label
             // 
+            this.Birthday_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Birthday_Label.AutoSize = true;
             this.Birthday_Label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Birthday_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -203,6 +229,9 @@
             // 
             // Age_Label
             // 
+            this.Age_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Age_Label.AutoSize = true;
             this.Age_Label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Age_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -222,6 +251,9 @@
             // 
             // Gender_label
             // 
+            this.Gender_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Gender_label.AutoSize = true;
             this.Gender_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Gender_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -241,6 +273,9 @@
             // 
             // MaritalStatus_Label
             // 
+            this.MaritalStatus_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.MaritalStatus_Label.AutoSize = true;
             this.MaritalStatus_Label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MaritalStatus_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -260,6 +295,9 @@
             // 
             // Email_label
             // 
+            this.Email_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Email_label.AutoSize = true;
             this.Email_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Email_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -279,6 +317,9 @@
             // 
             // ContactNumber_Label
             // 
+            this.ContactNumber_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ContactNumber_Label.AutoSize = true;
             this.ContactNumber_Label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ContactNumber_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -298,6 +339,9 @@
             // 
             // Address_label
             // 
+            this.Address_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Address_label.AutoSize = true;
             this.Address_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Address_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -317,6 +361,9 @@
             // 
             // Region_label
             // 
+            this.Region_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Region_label.AutoSize = true;
             this.Region_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Region_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -336,6 +383,9 @@
             // 
             // ZipCode_Label
             // 
+            this.ZipCode_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ZipCode_Label.AutoSize = true;
             this.ZipCode_Label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ZipCode_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -347,6 +397,9 @@
             // 
             // EmploymentInfor_label
             // 
+            this.EmploymentInfor_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.EmploymentInfor_label.AutoSize = true;
             this.EmploymentInfor_label.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EmploymentInfor_label.Location = new System.Drawing.Point(135, 221);
@@ -365,6 +418,9 @@
             // 
             // Jobtitle_LAbel
             // 
+            this.Jobtitle_LAbel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Jobtitle_LAbel.AutoSize = true;
             this.Jobtitle_LAbel.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Jobtitle_LAbel.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -384,6 +440,9 @@
             // 
             // Department_label
             // 
+            this.Department_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Department_label.AutoSize = true;
             this.Department_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Department_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -403,6 +462,9 @@
             // 
             // Hiredate_label
             // 
+            this.Hiredate_label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Hiredate_label.AutoSize = true;
             this.Hiredate_label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Hiredate_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -422,6 +484,9 @@
             // 
             // Supervisor_Label
             // 
+            this.Supervisor_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Supervisor_Label.AutoSize = true;
             this.Supervisor_Label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Supervisor_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -433,6 +498,9 @@
             // 
             // Achievements_Label
             // 
+            this.Achievements_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Achievements_Label.AutoSize = true;
             this.Achievements_Label.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Achievements_Label.Location = new System.Drawing.Point(6, 336);
@@ -441,11 +509,35 @@
             this.Achievements_Label.TabIndex = 62;
             this.Achievements_Label.Text = "Achievements:";
             // 
+            // textBox18
+            // 
+            this.textBox18.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox18.Location = new System.Drawing.Point(268, 294);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(122, 18);
+            this.textBox18.TabIndex = 64;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label1.Location = new System.Drawing.Point(265, 278);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(74, 11);
+            this.label1.TabIndex = 63;
+            this.label1.Text = "Employee Number:";
+            // 
             // MyProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Controls.Add(this.textBox18);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.Achievements_Label);
             this.Controls.Add(this.textBox17);
             this.Controls.Add(this.Supervisor_Label);
@@ -534,5 +626,7 @@
         private System.Windows.Forms.TextBox textBox17;
         private System.Windows.Forms.Label Supervisor_Label;
         private System.Windows.Forms.Label Achievements_Label;
+        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.Label label1;
     }
 }

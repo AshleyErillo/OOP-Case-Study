@@ -16,5 +16,10 @@ namespace HOTEL
         {
             InitializeComponent();
         }
+
+        private void ReservationsPANEL_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -23,17 +23,21 @@ namespace HOTEL
             Username = Username_Textbox.Text;
             Password = Password_Textbox.Text;
 
-            if (Username == "Admin123" || Password == "12345678")
+            //if (Username == "Admin123" || Password == "12345678")
             {
                 var mainpage = new MainPage();
                 mainpage.Show();
                 this.Hide();
             }
-            else
+            //else
             {
-                MessageBox.Show("Error! Try Again.");
+                //MessageBox.Show("Error! Try Again.");
             }
         }
 
+        private void LogoPicture_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -37,6 +37,7 @@
             // 
             // DashboardNavi2
             // 
+            this.DashboardNavi2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.DashboardNavi2.BackColor = System.Drawing.Color.MidnightBlue;
             this.DashboardNavi2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DashboardNavi2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -49,6 +50,7 @@
             // 
             // CheckInsOverallCount2
             // 
+            this.CheckInsOverallCount2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CheckInsOverallCount2.AutoSize = true;
             this.CheckInsOverallCount2.Font = new System.Drawing.Font("Cambria", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CheckInsOverallCount2.ForeColor = System.Drawing.Color.MidnightBlue;
@@ -60,6 +62,7 @@
             // 
             // CheckInsOverallCount
             // 
+            this.CheckInsOverallCount.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CheckInsOverallCount.AutoSize = true;
             this.CheckInsOverallCount.Font = new System.Drawing.Font("Cambria", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CheckInsOverallCount.ForeColor = System.Drawing.Color.MidnightBlue;
@@ -71,6 +74,7 @@
             // 
             // Header2
             // 
+            this.Header2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Header2.AutoSize = true;
             this.Header2.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Header2.ForeColor = System.Drawing.Color.MidnightBlue;
@@ -82,6 +86,7 @@
             // 
             // Header
             // 
+            this.Header.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Header.AutoSize = true;
             this.Header.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Header.ForeColor = System.Drawing.Color.MidnightBlue;

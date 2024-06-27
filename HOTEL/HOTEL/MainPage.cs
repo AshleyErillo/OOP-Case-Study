@@ -22,16 +22,16 @@ namespace HOTEL
 
         public void MainPage_Load(object sender, EventArgs e)
         {
-            mainPage_Panel1.Show();
-            guestPagePanel1.Hide();
+            mainPage_Panel2.Show();
+            guestPagePanel.Hide();
             employeePanel1.Hide();
             dashboard1.Hide();
         }
 
         private void Main_Button_Click(object sender, EventArgs e)
         {
-            mainPage_Panel1.Show();
-            guestPagePanel1.Hide();
+            mainPage_Panel2.Show();
+            guestPagePanel.Hide();
             employeePanel1.Hide();
             dashboard1.Hide();
 
@@ -44,8 +44,8 @@ namespace HOTEL
 
         private void Guest_Button_Click(object sender, EventArgs e)
         {
-            mainPage_Panel1.Hide();
-            guestPagePanel1.Show();
+            mainPage_Panel2.Hide();
+            guestPagePanel.Show();
             employeePanel1.Hide();
             dashboard1.Hide();
 
@@ -58,8 +58,8 @@ namespace HOTEL
 
         private void Employee_Button_Click(object sender, EventArgs e)
         {
-            mainPage_Panel1.Hide();
-            guestPagePanel1.Hide();
+            mainPage_Panel2.Hide();
+            guestPagePanel.Hide();
             employeePanel1.Show();
             dashboard1.Hide();
 
@@ -75,8 +75,8 @@ namespace HOTEL
         {
             dashboard1.Show();
             mainPage_Panel1.Hide();
-            guestPagePanel1.Hide();
-            employeePanel1.Hide();
+            guestPagePanel.Hide();
+            //employeePage_EMPLOYEE_AGENTS_1.Hide();
 
             Main_Button.ForeColor = Color.Black;
             Guest_Button.ForeColor = Color.Black;
@@ -84,9 +84,31 @@ namespace HOTEL
             Dashboard_Button.ForeColor = Color.RoyalBlue;
             Dashboard_Button.Font = new Font("Calibri", 9, FontStyle.Bold);
 
+
+
         }
 
         private void MainPage_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MainPage_Panel1_Load(object sender, EventArgs e)
+        {
+               
+        }
+
+        private void EmployeePanel1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LogoPicture_Pic_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MainPage_Panel1_Load_1(object sender, EventArgs e)
         {
 
         }

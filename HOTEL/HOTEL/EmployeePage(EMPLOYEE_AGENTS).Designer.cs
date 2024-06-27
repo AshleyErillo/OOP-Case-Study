@@ -41,7 +41,8 @@
             this.View_Icon = new System.Windows.Forms.PictureBox();
             this.FilterSearch_Textbox = new System.Windows.Forms.TextBox();
             this.FilterSearch_Label = new System.Windows.Forms.Label();
-            this.empagE_VIEWSIDE1 = new HOTEL.EMPAGE_VIEWSIDE();
+            this.emploY_AGE_VEIW1 = new HOTEL.EMPLOY_AGE_VEIW();
+            this.emploY_AGE_VEIW2 = new HOTEL.EMPLOY_AGE_VEIW();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Edit_Icon)).BeginInit();
@@ -60,12 +61,13 @@
             // 
             // NewEmpAge_Label
             // 
+            this.NewEmpAge_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.NewEmpAge_Label.BackColor = System.Drawing.Color.Gold;
             this.NewEmpAge_Label.FlatAppearance.BorderSize = 0;
             this.NewEmpAge_Label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NewEmpAge_Label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NewEmpAge_Label.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.NewEmpAge_Label.Location = new System.Drawing.Point(509, 44);
+            this.NewEmpAge_Label.Location = new System.Drawing.Point(710, 44);
             this.NewEmpAge_Label.Name = "NewEmpAge_Label";
             this.NewEmpAge_Label.Size = new System.Drawing.Size(112, 28);
             this.NewEmpAge_Label.TabIndex = 65;
@@ -74,6 +76,8 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.MidnightBlue;
             this.tableLayoutPanel1.ColumnCount = 7;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.357142F));
@@ -95,14 +99,14 @@
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 21F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(611, 21);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(812, 21);
             this.tableLayoutPanel1.TabIndex = 66;
             // 
             // Employeename_Label
             // 
             this.Employeename_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Employeename_Label.AutoSize = true;
-            this.Employeename_Label.Location = new System.Drawing.Point(154, 4);
+            this.Employeename_Label.Location = new System.Drawing.Point(219, 4);
             this.Employeename_Label.Name = "Employeename_Label";
             this.Employeename_Label.Size = new System.Drawing.Size(82, 13);
             this.Employeename_Label.TabIndex = 1;
@@ -112,7 +116,7 @@
             // 
             this.Jobtitle_label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Jobtitle_label.AutoSize = true;
-            this.Jobtitle_label.Location = new System.Drawing.Point(281, 4);
+            this.Jobtitle_label.Location = new System.Drawing.Point(382, 4);
             this.Jobtitle_label.Name = "Jobtitle_label";
             this.Jobtitle_label.Size = new System.Drawing.Size(46, 13);
             this.Jobtitle_label.TabIndex = 2;
@@ -122,7 +126,7 @@
             // 
             this.Department_label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Department_label.AutoSize = true;
-            this.Department_label.Location = new System.Drawing.Point(380, 4);
+            this.Department_label.Location = new System.Drawing.Point(517, 4);
             this.Department_label.Name = "Department_label";
             this.Department_label.Size = new System.Drawing.Size(67, 13);
             this.Department_label.TabIndex = 3;
@@ -132,7 +136,7 @@
             // 
             this.Availability_label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Availability_label.AutoSize = true;
-            this.Availability_label.Location = new System.Drawing.Point(493, 4);
+            this.Availability_label.Location = new System.Drawing.Point(666, 4);
             this.Availability_label.Name = "Availability_label";
             this.Availability_label.Size = new System.Drawing.Size(59, 13);
             this.Availability_label.TabIndex = 4;
@@ -142,14 +146,16 @@
             // 
             this.EmployeeID_label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.EmployeeID_label.AutoSize = true;
-            this.EmployeeID_label.Location = new System.Drawing.Point(54, 4);
+            this.EmployeeID_label.Location = new System.Drawing.Point(69, 4);
             this.EmployeeID_label.Name = "EmployeeID_label";
-            this.EmployeeID_label.Size = new System.Drawing.Size(65, 13);
+            this.EmployeeID_label.Size = new System.Drawing.Size(93, 13);
             this.EmployeeID_label.TabIndex = 0;
-            this.EmployeeID_label.Text = "Employee ID";
+            this.EmployeeID_label.Text = "Employee Number";
             // 
             // tableLayoutPanel2
             // 
+            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel2.ColumnCount = 7;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.357142F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.85714F));
@@ -165,14 +171,14 @@
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(611, 27);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(812, 27);
             this.tableLayoutPanel2.TabIndex = 67;
             // 
             // Edit_Icon
             // 
             this.Edit_Icon.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Edit_Icon.Image = global::HOTEL.Properties.Resources.edit_icon;
-            this.Edit_Icon.Location = new System.Drawing.Point(584, 3);
+            this.Edit_Icon.Location = new System.Drawing.Point(780, 3);
             this.Edit_Icon.Name = "Edit_Icon";
             this.Edit_Icon.Size = new System.Drawing.Size(20, 20);
             this.Edit_Icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -183,7 +189,7 @@
             // 
             this.View_Icon.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.View_Icon.Image = global::HOTEL.Properties.Resources.eye_icon;
-            this.View_Icon.Location = new System.Drawing.Point(6, 3);
+            this.View_Icon.Location = new System.Drawing.Point(11, 3);
             this.View_Icon.Name = "View_Icon";
             this.View_Icon.Size = new System.Drawing.Size(20, 20);
             this.View_Icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -200,29 +206,43 @@
             // 
             // FilterSearch_Label
             // 
-            this.FilterSearch_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.FilterSearch_Label.AutoSize = true;
             this.FilterSearch_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.FilterSearch_Label.Location = new System.Drawing.Point(13, 55);
+            this.FilterSearch_Label.Location = new System.Drawing.Point(15, 55);
             this.FilterSearch_Label.Name = "FilterSearch_Label";
             this.FilterSearch_Label.Size = new System.Drawing.Size(44, 13);
             this.FilterSearch_Label.TabIndex = 5;
             this.FilterSearch_Label.Text = "Search:";
             // 
-            // empagE_VIEWSIDE1
+            // emploY_AGE_VEIW1
             // 
-            this.empagE_VIEWSIDE1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.empagE_VIEWSIDE1.Location = new System.Drawing.Point(265, -1);
-            this.empagE_VIEWSIDE1.Name = "empagE_VIEWSIDE1";
-            this.empagE_VIEWSIDE1.Size = new System.Drawing.Size(372, 386);
-            this.empagE_VIEWSIDE1.TabIndex = 69;
+            this.emploY_AGE_VEIW1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.emploY_AGE_VEIW1.AutoScroll = true;
+            this.emploY_AGE_VEIW1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.emploY_AGE_VEIW1.Location = new System.Drawing.Point(426, 0);
+            this.emploY_AGE_VEIW1.Name = "emploY_AGE_VEIW1";
+            this.emploY_AGE_VEIW1.Size = new System.Drawing.Size(372, 386);
+            this.emploY_AGE_VEIW1.TabIndex = 69;
+            // 
+            // emploY_AGE_VEIW2
+            // 
+            this.emploY_AGE_VEIW2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.emploY_AGE_VEIW2.AutoScroll = true;
+            this.emploY_AGE_VEIW2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.emploY_AGE_VEIW2.Location = new System.Drawing.Point(466, 0);
+            this.emploY_AGE_VEIW2.Name = "emploY_AGE_VEIW2";
+            this.emploY_AGE_VEIW2.Size = new System.Drawing.Size(372, 604);
+            this.emploY_AGE_VEIW2.TabIndex = 69;
             // 
             // EmployeePage_EMPLOYEE_AGENTS_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Controls.Add(this.empagE_VIEWSIDE1);
+            this.Controls.Add(this.emploY_AGE_VEIW2);
             this.Controls.Add(this.FilterSearch_Label);
             this.Controls.Add(this.FilterSearch_Textbox);
             this.Controls.Add(this.tableLayoutPanel2);
@@ -230,7 +250,7 @@
             this.Controls.Add(this.NewEmpAge_Label);
             this.Controls.Add(this.EmpAgeHeader);
             this.Name = "EmployeePage_EMPLOYEE_AGENTS_";
-            this.Size = new System.Drawing.Size(637, 388);
+            this.Size = new System.Drawing.Size(841, 604);
             this.Load += new System.EventHandler(this.EmployeePage_EMPLOYEE_AGENTS__Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
@@ -257,6 +277,7 @@
         private System.Windows.Forms.PictureBox Edit_Icon;
         private System.Windows.Forms.TextBox FilterSearch_Textbox;
         private System.Windows.Forms.Label FilterSearch_Label;
-        private EMPAGE_VIEWSIDE empagE_VIEWSIDE1;
+        private EMPLOY_AGE_VEIW emploY_AGE_VEIW1;
+        private EMPLOY_AGE_VEIW emploY_AGE_VEIW2;
     }
 }

@@ -117,6 +117,7 @@
             this.LogoPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.LogoPicture.TabIndex = 0;
             this.LogoPicture.TabStop = false;
+            this.LogoPicture.Click += new System.EventHandler(this.LogoPicture_Click);
             // 
             // LogInPage
             // 

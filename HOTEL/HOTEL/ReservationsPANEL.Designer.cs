@@ -29,9 +29,7 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -47,15 +45,19 @@
             this.Search_label = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.Reservations_Label = new System.Windows.Forms.Label();
+            this.reservations_VIEWSIDEPAGE_1 = new HOTEL.Reservations_VIEWSIDEPAGE_();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel2.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel2.ColumnCount = 11;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.195805F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.195805F));
@@ -79,17 +81,6 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(623, 32);
             this.tableLayoutPanel2.TabIndex = 77;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Image = global::HOTEL.Properties.Resources.eye_icon;
-            this.pictureBox1.Location = new System.Drawing.Point(29, 6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 70;
-            this.pictureBox1.TabStop = false;
-            // 
             // checkBox1
             // 
             this.checkBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -100,20 +91,10 @@
             this.checkBox1.TabIndex = 70;
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox2.Image = global::HOTEL.Properties.Resources.edit_icon;
-            this.pictureBox2.Location = new System.Drawing.Point(598, 6);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 71;
-            this.pictureBox2.TabStop = false;
-            // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.MidnightBlue;
             this.tableLayoutPanel1.ColumnCount = 11;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.195805F));
@@ -249,7 +230,7 @@
             // 
             // CheckInvoice_Label
             // 
-            this.CheckInvoice_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.CheckInvoice_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.CheckInvoice_Label.BackColor = System.Drawing.Color.Red;
             this.CheckInvoice_Label.FlatAppearance.BorderSize = 0;
             this.CheckInvoice_Label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -264,7 +245,6 @@
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -276,7 +256,6 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dateTimePicker1.Location = new System.Drawing.Point(263, 48);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
@@ -284,7 +263,6 @@
             // 
             // Search_label
             // 
-            this.Search_label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Search_label.AutoSize = true;
             this.Search_label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Search_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -296,7 +274,6 @@
             // 
             // textBox1
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox1.Location = new System.Drawing.Point(55, 48);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(126, 20);
@@ -304,7 +281,6 @@
             // 
             // Reservations_Label
             // 
-            this.Reservations_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Reservations_Label.AutoSize = true;
             this.Reservations_Label.Font = new System.Drawing.Font("Calibri", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Reservations_Label.Location = new System.Drawing.Point(3, 5);
@@ -313,11 +289,43 @@
             this.Reservations_Label.TabIndex = 70;
             this.Reservations_Label.Text = "Reservations";
             // 
+            // reservations_VIEWSIDEPAGE_1
+            // 
+            this.reservations_VIEWSIDEPAGE_1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.reservations_VIEWSIDEPAGE_1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.reservations_VIEWSIDEPAGE_1.Location = new System.Drawing.Point(265, 0);
+            this.reservations_VIEWSIDEPAGE_1.Name = "reservations_VIEWSIDEPAGE_1";
+            this.reservations_VIEWSIDEPAGE_1.Size = new System.Drawing.Size(372, 388);
+            this.reservations_VIEWSIDEPAGE_1.TabIndex = 78;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.Image = global::HOTEL.Properties.Resources.eye_icon;
+            this.pictureBox1.Location = new System.Drawing.Point(29, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 70;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox2.Image = global::HOTEL.Properties.Resources.edit_icon;
+            this.pictureBox2.Location = new System.Drawing.Point(597, 6);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(23, 20);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 71;
+            this.pictureBox2.TabStop = false;
+            // 
             // ReservationsPANEL
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Controls.Add(this.reservations_VIEWSIDEPAGE_1);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.CheckInvoice_Label);
@@ -328,12 +336,13 @@
             this.Controls.Add(this.Reservations_Label);
             this.Name = "ReservationsPANEL";
             this.Size = new System.Drawing.Size(637, 388);
+            this.Load += new System.EventHandler(this.ReservationsPANEL_Load);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -354,11 +363,12 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button CheckInvoice_Label;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label Search_label;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label Reservations_Label;
+        private System.Windows.Forms.Button CheckInvoice_Label;
+        private Reservations_VIEWSIDEPAGE_ reservations_VIEWSIDEPAGE_1;
     }
 }
