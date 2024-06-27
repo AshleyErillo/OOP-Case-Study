@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -58,12 +59,47 @@
     <Compile Include="AddNewGuests.Designer.cs">
       <DependentUpon>AddNewGuests.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminMain.Designer.cs">
+      <DependentUpon>AdminMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminReservationManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminReservationManage.Designer.cs">
+      <DependentUpon>AdminReservationManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdRoomAppend.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdRoomAppend.Designer.cs">
+      <DependentUpon>AdRoomAppend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdRoomInventory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdRoomInventory.Designer.cs">
+      <DependentUpon>AdRoomInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdRoomManage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdRoomManage.Designer.cs">
+      <DependentUpon>AdRoomManage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboardview.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Dashboardview.Designer.cs">
       <DependentUpon>Dashboardview.cs</DependentUpon>
     </Compile>
+    <Compile Include="EmployeePage%28Panel%29.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="SqliteDataAccess1.cs" />
     <Compile Include="Standardadd.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -265,9 +301,22 @@
     <EmbeddedResource Include="AddNewGuests.resx">
       <DependentUpon>AddNewGuests.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AdminMain.resx">
+      <DependentUpon>AdminMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminReservationManage.resx">
+      <DependentUpon>AdminReservationManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdRoomAppend.resx">
+      <DependentUpon>AdRoomAppend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdRoomManage.resx">
+      <DependentUpon>AdRoomManage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboardview.resx">
       <DependentUpon>Dashboardview.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EditReservationForm.resx" />
     <EmbeddedResource Include="Standardadd.resx">
       <DependentUpon>Standardadd.cs</DependentUpon>
     </EmbeddedResource>
@@ -374,6 +423,10 @@
     <EmbeddedResource Include="SuiteInventory.resx">
       <DependentUpon>SuiteInventory.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="bin\Debug\HOTEL.exe.config" />
+    <None Include="obj\Release\HOTEL.csproj.AssemblyReference.cache" />
+    <None Include="OurHotelManagementDB.db" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -416,6 +469,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Colebemis-Feather-Maximize-2.512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\HOTEL.exe" />
+    <Content Include="bin\Debug\HOTEL.pdb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

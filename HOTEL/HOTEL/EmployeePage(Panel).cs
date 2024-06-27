@@ -14,7 +14,12 @@ namespace HOTEL
     {
         public EmployeePage_Panel_()
         {
-            InitializeComponent();
+            object value = InitializeComponent();
+        }
+
+        private object InitializeComponent()
+        {
+            throw new NotImplementedException();
         }
     }
 }
