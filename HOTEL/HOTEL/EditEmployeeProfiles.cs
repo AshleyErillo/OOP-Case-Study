@@ -209,7 +209,9 @@ namespace HOTEL
 
         private void Button1_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            DialogBoxDelete f2 = new DialogBoxDelete();
+            f2.Show();
         }
 
         private void EditEmployeeProfiles_Click(object sender, EventArgs e)

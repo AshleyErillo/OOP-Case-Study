@@ -32,7 +32,6 @@
             this.Reservations_Label = new System.Windows.Forms.Button();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.reservations_VIEWSIDEPAGE_1 = new HOTEL.Reservations_VIEWSIDEPAGE_();
             this.reservationsPANEL1 = new HOTEL.ReservationsPANEL();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -40,7 +39,8 @@
             // 
             // panel2
             // 
-            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.panel2.Controls.Add(this.Reservations_Label);
             this.panel2.Location = new System.Drawing.Point(3, 4);
             this.panel2.Name = "panel2";
@@ -49,7 +49,6 @@
             // 
             // Reservations_Label
             // 
-            this.Reservations_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Reservations_Label.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonShadow;
             this.Reservations_Label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Reservations_Label.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -62,7 +61,8 @@
             // 
             // vScrollBar1
             // 
-            this.vScrollBar1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.vScrollBar1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.vScrollBar1.Location = new System.Drawing.Point(142, 4);
             this.vScrollBar1.Name = "vScrollBar1";
             this.vScrollBar1.Size = new System.Drawing.Size(17, 388);
@@ -70,28 +70,22 @@
             // 
             // panel1
             // 
-            this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel1.Controls.Add(this.reservations_VIEWSIDEPAGE_1);
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.Controls.Add(this.reservationsPANEL1);
             this.panel1.Location = new System.Drawing.Point(161, 4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(637, 388);
             this.panel1.TabIndex = 5;
             // 
-            // reservations_VIEWSIDEPAGE_1
-            // 
-            this.reservations_VIEWSIDEPAGE_1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.reservations_VIEWSIDEPAGE_1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.reservations_VIEWSIDEPAGE_1.Location = new System.Drawing.Point(268, -4);
-            this.reservations_VIEWSIDEPAGE_1.Name = "reservations_VIEWSIDEPAGE_1";
-            this.reservations_VIEWSIDEPAGE_1.Size = new System.Drawing.Size(372, 386);
-            this.reservations_VIEWSIDEPAGE_1.TabIndex = 1;
-            // 
             // reservationsPANEL1
             // 
-            this.reservationsPANEL1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.reservationsPANEL1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.reservationsPANEL1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.reservationsPANEL1.Location = new System.Drawing.Point(0, -1);
+            this.reservationsPANEL1.Location = new System.Drawing.Point(1, 0);
             this.reservationsPANEL1.Name = "reservationsPANEL1";
             this.reservationsPANEL1.Size = new System.Drawing.Size(637, 388);
             this.reservationsPANEL1.TabIndex = 0;
@@ -118,7 +112,6 @@
         private System.Windows.Forms.Button Reservations_Label;
         private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.Panel panel1;
-        private Reservations_VIEWSIDEPAGE_ reservations_VIEWSIDEPAGE_1;
         private ReservationsPANEL reservationsPANEL1;
     }
 }

@@ -20,7 +20,7 @@ namespace HOTEL
         private void PictureBox2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            EditDetail f2 = new  EditDetail();
+            EditReservation f2 = new  EditReservation();
             f2.Show();
 
 

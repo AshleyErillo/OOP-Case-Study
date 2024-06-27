@@ -17,5 +17,10 @@ namespace HOTEL
             InitializeComponent();
         }
 
+        private void Reservations_VIEWSIDEPAGE__Click(object sender, EventArgs e)
+        {
+            ReservationsPANEL pANEL = new ReservationsPANEL();
+            pANEL.Show();
+        }
     }
 }

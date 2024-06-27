@@ -17,5 +17,9 @@ namespace HOTEL
             InitializeComponent();
         }
 
+        private void GuestProfile_Enter(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

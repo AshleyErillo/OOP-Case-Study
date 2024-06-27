@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.GuestHeader = new System.Windows.Forms.Label();
+            System.Windows.Forms.Label GuestHeader;
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -60,7 +60,7 @@
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.guestPanel_VIEW_SIDEPAGE_1 = new HOTEL.GuestPanel_VIEW_SIDEPAGE_();
+            GuestHeader = new System.Windows.Forms.Label();
             this.GuestProfile.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -75,16 +75,17 @@
             // 
             // GuestHeader
             // 
-            this.GuestHeader.AutoSize = true;
-            this.GuestHeader.Font = new System.Drawing.Font("Calibri", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GuestHeader.Location = new System.Drawing.Point(3, 7);
-            this.GuestHeader.Name = "GuestHeader";
-            this.GuestHeader.Size = new System.Drawing.Size(117, 42);
-            this.GuestHeader.TabIndex = 23;
-            this.GuestHeader.Text = "Guests";
+            GuestHeader.AutoSize = true;
+            GuestHeader.Font = new System.Drawing.Font("Calibri", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            GuestHeader.Location = new System.Drawing.Point(3, 7);
+            GuestHeader.Name = "GuestHeader";
+            GuestHeader.Size = new System.Drawing.Size(117, 42);
+            GuestHeader.TabIndex = 23;
+            GuestHeader.Text = "Guests";
             // 
             // button1
             // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.BackColor = System.Drawing.Color.Gold;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -137,6 +138,8 @@
             // 
             // GuestProfile
             // 
+            this.GuestProfile.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.GuestProfile.Controls.Add(this.label4);
             this.GuestProfile.Controls.Add(this.label3);
             this.GuestProfile.Controls.Add(this.label2);
@@ -148,6 +151,7 @@
             this.GuestProfile.TabIndex = 66;
             this.GuestProfile.TabStop = false;
             this.GuestProfile.Text = "groupBox1";
+            this.GuestProfile.Enter += new System.EventHandler(this.GuestProfile_Enter);
             // 
             // pictureBox1
             // 
@@ -197,6 +201,8 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label7);
@@ -257,6 +263,8 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox3.Controls.Add(this.label9);
             this.groupBox3.Controls.Add(this.label10);
             this.groupBox3.Controls.Add(this.label11);
@@ -279,6 +287,8 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox4.Controls.Add(this.label13);
             this.groupBox4.Controls.Add(this.label14);
             this.groupBox4.Controls.Add(this.label15);
@@ -339,6 +349,8 @@
             // 
             // groupBox5
             // 
+            this.groupBox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox5.Controls.Add(this.label17);
             this.groupBox5.Controls.Add(this.label18);
             this.groupBox5.Controls.Add(this.label19);
@@ -397,27 +409,18 @@
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
             // 
-            // guestPanel_VIEW_SIDEPAGE_1
-            // 
-            this.guestPanel_VIEW_SIDEPAGE_1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.guestPanel_VIEW_SIDEPAGE_1.Location = new System.Drawing.Point(265, -1);
-            this.guestPanel_VIEW_SIDEPAGE_1.Name = "guestPanel_VIEW_SIDEPAGE_1";
-            this.guestPanel_VIEW_SIDEPAGE_1.Size = new System.Drawing.Size(372, 386);
-            this.guestPanel_VIEW_SIDEPAGE_1.TabIndex = 71;
-            // 
             // GuestPanel_VIEW_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Controls.Add(this.guestPanel_VIEW_SIDEPAGE_1);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.GuestProfile);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.GuestHeader);
+            this.Controls.Add(GuestHeader);
             this.Name = "GuestPanel_VIEW_";
             this.Size = new System.Drawing.Size(637, 388);
             this.GuestProfile.ResumeLayout(false);
@@ -441,8 +444,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label GuestHeader;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
@@ -474,6 +475,5 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private GuestPanel_VIEW_SIDEPAGE_ guestPanel_VIEW_SIDEPAGE_1;
     }
 }

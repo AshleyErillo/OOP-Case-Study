@@ -34,5 +34,15 @@ namespace HOTEL
             f1.Show();
 
         }
+
+        private void Edit_Icon_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            EditEmployeeProfiles f2 = new EditEmployeeProfiles();
+            f2.Show();
+            {
+
+            };
+        }
     }
 }

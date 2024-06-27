@@ -10,12 +10,17 @@ using System.Windows.Forms;
 
 namespace HOTEL
 {
-    public partial class GuestPanel_VIEW_SIDEPAGE_ : UserControl
+    public partial class GuestPanel_VIEW_SIDEPAGE_ : UserControl 
+
     {
         public GuestPanel_VIEW_SIDEPAGE_()
         {
             InitializeComponent();
         }
 
+        private void GuestPanel_VIEW_SIDEPAGE__Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

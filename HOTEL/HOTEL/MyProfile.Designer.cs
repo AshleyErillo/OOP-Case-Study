@@ -329,7 +329,7 @@
             // textBox13
             // 
             this.textBox13.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(435, 202);
+            this.textBox13.Location = new System.Drawing.Point(435, 196);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(86, 18);
             this.textBox13.TabIndex = 52;
@@ -339,7 +339,7 @@
             this.ZipCode_Label.AutoSize = true;
             this.ZipCode_Label.Font = new System.Drawing.Font("Calibri", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ZipCode_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ZipCode_Label.Location = new System.Drawing.Point(432, 186);
+            this.ZipCode_Label.Location = new System.Drawing.Point(432, 180);
             this.ZipCode_Label.Name = "ZipCode_Label";
             this.ZipCode_Label.Size = new System.Drawing.Size(39, 11);
             this.ZipCode_Label.TabIndex = 51;

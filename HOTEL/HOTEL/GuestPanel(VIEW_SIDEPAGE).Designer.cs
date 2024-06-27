@@ -353,6 +353,7 @@
             this.Controls.Add(this.Close_Icon);
             this.Name = "GuestPanel_VIEW_SIDEPAGE_";
             this.Size = new System.Drawing.Size(372, 386);
+            this.Load += new System.EventHandler(this.GuestPanel_VIEW_SIDEPAGE__Load);
             this.BookingHistory_Box.ResumeLayout(false);
             this.BookingHistory_Box.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

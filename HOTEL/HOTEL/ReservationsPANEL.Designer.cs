@@ -55,7 +55,8 @@
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel2.ColumnCount = 11;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.195805F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.195805F));
@@ -114,7 +115,8 @@
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.MidnightBlue;
             this.tableLayoutPanel1.ColumnCount = 11;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.195805F));
@@ -250,7 +252,7 @@
             // 
             // CheckInvoice_Label
             // 
-            this.CheckInvoice_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.CheckInvoice_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.CheckInvoice_Label.BackColor = System.Drawing.Color.Red;
             this.CheckInvoice_Label.FlatAppearance.BorderSize = 0;
             this.CheckInvoice_Label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -266,7 +268,6 @@
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -278,7 +279,6 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dateTimePicker1.Location = new System.Drawing.Point(263, 48);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
@@ -286,7 +286,6 @@
             // 
             // Search_label
             // 
-            this.Search_label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Search_label.AutoSize = true;
             this.Search_label.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Search_label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -298,7 +297,6 @@
             // 
             // textBox1
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox1.Location = new System.Drawing.Point(55, 48);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(126, 20);
@@ -306,7 +304,6 @@
             // 
             // Reservations_Label
             // 
-            this.Reservations_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Reservations_Label.AutoSize = true;
             this.Reservations_Label.Font = new System.Drawing.Font("Calibri", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Reservations_Label.Location = new System.Drawing.Point(3, 5);

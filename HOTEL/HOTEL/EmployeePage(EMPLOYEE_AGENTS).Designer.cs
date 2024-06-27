@@ -59,6 +59,7 @@
             // 
             // NewEmpAge_Label
             // 
+            this.NewEmpAge_Label.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.NewEmpAge_Label.BackColor = System.Drawing.Color.Gold;
             this.NewEmpAge_Label.FlatAppearance.BorderSize = 0;
             this.NewEmpAge_Label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -74,6 +75,8 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.MidnightBlue;
             this.tableLayoutPanel1.ColumnCount = 7;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.357142F));
@@ -150,6 +153,8 @@
             // 
             // tableLayoutPanel2
             // 
+            this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel2.ColumnCount = 7;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.357142F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.85714F));
@@ -178,6 +183,7 @@
             this.Edit_Icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Edit_Icon.TabIndex = 0;
             this.Edit_Icon.TabStop = false;
+            this.Edit_Icon.Click += new System.EventHandler(this.Edit_Icon_Click);
             // 
             // View_Icon
             // 
@@ -200,7 +206,6 @@
             // 
             // FilterSearch_Label
             // 
-            this.FilterSearch_Label.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.FilterSearch_Label.AutoSize = true;
             this.FilterSearch_Label.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.FilterSearch_Label.Location = new System.Drawing.Point(13, 55);

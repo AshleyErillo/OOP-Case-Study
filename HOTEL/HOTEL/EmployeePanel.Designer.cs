@@ -33,14 +33,16 @@
             this.Profile_button = new System.Windows.Forms.Button();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.myProfile1 = new HOTEL.MyProfile();
             this.employeePage_EMPLOYEE_AGENTS_1 = new HOTEL.EmployeePage_EMPLOYEE_AGENTS_();
+            this.myProfile1 = new HOTEL.MyProfile();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.panel2.Controls.Add(this.EmployeeAgents_Button);
             this.panel2.Controls.Add(this.Profile_button);
             this.panel2.Location = new System.Drawing.Point(3, 3);
@@ -76,6 +78,8 @@
             // 
             // vScrollBar1
             // 
+            this.vScrollBar1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.vScrollBar1.Location = new System.Drawing.Point(144, 3);
             this.vScrollBar1.Name = "vScrollBar1";
             this.vScrollBar1.Size = new System.Drawing.Size(17, 388);
@@ -83,28 +87,37 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.employeePage_EMPLOYEE_AGENTS_1);
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.Controls.Add(this.myProfile1);
+            this.panel1.Controls.Add(this.employeePage_EMPLOYEE_AGENTS_1);
             this.panel1.Location = new System.Drawing.Point(164, 3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(634, 388);
             this.panel1.TabIndex = 4;
             // 
-            // myProfile1
-            // 
-            this.myProfile1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.myProfile1.Location = new System.Drawing.Point(0, 1);
-            this.myProfile1.Name = "myProfile1";
-            this.myProfile1.Size = new System.Drawing.Size(637, 388);
-            this.myProfile1.TabIndex = 0;
-            // 
             // employeePage_EMPLOYEE_AGENTS_1
             // 
+            this.employeePage_EMPLOYEE_AGENTS_1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.employeePage_EMPLOYEE_AGENTS_1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.employeePage_EMPLOYEE_AGENTS_1.Location = new System.Drawing.Point(0, 0);
             this.employeePage_EMPLOYEE_AGENTS_1.Name = "employeePage_EMPLOYEE_AGENTS_1";
             this.employeePage_EMPLOYEE_AGENTS_1.Size = new System.Drawing.Size(637, 388);
             this.employeePage_EMPLOYEE_AGENTS_1.TabIndex = 1;
+            // 
+            // myProfile1
+            // 
+            this.myProfile1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.myProfile1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.myProfile1.Location = new System.Drawing.Point(0, -3);
+            this.myProfile1.Name = "myProfile1";
+            this.myProfile1.Size = new System.Drawing.Size(637, 388);
+            this.myProfile1.TabIndex = 0;
             // 
             // EmployeePanel
             // 

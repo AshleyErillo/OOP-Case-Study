@@ -355,6 +355,7 @@
             this.Controls.Add(this.Close_Icon);
             this.Name = "Reservations_VIEWSIDEPAGE_";
             this.Size = new System.Drawing.Size(372, 386);
+            this.Click += new System.EventHandler(this.Reservations_VIEWSIDEPAGE__Click);
             ((System.ComponentModel.ISupportInitialize)(this.Close_Icon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

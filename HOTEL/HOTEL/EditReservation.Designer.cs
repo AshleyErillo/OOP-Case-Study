@@ -150,6 +150,7 @@
             this.button2.TabIndex = 151;
             this.button2.Text = "Confirm and save";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // textBox37
             // 

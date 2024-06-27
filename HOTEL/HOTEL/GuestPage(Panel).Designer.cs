@@ -44,6 +44,9 @@
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.Controls.Add(this.GuestPanel);
             this.panel1.Controls.Add(this.guest_FeedbackPanel_VIEW_1);
             this.panel1.Location = new System.Drawing.Point(161, 3);
@@ -53,6 +56,8 @@
             // 
             // vScrollBar1
             // 
+            this.vScrollBar1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.vScrollBar1.Location = new System.Drawing.Point(141, 3);
             this.vScrollBar1.Name = "vScrollBar1";
             this.vScrollBar1.Size = new System.Drawing.Size(17, 388);
@@ -60,6 +65,8 @@
             // 
             // panel2
             // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.QRCode_Feedback);
             this.panel2.Controls.Add(this.Feedback_Button);
@@ -71,6 +78,7 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(23, 352);
@@ -81,6 +89,7 @@
             // 
             // QRCode_Feedback
             // 
+            this.QRCode_Feedback.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.QRCode_Feedback.Image = global::HOTEL.Properties.Resources.HOTEL__1_;
             this.QRCode_Feedback.Location = new System.Drawing.Point(3, 219);
             this.QRCode_Feedback.Name = "QRCode_Feedback";
@@ -117,6 +126,9 @@
             // 
             // GuestPanel
             // 
+            this.GuestPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.GuestPanel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.GuestPanel.Location = new System.Drawing.Point(0, 0);
             this.GuestPanel.Name = "GuestPanel";
@@ -126,6 +138,9 @@
             // 
             // guest_FeedbackPanel_VIEW_1
             // 
+            this.guest_FeedbackPanel_VIEW_1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.guest_FeedbackPanel_VIEW_1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.guest_FeedbackPanel_VIEW_1.Location = new System.Drawing.Point(0, 0);
             this.guest_FeedbackPanel_VIEW_1.Name = "guest_FeedbackPanel_VIEW_1";

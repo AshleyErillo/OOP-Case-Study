@@ -16,5 +16,12 @@ namespace HOTEL
         {
             InitializeComponent();
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DialogConfirmation1 f2 = new DialogConfirmation1();
+            f2.Show();
+        }
     }
 }
